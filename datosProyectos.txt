@@ -1,0 +1,147 @@
+{
+    "1": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "2": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "3": {
+        "avance": 96,
+        "esperado": 96,
+        "semaforo": "verde"
+    },
+    "4": {
+        "avance": 96,
+        "esperado": 96,
+        "semaforo": "verde"
+    },
+    "5": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "6": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "7": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "8": {
+        "avance": 96,
+        "esperado": 96,
+        "semaforo": "verde"
+    },
+    "9": {
+        "avance": 0,
+        "esperado": 0,
+        "semaforo": "amarillo"
+    },
+    "10": {
+        "avance": 50,
+        "esperado": 60,
+        "semaforo": "amarillo"
+    },
+    "12": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "13": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "14": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "15": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "16": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "17": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "18": {
+        "avance": 98,
+        "esperado": 98,
+        "semaforo": "verde"
+    },
+    "19": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "20": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "21": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "22": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "23": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "25": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "26": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "27": {
+        "avance": 90,
+        "esperado": 100,
+        "semaforo": "amarillo"
+    },
+    "28": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "29": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "30": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    },
+    "31": {
+        "avance": 100,
+        "esperado": 100,
+        "semaforo": "verde"
+    }
+}
