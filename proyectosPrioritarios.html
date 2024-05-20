@@ -4,10 +4,90 @@
     <meta charset="UTF-8">
     <title>Proyectos prioritarios</title>
     <meta viewport="width=device-width, initial-scale=1.0">
+    <style>
+        #numeralia {
+            width: calc(100% - 160px - 1.6rem);
+            overflow: hidden;
+            padding: 0.5em 1em 0 1em;
+            background-color: #FFF;
+            flex: 5 5 calc(100% - 160px);
+        }
+
+        #proyectosPrioritarios {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #proyectosPrioritarios li {
+            display: block;
+            float: left;
+            margin: 0 1em 0 2em;
+            padding: 1px 5px;
+            border-radius: 5px;
+            position: relative;
+            height: 3rem;
+            width: 90px;
+        }
+
+        #proyectosPrioritarios li>span {
+            display: inline-block;
+            margin-right: 5px;
+            padding: 11px;
+            background-position: center center;
+            background-size: 102%;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+        }
+
+        #proyectosPrioritarios img {
+            width: 35px;
+            height: auto;
+            float: left;
+        }
+
+        #proyectosPrioritarios li>p {
+            float: right;
+            margin: 0;
+            padding: 0;
+            font-size: 0.7em;
+            text-align: right;
+            position: absolute;
+            top: 10px;
+            right: 0;
+            width: 80px;
+        }
+
+        #proyectosPrioritarios p span:first-child {
+            font-weight: bolder;
+            display: block;
+        }
+
+        #proyectosPrioritarios p span:nth-child(2) {
+
+            margin-left: 3px;
+        }
+
+        #proyectosPrioritarios li>.np {
+            background-color: #003170;
+            color: #FFF;
+            font-weight: 800;
+            font-size: 0.8em;
+            border-radius: 50%;
+            position: absolute;
+            top: 0px;
+            left: -20px;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="proyectosPrioritarios"></div>
+    <div id="numeralia">
+        <ul id="proyectosPrioritarios"></ul>
+    </div>
     <script>
         var ppReq = new XMLHttpRequest();
         ppReq.addEventListener("load", processProyectos);
