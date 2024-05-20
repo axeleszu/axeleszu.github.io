@@ -1,0 +1,75 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyectos prioritarios</title>
+    <meta viewport="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        var ppReq = new XMLHttpRequest();
+        ppReq.addEventListener("load", processProyectos);
+        ppReq.open("GET", "./datosProyectos.txt");
+        ppReq.send();
+        function processProyectos() {
+            proyectData = JSON.parse(this.responseText);
+            wProyectos = 0;
+            if (proyectData) {
+                for (i in proyectData) {
+                    var li;
+
+                    av = proyectData[i].avance;
+                    esperado = proyectData[i].esperado;
+                    color = proyectData[i].semaforo;
+                    li = document.createElement('li');
+                    sp = document.createElement('span');
+                    im = document.createElement('img');
+                    p = document.createElement('p');
+                    d = document.createElement('div');
+                    dt = document.createTextNode(i);
+                    d.appendChild(dt);
+                    d.setAttribute('class', 'np');
+                    if (av == "pendiente") {
+                        p.innerHTML = '<span>Pendiente</span>';
+                        av = 0;
+                    } else if (av == 100) {
+                        p.innerHTML = '<span>100%</span>';
+
+                    } else {
+                        p.innerHTML = '<span>' + av + '% </span> / ' + esperado + '%';
+                    }
+
+                    im.src = "./img_proyectos/" + i + ".png";
+                    sp.appendChild(im);
+                    li.appendChild(sp);
+                    li.appendChild(p);
+                    li.appendChild(d);
+                    if (color == "amarillo") color = "yellow";
+                    if (color == "verde") color = "green";
+                    if (color == "rojo") color = "#691c32";
+
+
+                    sp.setAttribute('style', 'background-image:url("./img_proyectos/back-' + parseInt(av / 10) * 10 + '.png");background-color:' + color)
+                    document.getElementById('proyectosPrioritarios').appendChild(li);
+                    wProyectos += (li.offsetWidth + 50);
+                }
+            }
+            document.getElementById('proyectosPrioritarios').style.width = wProyectos + "px";
+
+            //scroll
+            scrollMax = Number(document.getElementById('proyectosPrioritarios').offsetWidth * -1) + document.getElementById('numeralia').offsetWidth;
+
+            ppD = document.getElementById('proyectosPrioritarios');
+            scrollDist = 0;
+            scrollInt = setInterval(function () {
+                ppD.style.marginLeft = scrollDist + "px";
+                scrollDist = scrollDist - 1;
+                if (scrollDist < scrollMax - 100) scrollDist = 0;
+            }, 20);
+        }
+
+    </script>
+</body>
+
+</html>
