@@ -1,147 +1,287 @@
 {
     "1": {
+        "nombre": "Metodología de Promoción",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "2": {
+        "nombre": "Mejoras al PROAF",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "3": {
+        "nombre": "Fortalecimiento al modelo Parafinanciero",
         "avance": 96,
         "esperado": 96,
         "semaforo": "verde"
     },
     "4": {
+        "nombre": "Fortalecimiento del Programa de Desarrollo de Proveedores (PDP)",
         "avance": 96,
         "esperado": 96,
         "semaforo": "verde"
     },
     "5": {
+        "nombre": "Análisis de brecha de la estrategia de FIRA en materia de inclusión financiera",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "6": {
+        "nombre": "Rediseño del Programa de mitigación de la volatilidad",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "7": {
+        "nombre": "Organización, gestión y gobernanza de la base de datos de FIRA",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "8": {
+        "nombre": "Plataforma de Crédito",
         "avance": 96,
         "esperado": 96,
         "semaforo": "verde"
     },
     "9": {
+        "nombre": "Plataforma de seguros",
         "avance": 0,
         "esperado": 0,
-        "semaforo": "amarillo"
+        "semaforo": "amarillo",
+        "cancelado": true
     },
     "10": {
+        "nombre": "Georreferencia de predios",
         "avance": 50,
         "esperado": 60,
         "semaforo": "amarillo"
     },
+    "11": {
+        "nombre": "Open Banking",
+        "avance": 0,
+        "esperado": 0,
+        "semaforo": "verde",
+        "cancelado": true
+    },
     "12": {
+        "nombre": "Estructurar y adecuar la estrategia de financiamiento de proyectos sostenibles",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "13": {
+        "nombre": "Medición del impacto en el medio ambiente del financiamiento de proyectos sostenibles de FIRA",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "14": {
+        "nombre": "Reorientación de los CDT..s",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "15": {
+        "nombre": "Mantener el patrimonio en términos reales",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "16": {
+        "nombre": "Gestión del portafolio de inversión “Core-Satellite Approach”",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "17": {
+        "nombre": "Alineación del FONAGA y de los programas de apoyo (externos e internos) al PI 2020 – 2024",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "18": {
+        "nombre": "Reingeniería del PDC de FIRA",
         "avance": 98,
         "esperado": 98,
         "semaforo": "verde"
     },
     "19": {
+        "nombre": "Seguimiento a la cartera de FIRA",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "20": {
+        "nombre": "Mecanismos de incorporación de IF",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "21": {
+        "nombre": "Modificaciones al servicio de garantía",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "22": {
+        "nombre": "Constitución de esquemas de seguridad jurídica",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "23": {
+        "nombre": "Concentración de FEFA, FEGA y FOPESCA en el FONDO",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
+    "24": {
+        "nombre": "FIBRA para infraestructura de almacenamiento",
+        "avance": 0,
+        "esperado": 0,
+        "semaforo": "verde",
+        "cancelado": true
+    },
     "25": {
+        "nombre": "Plataforma de Asesoría Técnica",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "26": {
+        "nombre": "Planes de carrera y sucesión",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "27": {
+        "nombre": "Plataforma AgriTech",
         "avance": 90,
         "esperado": 100,
         "semaforo": "amarillo"
     },
     "28": {
+        "nombre": "Hub Climático",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "29": {
+        "nombre": "Semana de la Innovación tecnológica FIRA",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "30": {
+        "nombre": "Instrumentación de la reorientación estratégica de los CDT's",
         "avance": 100,
         "esperado": 100,
         "semaforo": "verde"
     },
     "31": {
+        "nombre": "Base de datos FIRA",
         "avance": 100,
         "esperado": 100,
+        "semaforo": "verde"
+    },
+    "32": {
+        "nombre": "Agilidad FIRA 360º",
+        "avance": 5,
+        "esperado": 5,
+        "semaforo": "verde"
+    },
+    "33": {
+        "nombre": "Garantía Tecnológica de FIRA",
+        "avance": "en proceso",
+        "esperado": "en proceso",
+        "semaforo": "verde"
+    },
+    "34": {
+        "nombre": "Promoción comercial y normativa inteligente",
+        "avance": 20,
+        "esperado": 20,
+        "semaforo": "verde"
+    },
+    "35": {
+        "nombre": "Inteligencia sectorial basada en “Big Data”",
+        "avance": "en proceso",
+        "esperado": "en proceso",
+        "semaforo": "verde"
+    },
+    "36": {
+        "nombre": "Formador de mercado de carbono FIRA",
+        "avance": 10,
+        "esperado": 10,
+        "semaforo": "verde"
+    },
+    "37": {
+        "nombre": "Conteo de carbono en el financiamiento agropecuario",
+        "avance": 20,
+        "esperado": 20,
+        "semaforo": "verde"
+    },
+    "38": {
+        "nombre": "Estandarización y ordenamiento de la red de PESE de FIRA",
+        "avance": "en proceso",
+        "esperado": "en proceso",
+        "semaforo": "verde"
+    },
+    "39": {
+        "nombre": "Oficina “FIRA - Exporta”",
+        "avance": 10,
+        "esperado": 10,
+        "semaforo": "verde"
+    },
+    "40": {
+        "nombre": "SARAS 2.0",
+        "avance": 30,
+        "esperado": 30,
+        "semaforo": "verde"
+    },
+    "41": {
+        "nombre": "Garantía Segura",
+        "avance": 92,
+        "esperado": 92,
+        "semaforo": "verde"
+    },
+    "42": {
+        "nombre": "Score crediticio FIRA basado en “Big Data”",
+        "avance": 55,
+        "esperado": 55,
+        "semaforo": "verde"
+    },
+    "43": {
+        "nombre": "Transición a la “TIIE de fondeo”",
+        "avance": 80,
+        "esperado": 80,
+        "semaforo": "verde"
+    },
+    "44": {
+        "nombre": "Bono de Acuacultura y Pesca Sostenible",
+        "avance": 30,
+        "esperado": 30,
+        "semaforo": "verde"
+    },
+    "45": {
+        "nombre": "Mini invernadero inteligente",
+        "avance": 5,
+        "esperado": 5,
+        "semaforo": "verde"
+    },
+    "46": {
+        "nombre": "Ordenamiento del mercado de seguro agropecuario",
+        "avance": 20,
+        "esperado": 20,
+        "semaforo": "verde"
+    },
+    "47": {
+        "nombre": "Protección de riesgo catastrófico",
+        "avance": "en proceso",
+        "esperado": "en proceso",
         "semaforo": "verde"
     }
 }

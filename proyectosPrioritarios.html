@@ -4,103 +4,119 @@
     <meta charset="UTF-8">
     <title>Proyectos prioritarios</title>
     <meta viewport="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
         * {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Montserrat', sans-serif;
         }
 
         body {
             overflow: hidden;
+            padding: 0;
+            margin: 0;
         }
 
         #numeralia {
             width: calc(100vw - 2rem);
             overflow: hidden;
-            padding: 0.5em 1rem 0;
+            padding: 0 1rem 0;
             background-color: #FFF;
         }
 
-        #proyectosPrioritarios {
+        .proyectosPrioritarios {
             margin: 0;
             padding: 0;
             list-style: none;
-            min-height: 60px;
+            height: 70px;
             overflow: hidden;
         }
 
-        #proyectosPrioritarios li {
-            display: block;
-            float: left;
-            margin: 0 1em 0 2em;
-            padding: 1px 5px;
-            border-radius: 5px;
+        .proyectosPrioritarios li {
             position: relative;
-            height: 3rem;
-            width: 90px;
+            width: 200px;
+            height: 70px;
+            list-style: none;
+            float: left;
+            margin: 0 5px;
         }
 
-        #proyectosPrioritarios li>span {
-            display: inline-block;
-            margin-right: 5px;
-            padding: 11px;
-            background-position: center center;
-            background-size: 102%;
-            background-repeat: no-repeat;
-            border-radius: 50%;
+        .proyectosPrioritarios li .dataProyecto {
+            background-color: #1A2A41;
+            color: #FFF;
+            height: 35px;
+            overflow: hidden;
         }
 
-        #proyectosPrioritarios img {
-            width: 35px;
-            height: auto;
+        .proyectosPrioritarios li .dataProyecto .np {
+            padding: 2.5px;
+            margin: 10px 15px auto 7px;
+            display: block;
+            width: 11px;
+            height: 11px;
+            font-size: 10px;
+            line-height: 11px;
+            text-align: center;
+            float: left;
+            font-weight: 900;
+            color: #1A2A41;
+            background-color: #FFF;
+            border-radius: 50% 50%;
+        }
+
+        .proyectosPrioritarios li .dataProyecto img {
+            max-width: 33px;
+            max-height: 33px;
+            margin: 1px;
             float: left;
         }
 
-        #proyectosPrioritarios li>p {
-            float: right;
+        .proyectosPrioritarios li .dataProyecto p.nombreProyecto {
+            font-size: 12px;
+            font-weight: 700;
+            padding: 3px 10px 0;
             margin: 0;
-            padding: 0;
-            font-size: 0.7em;
-            text-align: right;
-            position: absolute;
-            top: 10px;
-            right: 0;
-            width: 80px;
+            text-overflow: ellipsis;
+            width: 100px;
+            height: 32px;
+            overflow: hidden;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
         }
 
-        #proyectosPrioritarios p span:first-child {
-            font-weight: bolder;
-            display: block;
+        .proyectosPrioritarios li .graphProyecto {
+            height: 35px;
+            position: relative;
+            display: flex;
+            background-color: #B3B3B3;
         }
 
-        #proyectosPrioritarios p span:nth-child(2) {
-
-            margin-left: 3px;
+        .proyectosPrioritarios li .graphProyecto>div {
+            position: relative;
         }
 
-        #proyectosPrioritarios li>.np {
-            background-color: #003170;
+        .proyectosPrioritarios li .graphProyecto>div p {
+            font-weight: 700;
             color: #FFF;
-            font-weight: 800;
-            font-size: 0.8em;
-            border-radius: 50%;
-            position: absolute;
-            top: 0px;
-            left: -20px;
-            width: 20px;
-            height: 20px;
+            font-size: 20px;
             text-align: center;
+            margin: 6px auto 0;
+            padding: 0;
+            text-shadow: 1px 1px 1px black;
+            min-width: 60px;
+            position: absolute;
         }
     </style>
 </head>
 
 <body>
     <div id="numeralia">
-        <ul id="proyectosPrioritarios"></ul>
+        <ul class="proyectosPrioritarios"></ul>
     </div>
     <script>
+        var proyectosUL = document.querySelector('.proyectosPrioritarios');
         var ppReq = new XMLHttpRequest();
         ppReq.addEventListener("load", processProyectos);
         ppReq.open("GET", "./datosProyectos.txt");
@@ -112,48 +128,86 @@
                 for (i in proyectData) {
                     var li;
 
+                    if (proyectData[i].cancelado) {
+                        continue;
+                    }
+
                     av = proyectData[i].avance;
                     esperado = proyectData[i].esperado;
                     color = proyectData[i].semaforo;
+
                     li = document.createElement('li');
-                    sp = document.createElement('span');
-                    im = document.createElement('img');
-                    p = document.createElement('p');
-                    d = document.createElement('div');
+                    li.setAttribute('id', i);
+
+
+                    //Indentifica el proyecto
+                    divData = document.createElement('div');
+                    divData.setAttribute('class', 'dataProyecto');
+
+                    //Numero de proyecto
+                    spNum = document.createElement('span');
                     dt = document.createTextNode(i);
-                    d.appendChild(dt);
-                    d.setAttribute('class', 'np');
-                    if (av == "pendiente") {
-                        p.innerHTML = '<span>Pendiente</span>';
-                        av = 0;
-                    } else if (av == 100) {
-                        p.innerHTML = '<span>100%</span>';
+                    spNum.appendChild(dt);
+                    spNum.setAttribute('class', 'np');
+                    divData.appendChild(spNum);
 
-                    } else {
-                        p.innerHTML = '<span>' + av + '% </span> / ' + esperado + '%';
-                    }
+                    //Icono de proyecto
+                    im = document.createElement('img');
+                    im.src = "./img_proyectos/" + i + ".svg";
+                    divData.appendChild(im);
 
-                    im.src = "./img_proyectos/" + i + ".png";
-                    sp.appendChild(im);
-                    li.appendChild(sp);
-                    li.appendChild(p);
-                    li.appendChild(d);
+                    //Nombre de proyecto
+                    nomp = document.createElement('p');
+                    dt = document.createTextNode(proyectData[i].nombre);
+                    nomp.appendChild(dt);
+                    nomp.setAttribute('class', 'nombreProyecto');
+                    divData.appendChild(nomp);
+
+                    //Grafico de avance
+                    divGraph = document.createElement('div');
+                    divGraph.setAttribute('class', 'graphProyecto');
+                    divAvance = document.createElement('div');
+
+                    p = document.createElement('p');
+                    p.setAttribute('class', 'avanceProyecto');
+
                     if (color == "amarillo") color = "yellow";
-                    if (color == "verde") color = "green";
+                    if (color == "verde") color = "#7ACB4B";
                     if (color == "rojo") color = "#691c32";
 
+                    if (av == "en proceso") {
+                        color = "transparent";
+                        pt = document.createTextNode('En proceso');
+                        av = 100;
+                    } else {
+                        pt = document.createTextNode(av + ' %');
 
-                    sp.setAttribute('style', 'background-image:url("./img_proyectos/back-' + parseInt(av / 10) * 10 + '.png");background-color:' + color)
-                    document.getElementById('proyectosPrioritarios').appendChild(li);
+                    }
+
+                    p.appendChild(pt);
+                    divAvance.setAttribute('style', 'width:' + av + '%;' + 'background-color:' + color);
+                    p.setAttribute('style', 'width:' + Number(200 * av / 100) + 'px;');
+                    divAvance.appendChild(p);
+
+
+
+
+
+                    divGraph.appendChild(divAvance);
+                    li.appendChild(divData);
+                    li.appendChild(divGraph);
+
+
+                    proyectosUL.appendChild(li);
                     wProyectos += (li.offsetWidth + 50);
                 }
             }
-            document.getElementById('proyectosPrioritarios').style.width = wProyectos + "px";
+            proyectosUL.style.width = wProyectos + "px";
 
             //scroll
-            scrollMax = Number(document.getElementById('proyectosPrioritarios').offsetWidth * -1) + document.getElementById('numeralia').offsetWidth;
+            scrollMax = Number(proyectosUL.offsetWidth * -1) + document.getElementById('numeralia').offsetWidth;
 
-            ppD = document.getElementById('proyectosPrioritarios');
+            ppD = proyectosUL;
             scrollDist = 0;
             scrollInt = setInterval(function () {
                 ppD.style.marginLeft = scrollDist + "px";
