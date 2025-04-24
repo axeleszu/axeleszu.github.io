@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cámara</title>
+      <style>
+          html, body {
+                  margin: 0;
+                        padding: 0;
+                              height: 100%;
+                                    background: black;
+          }
+              video {
+                      width: 100%;
+                            height: 100%;
+                                  object-fit: cover;
+              }
+                </style>
+                </head>
+                <body>
+                  <video id="cam" autoplay playsinline></video>
+                    <script>
+                        navigator.mediaDevices.getUserMedia({
+                                  video: { facingMode: "environment" },
+                                        audio: false
+                        }).then(stream => {
+                                  document.getElementById("cam").srcObject = stream;
+                        }).catch(err => {
+                                  alert("No se pudo acceder a la cámara: " + err);
+                        });
+                          </script>
+                          </body>
+                          </html>
+                        })
+                        })
+                        })
+              }
+          }
