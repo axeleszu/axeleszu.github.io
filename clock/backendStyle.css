@@ -1,0 +1,259 @@
+@import url('fonts.css');
+
+
+:root {
+    --background-gradient-start: #4834d4;
+    --background-gradient-end: #341f97;
+    --text-color-light: #f7f7f7;
+    --text-color-dark: #333;
+    --accent-color: #f1c40f;
+    --main-font: 'Nunito', sans-serif;
+
+    --btn-primary-bg: #4598da;
+    --btn-primary-hover: #57a8e6;
+    --btn-delete-bg: #e9425f;
+    --btn-delete-hover: #f0687f;
+    --btn-edit-bg: #5cc853;
+    --btn-edit-hover: #70d469;
+    --border-color: #ddd;
+    --light-bg: #ffffff;
+    --very-light-bg: #f9f9f9;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+    background: var(--very-light-bg);
+    color: var(--text-color-dark);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(160deg, var(--background-gradient-start) 0%, var(--background-gradient-end) 100%);
+    color: var(--text-color-light);
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 40px 0;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: var(--text-color-light);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+#show-add-dialog-btn {
+    background-color: var(--accent-color);
+    color: var(--text-color-dark);
+}
+
+#show-add-dialog-btn:hover {
+    background-color: #ffdb58;
+}
+
+#activities-list {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.activity {
+    background: var(--light-bg);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    min-width: 200px;
+    margin: 0 5px;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+.activity:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.activity h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    color: var(--background-gradient-end);
+}
+
+.activity h3 i {
+    font-size: 1.2em;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+}
+
+.activity p {
+    margin: 5px 0 15px;
+}
+
+.activity h3,
+.activity p {
+    grid-column-start: span 2;
+}
+
+dialog {
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease;
+}
+
+.ico-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+dialog form {
+    padding: 30px;
+    background: var(--very-light-bg);
+    border-radius: 12px;
+}
+
+dialog h2 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--background-gradient-end);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="time"]:focus,
+select:focus {
+    outline: none;
+    border-color: var(--background-gradient-start);
+    box-shadow: 0 0 0 3px rgba(72, 52, 212, 0.2);
+}
+
+.days-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.days-checkboxes label {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.days-checkboxes input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.days-checkboxes label:has(input:checked) {
+    background: var(--background-gradient-start);
+    color: var(--text-color-light);
+    border-color: var(--background-gradient-start);
+}
+
+/* --- Specific Button Colors --- */
+form .btn[type="submit"] {
+    background-color: var(--btn-primary-bg);
+}
+
+form .btn[type="submit"]:hover {
+    background-color: var(--btn-primary-hover);
+}
+
+.btn-edit {
+    background-color: var(--btn-edit-bg);
+}
+
+.btn-edit:hover {
+    background-color: var(--btn-edit-hover);
+}
+
+.btn-delete {
+    background-color: var(--btn-delete-bg);
+}
+
+.btn-delete:hover {
+    background-color: var(--btn-delete-hover);
+}

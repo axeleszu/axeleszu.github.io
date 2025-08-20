@@ -1,0 +1,130 @@
+{
+    "actividades": [
+        {
+            "nombre": "¡Despierta!",
+            "HoraInicio": "06:00",
+            "HoraFin": "07:00",
+            "ico": "fa-solid fa-sun",
+            "days": [
+                "lunes",
+                "martes",
+                "miércoles",
+                "jueves",
+                "viernes"
+            ]
+        },
+        {
+            "nombre": "A desayunar",
+            "HoraInicio": "07:00",
+            "HoraFin": "07:15",
+            "ico": "fa-solid fa-utensils",
+            "days": [
+                "todos"
+            ]
+        },
+        {
+            "nombre": "Ir a la escuela",
+            "HoraInicio": "07:15",
+            "HoraFin": "07:30",
+            "ico": "fa-solid fa-school",
+            "days": [
+                "todos"
+            ]
+        },
+        {
+            "nombre": "Estudiar",
+            "HoraInicio": "07:45",
+            "HoraFin": "15:00",
+            "ico": "fa-solid fa-book",
+            "days": [
+                "lunes",
+                "martes",
+                "miércoles",
+                "jueves",
+                "viernes"
+            ]
+        },
+        {
+            "nombre": "Hora de comer",
+            "HoraInicio": "15:00",
+            "HoraFin": "15:30",
+            "ico": "fa-solid fa-utensils",
+            "days": [
+                "lunes",
+                "martes",
+                "miércoles",
+                "jueves",
+                "viernes"
+            ]
+        },
+        {
+            "nombre": "Tarea",
+            "HoraInicio": "15:30",
+            "HoraFin": "16:30",
+            "ico": "fa-solid fa-pencil-alt",
+            "days": [
+                "lunes",
+                "martes",
+                "miércoles",
+                "jueves",
+                "viernes"
+            ]
+        },
+        {
+            "nombre": "Tiempo de Pantalla",
+            "HoraInicio": "16:30",
+            "HoraFin": "18:30",
+            "ico": "fa-solid fa-gamepad",
+            "days": [
+                "lunes",
+                "martes",
+                "jueves"
+            ]
+        },
+        {
+            "nombre": "Juego libre",
+            "HoraInicio": "18:30",
+            "HoraFin": "19:00",
+            "ico": "fa-solid fa-cloud-sun",
+            "days": [
+                "todos"
+            ]
+        },
+        {
+            "nombre": "A Cenar",
+            "HoraInicio": "19:00",
+            "HoraFin": "19:30",
+            "ico": "fa-solid fa-utensils",
+            "days": [
+                "todos"
+            ]
+        },
+        {
+            "nombre": "Bañarse",
+            "HoraInicio": "19:30",
+            "HoraFin": "20:00",
+            "ico": "fa-solid fa-shower",
+            "days": [
+                "todos"
+            ]
+        },
+        {
+            "nombre": "Cuento para dormir",
+            "HoraInicio": "20:00",
+            "HoraFin": "21:00",
+            "ico": "fa-solid fa-book-open",
+            "days": [
+                "todos"
+            ]
+        },
+        {
+            "nombre": "Cepillarse los dientes",
+            "HoraInicio": "21:42",
+            "HoraFin": "21:44",
+            "ico": "fa-solid",
+            "days": [
+                "todos"
+            ]
+        }
+    ]
+}

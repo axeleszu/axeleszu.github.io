@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4834d4">
+    <link rel="manifest" href="manifest.json">
+    <title>Reloj de Actividades</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ico/all.min.css">
+    <script src="dexie.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="top-arrow">▼</div>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline" id="timeline">
+                <!--  JavaScript -->
+            </div>
+        </div>
+        <div class="next-activity-container" id="next-activity">
+            <h3>Siguiente Actividad</h3>
+            <div id="next-activity-details"></div>
+        </div>
+        <div class="current-activity-container" id="current-activity"></div>
+        <div class="event-countdown" id="event-countdown"></div>
+        <div class="clock" id="clock"></div>
+        <div class="cat-sprite anim1" id="cat-sprite"></div>
+        <div class="zoom-controls">
+            <button type="button" aria-label="+" id="zoom-in-btn" title="Zoom In"><i class="fa-solid fa-plus"></i></button>
+            <button type="button" aria-label="-" id="zoom-out-btn" title="Zoom Out"><i class="fa-solid fa-minus"></i></button>
+        </div>
+        <div class="settings-button" id="settings-button" title="Configuración"><i class="fa-solid fa-gear"></i></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        // Make sure service workers are supported
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de Actividades</title>
+    <link rel="stylesheet" href="ico/all.min.css">
+    <link rel="stylesheet" href="backendStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ico/fontawesome-iconpicker.min.css">
+    <link rel="stylesheet" href="ico/bootstrap.min.css">
+    <script src="ico/jquery-2.2.1.min.js"></script>
+    <script src="ico/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Administrador de Actividades</h1>
+            <button id="show-add-dialog-btn" class="btn" type="button"> Agregar Actividad</button>
+        </div>
+
+        <hr class="divider">
+
+        <div id="activities-list">
+            <!-- Activities will be loaded here -->
+        </div>
+
+        <dialog id="activity-dialog">
+            <form id="activity-form">
+                <h2 id="dialog-title">Actividad</h2>
+
+                <input type="hidden" id="activity-id">
+
+                <label for="activity-nombre">Nombre de la Actividad:</label>
+                <input autocomplete="off" type="text" id="activity-nombre" name="nombre" required>
+
+                <label for="activity-HoraInicio">Hora de Inicio:</label>
+                <input autocomplete="off" type="time" id="activity-HoraInicio" name="HoraInicio" required>
+
+                <label for="activity-HoraFin">Hora de Fin:</label>
+                <input autocomplete="off" type="time" id="activity-HoraFin" name="HoraFin" required>
+
+                <label for="activity-ico-select">Ícono:</label>
+                <div class="ico-div">
+                    <div class="btn-group">
+                        <button data-selected="graduation-cap" type="button" class="icp icp-dd btn btn-default dropdown-toggle iconpicker-component" data-toggle="dropdown" aria-label="Ícono de Actividad">
+                            <i class="fas fa-search"></i>
+                            <span class="caret"></span>
+                        </button>
+                        <div class="dropdown-menu"></div>
+                    </div>
+                    <input type="hidden" id="activity-ico-select" name="ico">
+                </div>
+
+                <label>Días:</label>
+                <div class="days-checkboxes" id="activity-days-checkboxes">
+                    <label><input type="checkbox" name="days[]" value="todos"> Todos</label>
+                    <label><input type="checkbox" name="days[]" value="lunes"> Lunes</label>
+                    <label><input type="checkbox" name="days[]" value="martes"> Martes</label>
+                    <label><input type="checkbox" name="days[]" value="miércoles"> Miércoles</label>
+                    <label><input type="checkbox" name="days[]" value="jueves"> Jueves</label>
+                    <label><input type="checkbox" name="days[]" value="viernes"> Viernes</label>
+                    <label><input type="checkbox" name="days[]" value="sábado"> Sábado</label>
+                    <label><input type="checkbox" name="days[]" value="domingo"> Domingo</label>
+                </div>
+                <br>
+                <button type="submit" class="btn">Guardar</button>
+                <button type="button" class="btn btn-delete" id="cancel-btn">Cancelar</button>
+            </form>
+        </dialog>
+        <div class="theme-selector-container">
+            <label for="theme-switcher">Tema seleccionado:</label>
+            <select id="theme-switcher">
+                <option value="">Cosmic Pop</option>
+                <option value="theme-jungle">Aventura de la Selva</option>
+                <option value="theme-ocean">Produndida del Océano</option>
+                <option value="theme-city">Luces de la Ciudad</option>
+                <option value="theme-space">Odisea del Espacio</option>
+                <option value="theme-desert">Deserto soleado</option>
+                <option value="theme-forest">Bosque Encantado</option>
+                <option value="theme-winter">Invierno de la Tierra</option>
+                <option value="theme-candy">Mundo de dulces</option>
+                <option value="theme-dino">Dinosaurios</option>
+                <option value="theme-farm">Granja</option>
+            </select>
+        </div>
+        <br>
+        <a href="index.html" class="btn btn-info back-to-clock-btn" title="Volver al Reloj"> <i class="fa-solid fa-clock"> Volver</i></a>
+    </div>
+
+
+    <script src="ico/fontawesome-iconpicker.min.js"></script>
+    <script src="dexie.js"></script>
+    <script src="backendScript.js"></script>
+    <script>
+        $('.icp-dd').iconpicker({ placement: 'right' });
+        $('.icp-dd').on('iconpickerSelected', function (event) {
+            $('#activity-ico-select').val(event.iconpickerValue);
+        });
+    </script>
+</body>
+
+</html>

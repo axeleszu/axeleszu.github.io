@@ -1,0 +1,558 @@
+@import url('fonts.css');
+
+:root {
+    --background-gradient-start: #4834d4;
+    --background-gradient-end: #341f97;
+    --text-color: #f7f7f7;
+    --arrow-color: #f1c40f;
+    --activity-color-1: #e79e3b;
+    --activity-color-2: #9acc3f;
+    --activity-color-3: #5cc853;
+    --activity-color-4: #4598da;
+    --activity-color-5: #4634a8;
+    --activity-color-6: #e9425f;
+    --main-font: 'Nunito', sans-serif;
+}
+
+.theme-jungle {
+    --background-gradient-start: #2ecc71;
+    --background-gradient-end: #16a085;
+    --text-color: #ffffff;
+    --arrow-color: #f1c40f;
+    --activity-color-1: #e67e22;
+    --activity-color-2: #d35400;
+    --activity-color-3: #c0392b;
+    --activity-color-4: #2980b9;
+    --activity-color-5: #8e44ad;
+    --activity-color-6: #27ae60;
+}
+
+.theme-ocean {
+    --background-gradient-start: #3498db;
+    --background-gradient-end: #2c3e50;
+    --text-color: #ecf0f1;
+    --arrow-color: #f9e79f;
+    --activity-color-1: #1abc9c;
+    --activity-color-2: #e74c3c;
+    --activity-color-3: #f1c40f;
+    --activity-color-4: #9b59b6;
+    --activity-color-5: #e67e22;
+    --activity-color-6: #16a085;
+}
+
+.theme-city {
+    --background-gradient-start: #34495e;
+    --background-gradient-end: #2c3e50;
+    --text-color: #ffffff;
+    --arrow-color: #f1c40f;
+    --activity-color-1: #e74c3c;
+    --activity-color-2: #3498db;
+    --activity-color-3: #9b59b6;
+    --activity-color-4: #1abc9c;
+    --activity-color-5: #f39c12;
+    --activity-color-6: #2ecc71;
+}
+
+.theme-space {
+    --background-gradient-start: #2c3e50;
+    --background-gradient-end: #000000;
+    --text-color: #ecf0f1;
+    --arrow-color: #f1c40f;
+    --activity-color-1: #e74c3c;
+    --activity-color-2: #9b59b6;
+    --activity-color-3: #3498db;
+    --activity-color-4: #1abc9c;
+    --activity-color-5: #f39c12;
+    --activity-color-6: #bdc3c7;
+}
+
+.theme-desert {
+    --background-gradient-start: #f39c12;
+    --background-gradient-end: #d35400;
+    --text-color: #4a2c2a;
+    --arrow-color: #2980b9;
+    --activity-color-1: #c0392b;
+    --activity-color-2: #27ae60;
+    --activity-color-3: #f1c40f;
+    --activity-color-4: #8e44ad;
+    --activity-color-5: #e67e22;
+    --activity-color-6: #7f8c8d;
+}
+
+.theme-forest {
+    --background-gradient-start: #3a531e;
+    --background-gradient-end: #1e2d0f;
+    --text-color: #f2e8c9;
+    --arrow-color: #ffc300;
+    --activity-color-1: #6d4c41;
+    --activity-color-2: #81c784;
+    --activity-color-3: #ff7043;
+    --activity-color-4: #4fc3f7;
+    --activity-color-5: #d4e157;
+    --activity-color-6: #ad1457;
+}
+
+.theme-winter {
+    --background-gradient-start: #a3d4f7;
+    --background-gradient-end: #77a8d8;
+    --text-color: #1a237e;
+    --arrow-color: #f44336;
+    --activity-color-1: #ffffff;
+    --activity-color-2: #80deea;
+    --activity-color-3: #90a4ae;
+    --activity-color-4: #4e342e;
+    --activity-color-5: #4caf50;
+    --activity-color-6: #ffd54f;
+}
+
+.theme-candy {
+    --background-gradient-start: #f8bbd0;
+    --background-gradient-end: #f48fb1;
+    --text-color: #4e342e;
+    --arrow-color: #7e57c2;
+    --activity-color-1: #81d4fa;
+    --activity-color-2: #c5e1a5;
+    --activity-color-3: #fff59d;
+    --activity-color-4: #ef5350;
+    --activity-color-5: #ffb74d;
+    --activity-color-6: #dce775;
+}
+
+.theme-dino {
+    --background-gradient-start: #8d6e63;
+    --background-gradient-end: #5d4037;
+    --text-color: #f5f5f5;
+    --arrow-color: #ffb300;
+    --activity-color-1: #4caf50;
+    --activity-color-2: #ff7043;
+    --activity-color-3: #42a5f5;
+    --activity-color-4: #a1887f;
+    --activity-color-5: #7e57c2;
+    --activity-color-6: #e53935;
+}
+
+.theme-farm {
+    --background-gradient-start: #81d4fa;
+    --background-gradient-end: #4fc3f7;
+    --text-color: #3e2723;
+    --arrow-color: #ef5350;
+    --activity-color-1: #ffeb3b;
+    --activity-color-2: #795548;
+    --activity-color-3: #4caf50;
+    --activity-color-4: #9e9e9e;
+    --activity-color-5: #ff9800;
+    --activity-color-6: #2196f3;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+
+.header {
+    background: linear-gradient(160deg, var(--background-gradient-start) 0%, var(--background-gradient-end) 100%);
+    border-radius: 2em 2em 0 0;
+    height: 11rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top-arrow {
+    text-align: center;
+    font-size: 2.5em;
+    color: var(--arrow-color);
+    padding: 0 0 5px 0;
+    z-index: 10;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    top: calc(11rem - 20px);
+    position: relative;
+}
+
+.timeline-container {
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(160deg, #333 0%, #fff 100%);
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: var(--arrow-color);
+    transform: translateX(-50%);
+    opacity: 0.6;
+    z-index: 5;
+    border-radius: 3px;
+}
+
+.current-activity-container {
+    padding: 5px 2rem;
+    font-size: 1.5rem;
+}
+
+.timeline {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    background: linear-gradient(160deg, #333 0%, #fff 100%);
+}
+
+.activity-block {
+    position: absolute;
+    /* top and height are now set by JS */
+    border-left: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    /* Animate all properties for smoother transitions */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* Helps separate stacked blocks */
+}
+
+
+.activity-block.color-1 {
+    background-color: #e79e3b;
+}
+
+.activity-block.color-2 {
+    background-color: #9acc3f;
+}
+
+.activity-block.color-3 {
+    background-color: #5cc853;
+}
+
+.activity-block.color-4 {
+    background-color: #4598da;
+}
+
+.activity-block.color-5 {
+    background-color: #4634a8;
+}
+
+.activity-block.color-6 {
+    background-color: #e9425f;
+}
+
+.activity-block:hover {
+    transform: scale(1.02);
+    z-index: 2;
+}
+
+.activity-content {
+    position: relative;
+    height: 100%;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.1s linear;
+    box-sizing: border-box;
+}
+
+.activity-icon {
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    font-size: 3rem;
+}
+
+.activity-name {
+    font-size: 2.5em;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.activity-time {
+    font-size: 1.3em;
+    white-space: pre-wrap;
+    opacity: 0.9;
+}
+
+
+.colliding-activities {
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.colliding-activity {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.colliding-activity:last-child {
+    margin-bottom: 0;
+}
+
+
+.next-activity-container {
+    position: fixed;
+    bottom: 40%;
+    right: 20px;
+    transform: translateY(0);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 12px;
+    text-align: left;
+    width: 220px;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+}
+
+.next-activity-container h3 {
+    margin-top: 0;
+    border-bottom: 1px solid rgba(247, 247, 247, 0.5);
+    padding-bottom: 5px;
+}
+
+.clock {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 9.3em;
+    font-weight: 700;
+    background: transparent;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    margin-top: -10px;
+}
+
+
+/* Cat */
+
+.cat-sprite {
+    width: 19px;
+    height: 19px;
+    background-image: url('CatSpriteSheet.png');
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    transform: scale(5);
+    transform-origin: top left;
+    margin: 50px;
+    position: fixed;
+}
+
+/* --- Animation 1 (4 frames) --- */
+.anim1 {
+    animation: anim1-kf 0.8s steps(4) infinite;
+}
+
+@keyframes anim1-kf {
+    from {
+        background-position: -9px -16px;
+    }
+
+    to {
+        background-position: -137px -16px;
+    }
+
+    /* -9px - (4 frames * 32px) */
+}
+
+/* --- Animation 2 (4 frames) --- */
+.anim2 {
+    animation: anim2-kf 0.6s steps(4) infinite;
+}
+
+@keyframes anim2-kf {
+    from {
+        background-position: -9px -48px;
+    }
+
+    to {
+        background-position: -137px -48px;
+    }
+}
+
+/* --- Animation 3 (4 frames) --- */
+.anim3 {
+    animation: anim3-kf 0.4s steps(4) infinite;
+}
+
+@keyframes anim3-kf {
+    from {
+        background-position: -9px -80px;
+    }
+
+    to {
+        background-position: -137px -80px;
+    }
+}
+
+/* --- Animation 4 (4 frames) --- */
+.anim4 {
+    animation: anim4-kf 0.7s steps(4) infinite;
+}
+
+@keyframes anim4-kf {
+    from {
+        background-position: -9px -112px;
+    }
+
+    to {
+        background-position: -137px -112px;
+    }
+}
+
+/* --- Animation 5 (8 frames) --- */
+.anim5 {
+    animation: anim5-kf 1.5s steps(8) infinite;
+}
+
+@keyframes anim5-kf {
+    from {
+        background-position: -5px -144px;
+    }
+
+    /* Corrected Position */
+    to {
+        background-position: -261px -144px;
+    }
+
+    /* -5px - (8 frames * 32px) */
+}
+
+/* --- Animation 6 (8 frames) --- */
+.anim6 {
+    animation: anim6-kf 1.0s steps(8) infinite;
+}
+
+@keyframes anim6-kf {
+    from {
+        background-position: -6px -176px;
+    }
+
+    to {
+        background-position: -262px -176px;
+    }
+}
+
+/* --- Animation 7 (4 frames) --- */
+.anim7 {
+    animation: anim7-kf 1.2s steps(4) infinite;
+}
+
+@keyframes anim7-kf {
+    from {
+        background-position: -8px -208px;
+    }
+
+    to {
+        background-position: -136px -208px;
+    }
+}
+
+/* --- Animation 8 (6 frames) --- */
+.anim8 {
+    animation: anim8-kf 0.6s steps(6) infinite;
+}
+
+@keyframes anim8-kf {
+    from {
+        background-position: -9px -240px;
+    }
+
+    to {
+        background-position: -201px -240px;
+    }
+
+    /* -9px - (6 frames * 32px) */
+}
+
+/* --- Animation 9 (6 frames) --- */
+.anim9 {
+    animation: anim9-kf 0.5s steps(6) infinite;
+}
+
+@keyframes anim9-kf {
+    from {
+        background-position: -8px -270px;
+    }
+
+    to {
+        background-position: -200px -270px;
+    }
+}
+
+/* --- Animation 10 (6 frames) --- */
+.anim10 {
+    animation: anim10-kf 0.9s steps(6) infinite;
+}
+
+@keyframes anim10-kf {
+    from {
+        background-position: -7px -304px;
+    }
+
+    to {
+        background-position: -199px -304px;
+    }
+}
+
+/*ZOOM*/
+.zoom-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    gap: 10px;
+}
+
+.zoom-controls button {
+    width: 50px;
+    height: 50px;
+    background-color: var(--background-gradient-start);
+    border: none;
+    border-radius: 50%;
+    color: var(--text-color);
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    backdrop-filter: blur(5px);
+}
+
+
+.zoom-controls button:active {
+    transform: scale(0.9);
+}
+
+.settings-button {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    z-index: 9;
+    cursor: pointer;
+}
