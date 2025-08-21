@@ -257,3 +257,22 @@ form .btn[type="submit"]:hover {
 .btn-delete:hover {
     background-color: var(--btn-delete-hover);
 }
+
+@media (max-width:768px) and (orientation:portrait) {
+    .page-header {
+        flex-direction: column;
+    }
+
+    #show-add-dialog-btn {
+        width: 100%;
+        margin: 1.5rem 0
+    }
+
+    .theme-selector-container {
+        margin: 1.5rem 0
+    }
+
+    .back-to-clock-btn i {
+        display: inline;
+    }
+}
