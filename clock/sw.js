@@ -1,4 +1,4 @@
-const CACHE_NAME = 'activity-timeline-cache-v1.0.1';
+const CACHE_NAME = 'activity-timeline-cache-v1.0.11';
 
 const urlsToCache = [
     './',
