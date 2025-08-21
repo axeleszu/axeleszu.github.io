@@ -4,6 +4,7 @@
     "description": "Enseña la hora de tus actividades.",
     "start_url": "index.html",
     "display": "standalone",
+    "scope": "./",
     "background_color": "#341f97",
     "theme_color": "#4834d4",
     "orientation": "landscape",

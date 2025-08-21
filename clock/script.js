@@ -251,7 +251,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     updateUI(activities);
 
                 } else {
-                    // Handle the case where there are no activities
                     timelineElement.innerHTML = `<div style="padding: 20px;">No hay actividades.</div>`;
                     nextActivityDetailsElement.innerHTML = `<p style="margin: 0;">No hay actividades.</p>`;
                     document.getElementById('current-activity').innerHTML = `<p><strong>Actualmente no hay actividades.</strong></p>`;
@@ -270,8 +269,10 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(updateTimelineAndStickyContent, 1000);
         setInterval(catAnimation, 30000);
         setInterval(() => {
-            PIXELS_PER_MINUTE = 5;
-            updateUI(allActivities);
+            if (PIXELS_PER_MINUTE != 5) {
+                PIXELS_PER_MINUTE = 5;
+                updateUI(allActivities);
+            }
         }, 60000);
         updateClock();
         setInterval(updateClock, 1000);

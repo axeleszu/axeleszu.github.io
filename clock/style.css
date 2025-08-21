@@ -556,3 +556,30 @@ html {
     z-index: 9;
     cursor: pointer;
 }
+
+@media (max-width:768px) and (orientation:portrait) {
+    #clock {
+        font-size: calc(100vw / 7);
+        margin: 0.25rem 0;
+    }
+
+    .header {
+        height: calc(100vw / 7 + 1.5rem)
+    }
+
+    .top-arrow {
+        top: calc(100vw / 7 + 0.9rem);
+    }
+
+    div#cat-sprite {
+        bottom: calc(7.5rem + 10px);
+    }
+
+    .zoom-controls {
+        bottom: calc(7.5rem + 10px);
+    }
+
+    .next-activity-container {
+        bottom: 30%;
+    }
+}
