@@ -6,6 +6,8 @@ const urlsToCache = [
     './style.css',
     './script.js',
     './dexie.js',
+    './dexie.js.map',
+    './sw.js',
     './manifest.json',
     './ding.mp3',
     './CatSpriteSheet.png',
