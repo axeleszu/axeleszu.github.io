@@ -271,6 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(catAnimation, 30000);
         setInterval(() => {
             PIXELS_PER_MINUTE = 5;
+            updateUI(allActivities);
         }, 60000);
         updateClock();
         setInterval(updateClock, 1000);
