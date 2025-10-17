@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guías de Promoción - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="main-header" id="main-header"></header>
+        <main class="guias-content">
+            <div class="page-header">
+                <h1>Guías de Promoción</h1>
+                <p>Gestiona el ciclo de vida de tus prospectos.</p>
+            </div>
+            <section class="guias-controls">
+                <a href="./nueva-guia.html" class="create-guide-btn">➕ Crear Nueva Guía</a>
+            </section>
+            <section class="kanban-board">
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Previo a la visita</h2>
+                        <span class="task-count">1</span>
+                    </div>
+
+                    <ul class="guide-list">
+                        <li class="guide-card">
+                            <div class="card-header">
+                                <p class="project-id-badge"><span>ID: 55842</span></p>
+                                <img src="./img/detalle3-vert.svg" alt="detalle">
+
+                            </div>
+                            <h3>Productores Unidos de Jalisco</h3>
+                            <p>Análisis para diversificación de cultivos.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Durante la visita</h2>
+                        <span class="task-count">1</span>
+                    </div>
+
+                    <ul class="guide-list">
+                        <li class="guide-card">
+                            <div class="card-header">
+                                <p class="project-id-badge">
+                                    <span>ID: 55842</span>
+                                </p>
+                                <img src="./img/detalle3-vert.svg" alt="detalle">
+                            </div>
+                            <h3>Rancho El Girasol</h3>
+                            <p>Diagnóstico de sistema de riego.</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Después de la visita</h2>
+                        <span class="task-count">2</span>
+                    </div>
+
+                    <ul class="guide-list">
+                        <li class="guide-card">
+                            <div class="card-header">
+                                <p class="project-id-badge">
+                                    <span>ID: 55842</span>
+                                    <span>🔗 ID Portafolio: 5555</span>
+                                </p>
+                                <img src="./img/detalle3-vert.svg" alt="detalle">
+
+                            </div>
+                            <h3>Agropecuaria del Sol</h3>
+                            <p>Seguimiento para crédito refaccionario.</p>
+
+                        </li>
+                        <li class="guide-card">
+                            <div class="card-header">
+                                <p class="project-id-badge">
+                                    <span>ID: 55842</span>
+                                </p>
+                                <img src="./img/detalle3-vert.svg" alt="detalle">
+
+                            </div>
+                            <h3>Ganadera Santa Fe</h3>
+                            <p>Integración de expediente para ampliación.</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Resultado de la promoción</h2>
+                        <span class="task-count">0</span>
+                    </div>
+                    <ul class="guide-list"></ul>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+
+    <dialog id="guide-options-modal" class="modal">
+        <button class="close-modal-btn" aria-label="Cerrar" type="button">×</button>
+        <h2>Opciones de Guía</h2>
+        <ul>
+            <li><a href="./nueva-guia.html"><img src="./img/editar.svg" alt="Editar"> Modificar Guía</a></li>
+            <li><a href="./durante-visita.html"><img src="./img/visita.svg" alt="Visita"> Visita a Empresa</a></li>
+            <li><a href="#"><img src="./img/documento-buro.svg" alt="Consulta a Buró"> Consulta de Buró</a></li>
+            <li><a href="#"><img src="./img/promocion.svg" alt="Promoción"> Enviar a Portafolio</a></li>
+            <li class="danger-zone"><a href="#"><img src="./img/eliminar.svg" alt="Eliminar"> Eliminar Guía</a></li>
+        </ul>
+    </dialog>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const guideCards = document.querySelectorAll('.guide-card');
+            const modal = document.querySelector('#guide-options-modal');
+            const closeModalBtn = document.querySelector('.close-modal-btn');
+
+            if (modal) {
+                // Abrir el modal al hacer clic en cualquier tarjeta de guía
+                guideCards.forEach(card => {
+                    card.addEventListener('click', () => {
+                        modal.showModal(); // API nativa para abrir el diálogo modal
+                    });
+                });
+
+                // Cerrar el modal con el botón de cierre
+                closeModalBtn.addEventListener('click', () => {
+                    modal.close(); // API nativa para cerrar el diálogo
+                });
+
+                // Cerrar el modal al hacer clic fuera de él (en el backdrop)
+                modal.addEventListener('click', (event) => {
+                    if (event.target === modal) {
+                        modal.close();
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Proyectos - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="main-header" id="main-header"></header>
+
+
+        <main class="proyectos-content">
+            <div class="page-header">
+                <h1>Portafolio de Proyectos</h1>
+                <p>Pipeline de créditos desde la detección hasta el pago.</p>
+            </div>
+
+
+            <section class="project-controls">
+                <div class="form-group">
+                    <label for="if-filter">Filtrar por Intermediario Financiero</label>
+                    <div class="select-container">
+                        <select id="if-filter" class="styled-select">
+                            <option>Todos los IF</option>
+                            <option>Banco del Agro</option>
+                            <option>El Banco Rural del Norte</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="kanban-board">
+
+
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Detección</h2><span class="task-count">1</span>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-card">
+                            <div class="card-header">
+                                <h3>Ganadera Santa Fe</h3>
+                            </div>
+                            <p class="project-details">Crédito de Avío - $500k</p>
+                            <p class="project-if">Por definir</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Integración</h2><span class="task-count">2</span>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-card">
+                            <div class="card-header">
+                                <span class="alert-badge" title="En espera de documentos">⚠️</span>
+                                <h3>Agropecuaria del Sol</h3>
+                            </div>
+                            <p class="project-details">Crédito Refaccionario - $2.1M</p>
+                            <p class="project-if">Banco del Agro</p>
+                        </li>
+                        <li class="project-card">
+                            <div class="card-header">
+                                <h3>Productores Unidos</h3>
+                            </div>
+                            <p class="project-details">Factoraje - $800k</p>
+                            <p class="project-if">El Banco Rural</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Autorización</h2><span class="task-count">1</span>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-card">
+                            <div class="card-header">
+                                <h3>Rancho El Girasol</h3>
+                            </div>
+                            <p class="project-details">Crédito Refaccionario - $1.5M</p>
+                            <p class="project-if">Banco del Agro</p>
+                            <div class="project-progress">
+                                <div class="progress-fill" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Operado</h2><span class="task-count">1</span>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-card">
+                            <div class="card-header">
+                                <h3>Cliente Maíz del Bajío</h3>
+                            </div>
+                            <p class="project-details">Crédito de Avío - $1.2M</p>
+                            <p class="project-if">Banco del Agro</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Liquidado</h2><span class="task-count">0</span>
+                    </div>
+                    <ul class="project-list"></ul>
+                </div>
+
+
+
+
+                <div class="kanban-column">
+                    <div class="column-header">
+                        <h2>Archivados</h2><span class="task-count">2</span>
+                    </div>
+                    <ul class="project-list">
+
+                        <li class="project-card status-impago">
+                            <div class="card-header">
+                                <span class="status-badge">Impago</span>
+                                <h3>Cliente Deudor SA</h3>
+                            </div>
+                            <p class="project-details">Crédito de Avío - $300k</p>
+                            <p class="project-if">Banco del Agro</p>
+                        </li>
+
+                        <li class="project-card status-cancelado">
+                            <div class="card-header">
+                                <span class="status-badge">No Prosperó</span>
+                                <h3>Proyecto Experimental</h3>
+                            </div>
+                            <p class="project-details">Crédito Refaccionario - $750k</p>
+                            <p class="project-if">El Banco Rural</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="90" height="90">
+	<style>
+		.s0 {
+			fill: #2a405b;
+		}
+	</style>
+	<g id="Layer 1">
+		<path class="s0" d="m26.48 36v17.48h-17.48v-17.48z" />
+		<path class="s0" d="m54.72 36v17.48h-17.48v-17.48z" />
+		<path class="s0" d="m81.61 36v17.48h-17.48v-17.48z" />
+	</g>
+</svg>

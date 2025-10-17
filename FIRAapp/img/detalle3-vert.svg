@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="90" height="90">
+	<style>
+		.s0 {
+			fill: #2a405b;
+		}
+	</style>
+	<g>
+		<path fill-rule="evenodd" class="s0" d="m36.56 63.56h17.48v17.48h-17.48z" />
+		<path fill-rule="evenodd" class="s0" d="m36.56 35.33h17.48v17.48h-17.48z" />
+		<path fill-rule="evenodd" class="s0" d="m36.56 8.44h17.48v17.48h-17.48z" />
+	</g>
+</svg>

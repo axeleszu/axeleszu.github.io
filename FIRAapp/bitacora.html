@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora de Acuerdos - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="main-header" id="main-header"></header>
+
+
+        <main class="bitacora-content">
+            <div class="page-header">
+                <h1>Bitácora de Acuerdos</h1>
+                <p>Registra y da seguimiento a los compromisos.</p>
+            </div>
+
+
+            <section class="context-selector">
+                <div class="form-group">
+                    <label for="empresa-select-bitacora">Empresa</label>
+                    <div class="select-container">
+                        <select id="empresa-select-bitacora" class="styled-select">
+                            <option>Rancho El Girasol</option>
+                            <option>Agropecuaria del Sol</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="if-select-bitacora">Intermediario Financiero</label>
+                    <div class="select-container">
+                        <select id="if-select-bitacora" class="styled-select">
+                            <option>Banco del Agro</option>
+                            <option>El Banco Rural del Norte</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="new-entry-form">
+                <h3>Añadir Nuevo Acuerdo</h3>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="acuerdo-desc">Descripción del Acuerdo</label>
+                        <textarea id="acuerdo-desc" rows="3" placeholder="Ej: Enviar expediente completo..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="acuerdo-responsable">Responsable</label>
+                        <input type="text" id="acuerdo-responsable" placeholder="Ej: Juan Pérez (FIRA), Laura Morales (Banco)...">
+                    </div>
+                    <div class="form-group">
+                        <label for="acuerdo-fecha">Fecha Compromiso</label>
+                        <input type="date" id="acuerdo-fecha">
+                    </div>
+                    <div class="form-actions-bitacora">
+                        <button type="submit" class="submit-btn">Añadir a Bitácora</button>
+                        <a href="#" class="secondary-action-btn">🗓️ Agendar Cita con IF</a>
+                    </div>
+                </form>
+            </section>
+
+
+            <section class="entry-list">
+                <h3>Acuerdos Registrados</h3>
+                <ul class="log-list">
+
+                    <li class="entry-card completed">
+                        <div class="card-header">
+                            <span class="status-tag status-completed">Completado</span>
+                            <input type="checkbox" checked>
+                        </div>
+                        <div class="card-body">
+                            <p class="entry-text">Enviar presentación de programas especiales al contacto de la empresa.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="responsable"><strong>Responsable:</strong> Juan Pérez (FIRA)</span>
+                            <span class="compromiso"><strong>Compromiso:</strong> 10 Oct, 2025</span>
+                        </div>
+                    </li>
+
+                    <li class="entry-card">
+                        <div class="card-header">
+                            <span class="status-tag status-pending">Pendiente</span>
+                            <input type="checkbox">
+                        </div>
+                        <div class="card-body">
+                            <p class="entry-text">Banco del Agro debe revisar la solicitud de crédito y dar una pre-autorización.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="responsable"><strong>Responsable:</strong> Laura Morales (Banco)</span>
+                            <span class="compromiso"><strong>Compromiso:</strong> 25 Oct, 2025</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+    "name": "FIRA App - Recorrido Interactivo",
+    "short_name": "FIRA App",
+    "description": "App de FIRA para promotores.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "scope": "./",
+    "background_color": "#f4f7fa",
+    "theme_color": "#003366",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./img/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./img/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

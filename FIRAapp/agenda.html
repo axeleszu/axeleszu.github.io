@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="main-header" id="main-header"></header>
+        <main class="agenda-content">
+            <div class="page-header">
+                <h1>Mi Agenda</h1>
+                <p>Línea de tiempo de actividades y acuerdos.</p>
+            </div>
+            <section class="date-filter">
+                <button class="filter-btn active">Hoy</button>
+                <button class="filter-btn">Mañana</button>
+                <button class="filter-btn">Semana</button>
+            </section>
+            <section class="project-filter">
+                <label for="project-select">Filtrar por Proyecto:</label>
+                <div class="select-container">
+                    <select name="project" id="project-select" class="styled-select">
+                        <option value="all">Todos los proyectos</option>
+                        <option value="girasol">Financiamiento 'Rancho El Girasol'</option>
+                        <option value="jalisco">Visita a 'Productores Unidos de Jalisco'</option>
+                        <option value="santafe">Ampliación 'Ganadera Santa Fe'</option>
+                    </select>
+                </div>
+            </section>
+            <section class="timeline">
+                <ul>
+                    <li class="timeline-item">
+                        <div class="timeline-marker"><img src="./img/reunion.svg" alt="reunion"></div>
+                        <div class="timeline-card">
+                            <div class="card-header">
+                                <span class="item-time">10:00 AM - 11:00 AM</span>
+                                <span class="item-status">Bitácora</span>
+                            </div>
+                            <div class="card-body">
+                                <input type="checkbox" id="event-1" name="event-1">
+                                <h3 class="item-title">Reunión con Banco del Agro</h3>
+                                <p class="item-project">Proyecto: Financiamiento 'Rancho El Girasol'</p>
+                                <p class="item-details">Sucursal Centro. Presentar oportunidad de crédito.</p>
+
+                                <div class="card-actions">
+                                    <a href="#" class="action-btn" aria-label="Navegar a la ubicación"><img src="./img/navegar.svg" alt="navegar"> Navegar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-marker"><img src="./img/check.svg" alt="tarea"></div>
+                        <div class=" timeline-card">
+                            <div class="card-header">
+                                <span class="item-time">Pendiente para hoy</span>
+                                <span class="item-status tarea">Tareas</span>
+                            </div>
+                            <div class="card-body">
+                                <input type="checkbox" id="task-1" name="task-1">
+                                <h3 class="item-title">Enviar información de red de Maíz</h3>
+                                <p class="item-project">Acuerdo: Enviar información de red a 'Productores Unidos de Jalisco'</p>
+                                <p class="item-details">Contactar a Juan Morales, enviar presentación de programas especiales.</p>
+
+                                <div class="card-actions">
+                                    <a href="#" class="action-btn" aria-label="Enviar correo electrónico"><img src="./img/email.svg" alt="email"> Enviar Correo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-marker"><img src="./img/llamada.svg" alt="llamada"></div>
+                        <div class="timeline-card">
+                            <div class="card-header">
+                                <span class="item-time">04:00 PM</span>
+                                <span class="item-status tarea">Tareas</span>
+                            </div>
+                            <div class="card-body">
+                                <input type="checkbox" id="call-1" name="call-1">
+                                <h3 class="item-title">Llamada de seguimiento</h3>
+                                <p class="item-project">Proyecto: Ampliación 'Ganadera Santa Fe'</p>
+                                <p class="item-details">Confirmar recepción de documentos para consulta de Buró.</p>
+
+                                <div class="card-actions">
+                                    <a href="#" class="action-btn" aria-label="Realizar llamada"><img src="./img/llamada.svg" alt="llamar"> Llamar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

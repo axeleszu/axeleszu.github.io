@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="main-header" id="main-header"></header>
+
+
+        <main class="tareas-content">
+            <div class="page-header">
+                <h1>Mis Tareas</h1>
+                <p>Gestiona tus pendientes y acuerdos.</p>
+            </div>
+
+
+            <section class="task-controls">
+                <div class="task-filters">
+                    <button class="filter-btn active">Pendientes</button>
+                    <button class="filter-btn">Completadas</button>
+                </div>
+                <button class="create-task-btn">➕ Crear Tarea</button>
+            </section>
+
+
+            <section>
+                <ul class="task-list">
+
+                    <li class="task-item flag-urgent">
+                        <div class="task-checkbox">
+                            <input type="checkbox" id="task1" name="task1">
+                            <label for="task1"></label>
+                        </div>
+                        <div class="task-details">
+                            <h4>Enviar catálogo de proveedores</h4>
+                            <p class="task-project-link">
+                                <span>Proyecto:</span> <a href="#">Financiamiento 'Rancho El Girasol'</a>
+                            </p>
+                        </div>
+                        <div class="task-due-date overdue">
+                            <span>Vence: Hoy</span>
+                        </div>
+                    </li>
+
+
+                    <li class="task-item flag-important">
+                        <div class="task-checkbox">
+                            <input type="checkbox" id="task2" name="task2">
+                            <label for="task2"></label>
+                        </div>
+                        <div class="task-details">
+                            <h4>Agendar reunión con Banco del Agro</h4>
+                            <p class="task-project-link">
+                                <span>Proyecto:</span> <a href="#">Financiamiento 'Rancho El Girasol'</a>
+                            </p>
+                        </div>
+                        <div class="task-due-date">
+                            <span>Vence: Mañana</span>
+                        </div>
+                    </li>
+
+
+                    <li class="task-item task-completed">
+                        <div class="task-checkbox">
+                            <input type="checkbox" id="task3" name="task3" checked>
+                            <label for="task3"></label>
+                        </div>
+                        <div class="task-details">
+                            <h4>Confirmar recepción de docs Buró</h4>
+                            <p class="task-project-link">
+                                <span>Proyecto:</span> <a href="#">Ampliación 'Ganadera Santa Fe'</a>
+                            </p>
+                        </div>
+                        <div class="task-due-date">
+                            <span>Vencía: Ayer</span>
+                        </div>
+                    </li>
+
+                </ul>
+            </section>
+
+        </main>
+    </div>
+
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

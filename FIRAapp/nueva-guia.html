@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Guía - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="main-header" id="main-header"></header>
+
+
+        <main class="nueva-guia-content">
+            <div class="page-header">
+                <h1>Crear Nueva Guía de Promoción</h1>
+                <p>Completa las secciones para preparar la visita.</p>
+            </div>
+
+            <form action="#" class="guide-form">
+
+                <div class="accordion">
+
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>1. Datos del Promotor</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="form-group">
+                                <label for="promotor-name">Nombre del Promotor</label>
+                                <input type="text" id="promotor-name" value="Juan Pérez" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="agencia-name">Agencia</label>
+                                <input type="text" id="agencia-name" value="Morelia" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>2. Datos de Ubicación</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="form-group">
+                                <label for="estado-select">Estado</label>
+                                <div class="select-container">
+                                    <select id="estado-select" class="styled-select">
+                                        <option>Aguascalientes</option>
+                                        <option>Baja California</option>
+                                        <option>Baja California Sur</option>
+                                        <option>Campeche</option>
+                                        <option>Chiapas</option>
+                                        <option>Chihuahua</option>
+                                        <option>Coahuila</option>
+                                        <option>Colima</option>
+                                        <option>Durango</option>
+                                        <option>Estado de Mxico</option>
+                                        <option>Guanajuato</option>
+                                        <option>Guerrero</option>
+                                        <option>Hidalgo</option>
+                                        <option>Jalisco</option>
+                                        <option>Michoacán</option>
+                                        <option>Morelos</option>
+                                        <option>Nayarit</option>
+                                        <option>Nuevo Leon</option>
+                                        <option>Oaxaca</option>
+                                        <option>Puebla</option>
+                                        <option>Queretaro</option>
+                                        <option>Quintana Roo</option>
+                                        <option>San Luis Potosi</option>
+                                        <option>Sinaloa</option>
+                                        <option>Sonora</option>
+                                        <option>Tamaulipas</option>
+                                        <option>Tlaxcala</option>
+                                        <option>Veracruz</option>
+                                        <option>Yucatan</option>
+                                        <option>Zacatecas</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="municipio-select">Municipio</label>
+                                <div class="select-container">
+                                    <select id="municipio-select" class="styled-select">
+                                        <option disabled selected>Seleccione...</option>
+                                        <option>Opción 1</option>
+                                        <option>Opción 2</option>
+                                        <option>Opción 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="localidad-select">Localidad</label>
+                                <div class="select-container">
+                                    <select id="localidad-select" class="styled-select">
+                                        <option disabled selected>Seleccione...</option>
+                                        <option>Opción 1</option>
+                                        <option>Opción 2</option>
+                                        <option>Opción 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Cadena</label>
+                                <input type="text" value="Cadena productiva">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>3. Datos de Producción</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content col-3">
+                            <div class="form-group">
+                                <label>Unidades de Producción la Red</label>
+                                <input type="text" value="93.5" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-unidadesProduccion">Unidades de Producción la Empresa</label>
+                                <input type="number" id="empresa-unidadesProduccion" placeholder="Unidades de empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-unidadesProduccion-unidades">Unidades</label>
+                                <input type="text" id="empresa-unidadesProduccion-unidades" value="Num" disabled>
+                            </div>
+                        </div>
+                        <div class="accordion-content col-3">
+                            <div class="form-group">
+                                <label>Tamaño (unidades)</label>
+                                <input type="text" value="93.5" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-tamanio">Tamaño de la Empresa</label>
+                                <input type="number" id="empresa-tamanio" placeholder="Tamaño de empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-tamanio-unidades">Unidades</label>
+                                <select id="empresa-tamanio-unidades" class="styled-select">
+                                    <option disabled selected>Seleccione...</option>
+                                    <option>Ha</option>
+                                    <option>Tn</option>
+                                    <option>Cb</option>
+                                    <option>Un</option>
+                                    <option>Cj</option>
+                                    <option>Lt</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="accordion-content col-3">
+                            <div class="form-group">
+                                <label>Rendimiento promedio</label>
+                                <input type="text" value="13.5" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-rendimiento">Rendimiento de la Empresa</label>
+                                <input type="number" id="empresa-rendimiento" placeholder="Rendimiento de empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-rendimiento-unidades">Unidades</label>
+                                <select id="empresa-rendimiento-unidades" class="styled-select">
+                                    <option disabled selected>Seleccione...</option>
+                                    <option>$/Ha</option>
+                                    <option>$/Tn</option>
+                                    <option>$/Cb</option>
+                                    <option>$/Un</option>
+                                    <option>$/Cj</option>
+                                    <option>$/Lt</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="accordion-content col-3">
+                            <div class="form-group">
+                                <label for="precio-promedio">Precio Promedio</label>
+                                <input type="number" id="precio-promedio" placeholder="17.5" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-precio">Precio promedio de la Empresa</label>
+                                <input type="number" id="empresa-precio" placeholder="Precio promedio de empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-precio-promedio-unidades">Unidades</label>
+                                <select id="empresa-precio-promedio-unidades" class="styled-select">
+                                    <option disabled selected>Seleccione...</option>
+                                    <option>$/Ha</option>
+                                    <option>$/Tn</option>
+                                    <option>$/Cb</option>
+                                    <option>$/Un</option>
+                                    <option>$/Cj</option>
+                                    <option>$/Lt</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="accordion-content col-3">
+                            <div class="form-group">
+                                <label for="relacion-promedio">Relación Beneficio/Costo</label>
+                                <input type="number" id="relacion-promedio" placeholder="1.63" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa-relacion">Relación Beneficio/Costo de la Empresa</label>
+                                <input type="number" id="empresa-relacion" placeholder="Relación de empresa">
+                            </div>
+                            <div class="form-group">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>4. Oportunidades y Problemática</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="form-group">
+                                <label for="oportunidades">Oportunidades Detectadas</label>
+                                <textarea id="oportunidades-1" rows="2" placeholder="Capital de trabajo para acopio"></textarea>
+                                <textarea id="oportunidades-2" rows="2" placeholder="Capital de trabajo para trabajadores"></textarea>
+                                <textarea id="oportunidades-3" rows="2" placeholder="Reestructuración de pasivos"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="problematica">Problemáticas Identificada</label>
+                                <textarea id="problematica-1" rows="4" placeholder="Ej: No hay infraestructura para el riego..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>5. Generales de la Empresa</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p class="form-instruction">Llena el formulario con los datos de la entrevisita:</p>
+                            <div class="form-group">
+                                <label for="proposito-reunion">Proposito de la Reuni&oacute;n</label>
+                                <select id="proposito-reunion" class="styled-select">
+                                    <option disabled selected>Seleccione...</option>
+                                    <option>Nueva Cartera de Empresa Nueva</option>
+                                    <option>Nueva Cartera de Empresa Recurrente</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="id-empresa">ID empresa</label>
+                                <input type="text" id="id-empresa" placeholder="ID empresa">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="grupo-empresarial">Grupo Empresarial</label>
+                                <input type="text" id="grupo-empresarial" placeholder="Grupo empresarial">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="contacto">Contacto</label>
+                                <input type="text" id="contacto" placeholder="Contacto de empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="puesto-contacto">Puesto</label>
+                                <input type="text" id="puesto-contacto" placeholder="Puesto del Contacto de empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="referencia">Referencia</label>
+                                <select id="referencia" class="styled-select">
+                                    <option disabled selected>Seleccione...</option>
+                                    <option>Positiva</option>
+                                    <option>Negativa</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Telefono</label>
+                                <input type="text" id="telefono" placeholder="Telefono del Contacto de empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="correo">Correo</label>
+                                <input type="text" id="correo" placeholder="Correo del Contacto de empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="sitio-web">Sitio Web</label>
+                                <input type="text" id="sitio-web" placeholder="Sitio Web de la empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="saldo-cartera">Saldo Cartera</label>
+                                <input type="number" id="saldo-cartera" placeholder="Saldo Cartera">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>6. Próximos Vencimientos</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <table class="data-table">
+                                <tbody>
+                                    <tr>
+                                        <th>Monto</th>
+                                        <th>Banco</th>
+                                        <th>Fecha</th>
+                                    </tr>
+                                    <tr>
+                                        <td>$123.13</td>
+                                        <td>BBVA</td>
+                                        <td>01/01/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>$23.23</td>
+                                        <td>BBVA</td>
+                                        <td>01/01/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>$43.12</td>
+                                        <td>Santander</td>
+                                        <td>01/01/2019</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>7. Productos FIRA para la Red</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p class="form-instruction">Consulta los intermediarios disponibles:</p>
+                            <label for="tipo-credito">Tipo de Credito</label>
+                            <select id="tipo-credito" class="styled-select">
+                                <option disabled selected>Seleccione...</option>
+                                <option value="refaccionario">Refaccionario</option>
+                                <option value="avio">Avío</option>
+                                <option value="arrendamiento-financiero">Arrendamiento Financiero</option>
+                            </select>
+                            <script>
+                                document.getElementById("tipo-credito").addEventListener("change", function () {
+                                    document.querySelectorAll(".if-card").forEach(card => {
+                                        card.classList.remove("active");
+                                    })
+                                    document.getElementById("if-" + this.value).classList.add("active");
+                                })
+                            </script>
+                            <div class="if-card" id="if-refaccionario">
+                                <div class="if">
+                                    <h4>Banco Santander</h4>
+                                    <p>Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>HSBC</h4>
+                                    <p>Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>Cargill</h4>
+                                    <p>No Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>Agrocapital</h4>
+                                    <p>No Bancario</p>
+                                </div>
+                            </div>
+                            <div class="if-card" id="if-avio">
+                                <div class="if">
+                                    <h4>Banco Santander</h4>
+                                    <p>Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>HSBC</h4>
+                                    <p>Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>Cargill</h4>
+                                    <p>No Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>Agrocapital</h4>
+                                    <p>No Bancario</p>
+                                </div>
+                            </div>
+                            <div class="if-card" id="if-arrendamiento">
+                                <div class="if">
+                                    <h4>Banco Santander</h4>
+                                    <p>Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>HSBC</h4>
+                                    <p>Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>Cargill</h4>
+                                    <p>No Bancario</p>
+                                </div>
+                                <div class="if">
+                                    <h4>Agrocapital</h4>
+                                    <p>No Bancario</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>8. Programas Especiales</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="form-group">
+                                <label for="recomendaciones">Programas a Recomendar</label>
+                                <label for="recomendaciones-1">1</label> <input type="text" id="recomendaciones-1">
+                                <label for="recomendaciones-2">2</label> <input type="text" id="recomendaciones-2">
+                                <label for="recomendaciones-3">3</label> <input type="text" id="recomendaciones-3">
+                                <label for="recomendaciones-4">4</label> <input type="text" id="recomendaciones-4">
+                            </div>
+                            <div class="form-group">
+                                <button class="submit-btn">Ir a Inteligencia FIRA</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>9. Referencias Financieras</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="form-group">
+                                <label for="fecha-referencias">Fecha</label> <input type="date" id="fecha-referencias" disabled value="2025-11-30">
+                            </div>
+                            <div class="form-group">
+                                <label for="tipo-de-cambio">Tipo de Cambio</label> <input type="text" id="tipo-de-cambio" disabled value="20.00">
+                            </div>
+                            <div class="form-group">
+                                <label for="TIIE-28">TIIE 28</label> <input type="text" id="TIIE-28" disabled value="8.1234">
+                            </div>
+                            <div class="form-group">
+                                <label for="TERM-SOFR">TERM SOFR</label> <input type="text" id="TERM-SOFR" disabled value="10.11234">
+                            </div>
+                        </div>
+                        <div class="accordion-content ">
+                            <div class="form-group">
+                                <label for="futuros">Futuros</label> <input type="text" id="futuros"><input type="date" id="fecha-futuro">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>10. Costo Financiero de Referencia</h3>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <h4>1 año</h4>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>M.N.</label>
+                                    <input type="number">
+                                </div>
+                                <div class="form-group">
+                                    <label>DLLs.</label>
+                                    <input type="number">
+                                </div>
+                            </div>
+                            <h4>3 años</h4>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>M.N.</label>
+                                    <input type="number">
+                                </div>
+                                <div class="form-group">
+                                    <label>DLLs.</label>
+                                    <input type="number">
+                                </div>
+                            </div>
+                            <h4>5 años</h4>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>M.N.</label>
+                                    <input type="number">
+                                </div>
+                                <div class="form-group">
+                                    <label>DLLs.</label>
+                                    <input type="number">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="submit-guide-btn" onclick="location.href = './durante-visita.html';return false">Guardar y Crear Guía</button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const accordionItems = document.querySelectorAll('.accordion-item');
+
+            accordionItems.forEach(item => {
+                const header = item.querySelector('.accordion-header');
+                header.addEventListener('click', () => {
+                    // Cierra todos los demás items para que solo uno esté abierto
+                    accordionItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    // Abre o cierra el item actual
+                    item.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligencia FIRA - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="main-header" id="main-header"></header>
+
+
+        <main class="inteligencia-content">
+            <div class="page-header">
+                <h1>Inteligencia FIRA</h1>
+                <p>Análisis sectorial y programas especiales.</p>
+            </div>
+
+
+            <section class="info-section">
+                <h2 class="section-title">Presentaciones Programas Especiales</h2>
+                <ul class="program-list">
+                    <li class="program-item">
+                        <div class="program-details">
+                            <h3>Factoraje Financiero</h3>
+                            <p>Fortalece tus operaciones y las de tus clientes.</p>
+                        </div>
+                        <a href="#" download><img src="./img/ppt.svg" alt="Presentación"></a>
+                        <a href="ppt.html"><img src="./img/ojo.svg" alt="Ver"></a>
+                    </li>
+                    <li class="program-item">
+                        <div class="program-details">
+                            <h3>Factoraje sobre Arrendamiento</h3>
+                            <p>Liquidez para arrendadoras que venden a intermediarios.</p>
+                        </div>
+                        <a href="#" download><img src="./img/ppt.svg" alt="Presentación"></a>
+                        <a href="ppt.html"><img src="./img/ojo.svg" alt="Ver"></a>
+                    </li>
+                    <li class="program-item">
+                        <div class="program-details">
+                            <h3>Financiamiento Verde</h3>
+                            <p>Impulsa proyectos sostenibles y de energía limpia.</p>
+                        </div>
+                        <a href="#" download><img src="./img/ppt.svg" alt="Presentación"></a>
+                        <a href="ppt.html"><img src="./img/ojo.svg" alt="Ver"></a>
+                    </li>
+                    <li class="program-item">
+                        <div class="program-details">
+                            <h3>Programa de Riego Tecnificado</h3>
+                            <p>Créditos para la modernización y eficiencia del agua.</p>
+                        </div>
+                        <a href="#" download><img src="./img/ppt.svg" alt="Presentación"></a>
+                        <a href="ppt.html"><img src="./img/ojo.svg" alt="Ver"></a>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="info-section">
+                <h2 class="section-title">Información Estratégica de la Red</h2>
+                <label for="network-select">Seleccionar Regional:</label>
+                <div class="network-filter col-2">
+                    <div class="form-group">
+                        <div class="select-container">
+                            <select name="network" id="network-select" class="styled-select" style="margin: 0;">
+                                <option value="norte">Norte</option>
+                                <option value="noroeste">Noroeste</option>
+                                <option value="centro">Centro</option>
+                                <option value="sur">Sur</option>
+                                <option value="sureste">Sureste</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="search-input" placeholder="Buscar Red...">
+                    </div>
+                </div>
+                <br>
+                <ul class="program-list">
+                    <li class="program-item">
+                        <div class="program-details">
+                            <h3>Alfalfa Verde</h3>
+                        </div>
+                        <a href="ficha-cultivo.html"> <img src="./img/ojo.svg" alt="Ver"></a>
+                    </li>
+                    <li class="program-item">
+                        <div class="program-details">
+                            <h3>Maíz</h3>
+                        </div>
+                        <a href="ficha-cultivo.html"> <img src="./img/ojo.svg" alt="Ver"></a>
+                    </li>
+                    <li class="program-item">
+                        <div class="program-details">
+                            <h3>Trigo Cristalino</h3>
+                        </div>
+                        <a href="ficha-cultivo.html"> <img src="./img/ojo.svg" alt="Ver"></a>
+                    </li>
+                </ul>
+
+            </section>
+        </main>
+    </div>
+
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

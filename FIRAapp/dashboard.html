@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Avance - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="main-header" id="main-header"></header>
+
+
+        <main class="dashboard-content">
+            <div class="page-header">
+                <h1>Dashboard de Avance</h1>
+                <p>Indicadores clave del equipo</p>
+            </div>
+
+
+            <section class="kpi-grid">
+                <div class="kpi-card">
+                    <h3 class="kpi-title">Índice de Conversión</h3>
+                    <p class="kpi-value">72%</p>
+                    <p class="kpi-trend positive">+5% vs mes anterior</p>
+                </div>
+
+                <div class="kpi-card">
+                    <h3 class="kpi-title">Índice de Efectividad</h3>
+                    <p class="kpi-value">85%</p>
+                    <p class="kpi-trend positive">+2% vs mes anterior</p>
+                </div>
+
+                <div class="kpi-card">
+                    <h3 class="kpi-title">Nuevos Acreditados</h3>
+                    <p class="kpi-value">18 / 25</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 72%;"></div>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <h3 class="kpi-title">Satisfacción de IF</h3>
+                    <p class="kpi-value">9.2 / 10</p>
+                    <p class="kpi-trend neutral">Estable</p>
+                </div>
+            </section>
+
+            <section class="chart-section">
+                <div class="chart-card">
+                    <div class="chart-icon"><img src="./img/avanceSemanal.png" alt="Grafico de Barras"></div>
+                    <h4>Saldo Total de Financiamiento al 9 de octubre de 2025</h4>
+                    <p>$ 262,204.45 mdp</p>
+                </div>
+
+                <div class="kpi-card" style="background-color: #5c2135;color:#FFF;">
+                    <h4>OP1.- Fomentar la inclusión financiera y abatir las barreras de acceso a servicios financieros de las y los productores con énfasis en los de menor escala.</h4>
+                </div>
+                <br>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Crecimiento en inclusión financiera (número de acreditados, por flujo) en Familiares y Pequeños (E2 y E3)</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="kpi-card" style="background-color: #125193;color: #FFF;">
+                    <h4>OP2.- Promover el incremento en la productividad y eficiencia en todos los eslabones de las cadenas de valor del campo.</h4>
+                </div>
+                <br>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Crédito directo e inducido con el Fondo Cosechando Soberanía</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Crecimiento en saldo con SCAP y parafinancieras (operación directa y a través de IF)</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Apoyos ligados a plataformas tecnológicas</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kpi-card" style="background-color: #256453;color: #FFF;">
+                    <h4>P3.- Contribuir al desarrollo del sector agropecuario, forestal pesquero responsable y sostenible.</h4>
+                </div>
+                <br>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Saldos en proyectos orientados al cuidado del medio ambiente: SUSTENTA+, bono azul, y dentro de la estrategia de adaptación y resiliencia al cambio climático</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="kpi-card" style="background-color: #666;color: #FFF;">
+                    <h4>Otros</h4>
+                </div>
+                <br>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Asuntos presentados a Comité de Crédito de manera oportuna</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Calidad de Cartera</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Apoyos para el uso de biofertilizantes y fertilización óptima.</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+
+                    </div>
+                    <div class="kpi-card">
+                        <h3 class="kpi-title"> Operaciones de PDP con apoyo tecnológico integral.</h3>
+                        <p class="kpi-value">$100 / $150 mdp</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 66%;"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

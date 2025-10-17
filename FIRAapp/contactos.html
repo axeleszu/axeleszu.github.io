@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - FIRA APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#124972">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FIRA App">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="main-header" id="main-header"></header>
+
+
+        <main class="contactos-content">
+            <div class="page-header">
+                <h1>Mis Contactos</h1>
+                <p>Gestiona tus empresas e intermediarios.</p>
+            </div>
+
+
+            <section class="view-selector">
+                <button class="view-btn active" data-target="#vinculados-list">Vinculados a Proyecto</button>
+                <button class="view-btn" data-target="#directorio-list">Mi Directorio</button>
+            </section>
+
+            <section class="view-selector">
+                <button class="view-btn active" data-target="#empresas-list">Empresas</button>
+                <button class="view-btn" data-target="#intermediarios-list">Intermediarios Financieros</button>
+            </section>
+
+            <div class="contact-lists">
+
+
+                <section id="vinculados-list" class="contact-list active">
+                    <div class="contact-card">
+                        <div class="contact-card-top">
+                            <div class="contact-avatar">LM</div>
+                            <div class="contact-info">
+                                <h3>Laura Morales</h3>
+                                <p>Gerente de Crédito, Banco del Agro</p>
+                            </div>
+                        </div>
+                        <div class="interaction-timeline">
+                            <div class="interaction-item">
+                                <span class="icon">🤝</span>
+                                <p>Reunión: Presentación 'Rancho El Girasol'</p>
+                                <span class="date">Ayer</span>
+                            </div>
+                            <div class="interaction-item">
+                                <span class="icon"><img src="./img/email.svg" alt="correo"></span>
+                                <p>Correo: Envío de ficha técnica</p>
+                                <span class="date">Hace 3 días</span>
+                            </div>
+                        </div>
+                        <div class="contact-card-actions">
+                            <a href="tel:+521234567890" class="action-btn"><img src="./img/llamada.svg" alt="llamar"> Llamar</a>
+                            <a href="mailto:laura.morales@bancoagro.com" class="action-btn"><img src="./img/email.svg" alt="correo"> Correo</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-top">
+                            <div class="contact-avatar">RG</div>
+                            <div class="contact-info">
+                                <h3>Ricardo Gutiérrez</h3>
+                                <p>Productor, Agropecuaria del Sol</p>
+                            </div>
+                        </div>
+                        <div class="interaction-timeline">
+                            <div class="interaction-item">
+                                <span class="icon"><img src="./img/llamada.svg" alt="llamar"></span>
+                                <p>Llamada: Confirmación de documentos</p>
+                                <span class="date">Hoy, 9 AM</span>
+                            </div>
+                            <div class="interaction-item">
+                                <span class="icon">📍</span>
+                                <p>Visita: Diagnóstico de sistema de riego</p>
+                                <span class="date">Hace 1 semana</span>
+                            </div>
+                        </div>
+                        <div class="contact-card-actions">
+                            <a href="tel:+529876543210" class="action-btn"><img src="./img/llamada.svg" alt="llamar"> Llamar</a>
+                            <a href="mailto:ricardo.g@agro-sol.com" class="action-btn"><img src="./img/email.svg" alt="correo"> Correo</a>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="directorio-list" class="contact-list">
+                    <div class="contact-card">
+                        <div class="contact-card-top">
+                            <div class="contact-avatar">CF</div>
+                            <div class="contact-info">
+                                <h3>Carlos Fuentes</h3>
+                                <p>El Banco Rural del Norte</p>
+                            </div>
+                            <a href="#" class="action-btn"><img src="./img/promocion.svg" alt="Añadir a Proyecto">Añadir a Proyecto</a>
+                            <a href="tel:+525555555555" class="action-btn" aria-label="Llamar"><img src="./img/llamada.svg" alt="Llamar">Llamar</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-top">
+                            <div class="contact-avatar">AV</div>
+                            <div class="contact-info">
+                                <h3>Ana Valdés</h3>
+                                <p>Productores Unidos de Jalisco</p>
+                            </div>
+                            <a href="#" class="action-btn"><img src="./img/promocion.svg" alt="Añadir a Proyecto">Añadir a Proyecto</a>
+                            <a href="tel:+525555555555" class="action-btn" aria-label="Llamar"><img src="./img/llamada.svg" alt="Llamar">Llamar</a>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+
+    <nav class="bottom-nav" id="footer-nav" aria-label="acceso rápido"></nav>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const viewButtons = document.querySelectorAll('.view-btn');
+            const contactLists = document.querySelectorAll('.contact-list');
+
+            viewButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Quitar 'active' de todos los botones y listas
+                    viewButtons.forEach(btn => btn.classList.remove('active'));
+                    contactLists.forEach(list => list.classList.remove('active'));
+
+                    // Añadir 'active' al botón presionado y a la lista correspondiente
+                    this.classList.add('active');
+                    const targetId = this.getAttribute('data-target');
+                    document.querySelector(targetId).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
