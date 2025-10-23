@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sopa de Letras</title>
     <style>
+        :root {
+            --cell-amount: 20;
+            --celda-size: calc((100vw - 5.5rem) / var(--cell-amount));
+        }
+
         body {
             font-family: monospace;
             margin: 0;
@@ -43,13 +48,15 @@
         }
 
         .celda {
-            width: 25px;
-            height: 25px;
+            width: var(--celda-size);
+            height: var(--celda-size);
+            max-width: 25px;
+            max-height: 25px;
             border: 1px solid #ddd;
             text-align: center;
-            line-height: 25px;
             text-transform: uppercase;
-            font-size: 1em;
+            font-size: clamp(10px, 1.8vw, 1rem);
+            line-height: clamp(10px, 3.6vw, 2rem);
             font-weight: bold;
             color: #444;
             transition: background-color 0.1s;
@@ -133,6 +140,7 @@
         }
 
         const sopaSize = sopaLetras.size;
+        document.documentElement.style.setProperty('--cell-amount', sopaSize);
 
         let tablero = [];
         let palabras;
