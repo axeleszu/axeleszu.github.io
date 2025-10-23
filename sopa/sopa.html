@@ -135,15 +135,10 @@
         const sopaSize = sopaLetras.size;
 
         let tablero = [];
-        let palabras = getPalabras();
+        let palabras;
         let palabrasEncontradas = [];
 
-        for (let i = 0; i < sopaSize; i++) {
-            tablero[i] = [];
-            for (let j = 0; j < sopaSize; j++) {
-                tablero[i][j] = "";
-            }
-        }
+
 
         const direcciones = [
             { dx: 1, dy: 0 }, { dx: -1, dy: 0 },
@@ -151,12 +146,24 @@
             { dx: 1, dy: 1 }, { dx: -1, dy: -1 },
             { dx: 1, dy: -1 }, { dx: -1, dy: 1 }
         ];
-        function init() {
+        async function iniciar() {
+            palabrasULElement.innerHTML = '<li>Cargando palabras...</li>';
+            palabras = await getPalabras();
+            palabrasEncontradas = [];
+            for (let i = 0; i < sopaSize; i++) {
+                tablero[i] = [];
+                for (let j = 0; j < sopaSize; j++) {
+                    tablero[i][j] = "";
+                }
+            }
+
             llenarSopaDeLetras(tablero, palabras, sopaSize);
             llenarEspaciosVacios(tablero, sopaSize);
             dibujarTablero(tablero, tableroDiv);
             mostrarListaPalabras(palabras, palabrasULElement);
         }
+
+        iniciar();
 
         // Interacción
         let isDragging = false;
@@ -238,23 +245,26 @@
         // --- FUNCIONES ---
 
         async function getPalabras() {
+            let cantidad = sopaLetras.size - 5;
+            const url = `https://es.wiktionary.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=${cantidad}&format=json&origin=*`;
             const fetchOptions = {
                 method: 'GET',
                 headers: {
-                    'User-Agent': 'MiSopaDeLetras/1.0 (axeleszu: https://github.com/axeleszu/sopa-de-letras)'
+                    'User-Agent': 'SopaDeLetras/1.0 (axeleszu: https://github.com/axeleszu/sopa-de-letras)'
                 }
             };
             try {
-                fetch('https://es.wiktionary.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=10&format=json&origin=*', fetchOptions).then(response => response.json()).then(data => {
+                const response = await fetch(url, fetchOptions);
+                if (!response.ok) throw new Error("Respuesta de red no válida");
+                const data = await response.json();
 
-                    data = data.query.random;
-                    palabras = [];
-                    for (let i = 0; i < data.length; i++) {
-                        palabras.push(data[i].title);
-                    }
-                    console.log(palabras);
-                    return palabras;
-                })
+                const palabrasCrudas = data.query.random.map(item => item.title);
+                const palabrasFiltradas = palabrasCrudas.filter(p => p.length > 3 && p.length < 12 && !p.includes(' ') && !p.includes(':'));
+
+                if (palabrasFiltradas.length < 5) throw new Error("No se obtuvieron suficientes palabras válidas.");
+
+                return palabrasFiltradas;
+
             } catch (error) {
                 console.log(error);
                 // --- LISTAS DE PALABRAS DE RESPALDO ---
@@ -283,7 +293,6 @@
 
                 return listasDeRespaldo[Math.floor(Math.random() * listasDeRespaldo.length)];
             };
-            //return ["javascript", "html", "css", "programar", "codigo", "web", "variable", "funcion", "objeto", "algoritmo", "bug", "depurar"];
         }
 
         function llenarSopaDeLetras(tablero, palabras, size) {
