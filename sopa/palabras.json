@@ -1,0 +1,8267 @@
+[
+    {
+        "name": "Artículos de Cocina",
+        "palabras": [
+            "sarten",
+            "cazuela",
+            "cuchillo",
+            "tenedor",
+            "cuchara",
+            "colador",
+            "rallador",
+            "espatula",
+            "batidora",
+            "horno"
+        ]
+    },
+    {
+        "name": "En el Baño",
+        "palabras": [
+            "ducha",
+            "banera",
+            "lavabo",
+            "inodoro",
+            "espejo",
+            "toalla",
+            "jabon",
+            "champu",
+            "cepillo",
+            "peine"
+        ]
+    },
+    {
+        "name": "Muebles del Salón",
+        "palabras": [
+            "sofa",
+            "mesa",
+            "silla",
+            "estanteria",
+            "alfombra",
+            "lampara",
+            "cortina",
+            "cuadro",
+            "television",
+            "butaca"
+        ]
+    },
+    {
+        "name": "En el Dormitorio",
+        "palabras": [
+            "cama",
+            "almohada",
+            "armario",
+            "mesilla",
+            "comoda",
+            "sabana",
+            "manta",
+            "edredon",
+            "despertador",
+            "percha"
+        ]
+    },
+    {
+        "name": "Electrodomésticos",
+        "palabras": [
+            "nevera",
+            "lavadora",
+            "secadora",
+            "microondas",
+            "lavavajillas",
+            "tostadora",
+            "cafetera",
+            "aspiradora",
+            "licuadora",
+            "plancha"
+        ]
+    },
+    {
+        "name": "Herramientas",
+        "palabras": [
+            "martillo",
+            "destornillador",
+            "sierra",
+            "taladro",
+            "llave",
+            "alicate",
+            "tornillo",
+            "clavo",
+            "tuerca",
+            "cinta"
+        ]
+    },
+    {
+        "name": "Tareas del Hogar",
+        "palabras": [
+            "barrer",
+            "fregar",
+            "planchar",
+            "limpiar",
+            "cocinar",
+            "ordenar",
+            "aspirar",
+            "lavar",
+            "sacudir",
+            "ventilar"
+        ]
+    },
+    {
+        "name": "Herramientas de Jardinería",
+        "palabras": [
+            "pala",
+            "rastrillo",
+            "tijeras",
+            "azada",
+            "manguera",
+            "regadera",
+            "carretilla",
+            "guantes",
+            "cortacesped",
+            "escoba"
+        ]
+    },
+    {
+        "name": "Animales de la Granja",
+        "palabras": [
+            "vaca",
+            "cerdo",
+            "gallina",
+            "caballo",
+            "oveja",
+            "cabra",
+            "pato",
+            "ganso",
+            "conejo",
+            "burro"
+        ]
+    },
+    {
+        "name": "Animales Salvajes",
+        "palabras": [
+            "leon",
+            "tigre",
+            "elefante",
+            "jirafa",
+            "mono",
+            "lobo",
+            "oso",
+            "serpiente",
+            "cocodrilo",
+            "hipopotamo"
+        ]
+    },
+    {
+        "name": "Animales Marinos",
+        "palabras": [
+            "ballena",
+            "delfin",
+            "tiburon",
+            "pulpo",
+            "calamar",
+            "medusa",
+            "estrella",
+            "foca",
+            "morsa",
+            "tortuga"
+        ]
+    },
+    {
+        "name": "Aves",
+        "palabras": [
+            "aguila",
+            "paloma",
+            "gorrion",
+            "canario",
+            "loro",
+            "pinguino",
+            "avestruz",
+            "flamenco",
+            "cisne",
+            "halcon"
+        ]
+    },
+    {
+        "name": "Insectos",
+        "palabras": [
+            "hormiga",
+            "abeja",
+            "avispa",
+            "mariposa",
+            "mosquito",
+            "mosca",
+            "libelula",
+            "saltamontes",
+            "grillo",
+            "cucaracha"
+        ]
+    },
+    {
+        "name": "Reptiles y Anfibios",
+        "palabras": [
+            "tortuga",
+            "lagarto",
+            "iguana",
+            "camaleon",
+            "sapo",
+            "rana",
+            "triton",
+            "salamandra",
+            "gecko",
+            "anaconda"
+        ]
+    },
+    {
+        "name": "Animales del Desierto",
+        "palabras": [
+            "camello",
+            "dromedario",
+            "escorpion",
+            "fenec",
+            "suricata",
+            "correcaminos",
+            "cobra",
+            "coyote",
+            "gacela",
+            "buitre"
+        ]
+    },
+    {
+        "name": "Plantas de Jardín",
+        "palabras": [
+            "rosa",
+            "clavel",
+            "geranio",
+            "helecho",
+            "lavanda",
+            "romero",
+            "tomillo",
+            "cesped",
+            "girasol",
+            "tulipan"
+        ]
+    },
+    {
+        "name": "Flores",
+        "palabras": [
+            "margarita",
+            "amapola",
+            "orquidea",
+            "jazmin",
+            "azucena",
+            "dalia",
+            "petunia",
+            "begonia",
+            "lirio",
+            "magnolia"
+        ]
+    },
+    {
+        "name": "Árboles",
+        "palabras": [
+            "pino",
+            "roble",
+            "encina",
+            "castano",
+            "nogal",
+            "cerezo",
+            "manzano",
+            "olivo",
+            "palmera",
+            "sauce"
+        ]
+    },
+    {
+        "name": "Fenómenos Meteorológicos",
+        "palabras": [
+            "lluvia",
+            "nieve",
+            "viento",
+            "sol",
+            "tormenta",
+            "niebla",
+            "granizo",
+            "tornado",
+            "huracan",
+            "arcoiris"
+        ]
+    },
+    {
+        "name": "Gemas y Piedras Preciosas",
+        "palabras": [
+            "diamante",
+            "rubi",
+            "zafiros",
+            "esmeralda",
+            "topacio",
+            "amatista",
+            "opalo",
+            "turquesa",
+            "granate",
+            "jade"
+        ]
+    },
+    {
+        "name": "Tipos de Nubes",
+        "palabras": [
+            "cumulo",
+            "estrato",
+            "cirro",
+            "nimbo",
+            "altoestrato",
+            "cumulonimbo",
+            "cirrostrato",
+            "cirrocumulo",
+            "altocumulo",
+            "niebla"
+        ]
+    },
+    {
+        "name": "Cuerpos de Agua",
+        "palabras": [
+            "oceano",
+            "mar",
+            "lago",
+            "rio",
+            "arroyo",
+            "estanque",
+            "pantano",
+            "glaciar",
+            "bahia",
+            "golfo"
+        ]
+    },
+    {
+        "name": "Desiertos del Mundo",
+        "palabras": [
+            "sahara",
+            "gobi",
+            "atacama",
+            "kalahari",
+            "arabigo",
+            "patagonico",
+            "antartico",
+            "artico",
+            "sonora",
+            "victoria"
+        ]
+    },
+    {
+        "name": "Frutas",
+        "palabras": [
+            "manzana",
+            "platano",
+            "naranja",
+            "fresa",
+            "uva",
+            "sandia",
+            "melon",
+            "pina",
+            "mango",
+            "cereza"
+        ]
+    },
+    {
+        "name": "Frutas Tropicales",
+        "palabras": [
+            "mango",
+            "papaya",
+            "maracuya",
+            "lichi",
+            "carambola",
+            "guayaba",
+            "durian",
+            "rambutan",
+            "pitahaya",
+            "guanabana"
+        ]
+    },
+    {
+        "name": "Verduras y Hortalizas",
+        "palabras": [
+            "zanahoria",
+            "lechuga",
+            "tomate",
+            "pepino",
+            "cebolla",
+            "pimiento",
+            "espinaca",
+            "brocoli",
+            "calabacin",
+            "berenjena"
+        ]
+    },
+    {
+        "name": "Verduras de Hoja Verde",
+        "palabras": [
+            "espinaca",
+            "acelga",
+            "lechuga",
+            "rucula",
+            "berro",
+            "kale",
+            "col",
+            "endivia",
+            "canonigo",
+            "borraja"
+        ]
+    },
+    {
+        "name": "Postres y Dulces",
+        "palabras": [
+            "tarta",
+            "helado",
+            "galleta",
+            "chocolate",
+            "flan",
+            "pastel",
+            "caramelo",
+            "bombom",
+            "churro",
+            "gofre"
+        ]
+    },
+    {
+        "name": "Bebidas",
+        "palabras": [
+            "agua",
+            "leche",
+            "zumo",
+            "refresco",
+            "cafe",
+            "te",
+            "vino",
+            "cerveza",
+            "batido",
+            "limonada"
+        ]
+    },
+    {
+        "name": "Cócteles Clásicos",
+        "palabras": [
+            "mojito",
+            "margarita",
+            "daikiri",
+            "manhattan",
+            "negroni",
+            "pisco",
+            "sour",
+            "gin",
+            "tonic",
+            "caipirinha"
+        ]
+    },
+    {
+        "name": "Quesos",
+        "palabras": [
+            "manchego",
+            "parmesano",
+            "cheddar",
+            "brie",
+            "gouda",
+            "roquefort",
+            "feta",
+            "mozzarella",
+            "camembert",
+            "provolone"
+        ]
+    },
+    {
+        "name": "Especias y Condimentos",
+        "palabras": [
+            "sal",
+            "pimienta",
+            "oregano",
+            "comino",
+            "curry",
+            "pimenton",
+            "canela",
+            "azafran",
+            "laurel",
+            "vainilla"
+        ]
+    },
+    {
+        "name": "Hierbas Aromáticas",
+        "palabras": [
+            "albahaca",
+            "menta",
+            "perejil",
+            "cilantro",
+            "romero",
+            "tomillo",
+            "salvia",
+            "eneldo",
+            "cebollino",
+            "laurel"
+        ]
+    },
+    {
+        "name": "Panes del Mundo",
+        "palabras": [
+            "baguette",
+            "chapata",
+            "pretzel",
+            "naan",
+            "pita",
+            "focaccia",
+            "bagel",
+            "croissant",
+            "brioche",
+            "paneton"
+        ]
+    },
+    {
+        "name": "Pastas Italianas",
+        "palabras": [
+            "espagueti",
+            "penne",
+            "fusilli",
+            "lasana",
+            "canelon",
+            "ravioli",
+            "tortellini",
+            "farfalle",
+            "linguine",
+            "rigatoni"
+        ]
+    },
+    {
+        "name": "Comida Mexicana",
+        "palabras": [
+            "taco",
+            "burrito",
+            "enchilada",
+            "quesadilla",
+            "guacamole",
+            "pozole",
+            "tamal",
+            "mole",
+            "chilaquil",
+            "elote"
+        ]
+    },
+    {
+        "name": "Tipos de Café",
+        "palabras": [
+            "expreso",
+            "americano",
+            "capuchino",
+            "latte",
+            "moca",
+            "macchiato",
+            "ristretto",
+            "irlandes",
+            "frappe",
+            "descafeinado"
+        ]
+    },
+    {
+        "name": "Mariscos",
+        "palabras": [
+            "gamba",
+            "langostino",
+            "mejillon",
+            "almeja",
+            "ostra",
+            "cangrejo",
+            "bogavante",
+            "calamar",
+            "pulpo",
+            "vieira"
+        ]
+    },
+    {
+        "name": "Partes del Cuerpo",
+        "palabras": [
+            "cabeza",
+            "brazo",
+            "pierna",
+            "mano",
+            "pie",
+            "ojo",
+            "nariz",
+            "boca",
+            "oreja",
+            "corazon"
+        ]
+    },
+    {
+        "name": "Huesos del Cuerpo",
+        "palabras": [
+            "femur",
+            "tibia",
+            "perone",
+            "humero",
+            "radio",
+            "cubito",
+            "craneo",
+            "costilla",
+            "vertebra",
+            "clavicula"
+        ]
+    },
+    {
+        "name": "Órganos Internos",
+        "palabras": [
+            "cerebro",
+            "pulmones",
+            "higado",
+            "rinones",
+            "estomago",
+            "pancreas",
+            "bazo",
+            "intestino",
+            "vejiga",
+            "apendice"
+        ]
+    },
+    {
+        "name": "Los Cinco Sentidos",
+        "palabras": [
+            "vista",
+            "oido",
+            "olfato",
+            "gusto",
+            "tacto",
+            "ojo",
+            "nariz",
+            "lengua",
+            "piel",
+            "oreja"
+        ]
+    },
+    {
+        "name": "Ropa de Vestir",
+        "palabras": [
+            "camisa",
+            "pantalon",
+            "falda",
+            "vestido",
+            "chaqueta",
+            "abrigo",
+            "jersey",
+            "camiseta",
+            "zapatos",
+            "calcetines"
+        ]
+    },
+    {
+        "name": "Prendas de Invierno",
+        "palabras": [
+            "abrigo",
+            "bufanda",
+            "guantes",
+            "gorro",
+            "jersey",
+            "chaleco",
+            "orejeras",
+            "anorak",
+            "chubasquero",
+            "botas"
+        ]
+    },
+    {
+        "name": "Accesorios de Moda",
+        "palabras": [
+            "bolso",
+            "cinturon",
+            "gafas",
+            "sombrero",
+            "reloj",
+            "pulsera",
+            "collar",
+            "anillo",
+            "bufanda",
+            "panuelo"
+        ]
+    },
+    {
+        "name": "Tipos de Calzado",
+        "palabras": [
+            "zapatilla",
+            "bota",
+            "sandalia",
+            "mocasin",
+            "tacon",
+            "chancla",
+            "alpargata",
+            "zueco",
+            "nautico",
+            "zapato"
+        ]
+    },
+    {
+        "name": "Deportes",
+        "palabras": [
+            "futbol",
+            "baloncesto",
+            "tenis",
+            "natacion",
+            "atletismo",
+            "ciclismo",
+            "boxeo",
+            "judo",
+            "karate",
+            "golf"
+        ]
+    },
+    {
+        "name": "Términos de Fútbol",
+        "palabras": [
+            "gol",
+            "corner",
+            "penalti",
+            "arbitro",
+            "tarjeta",
+            "fuera",
+            "juego",
+            "delantero",
+            "defensa",
+            "portero"
+        ]
+    },
+    {
+        "name": "Términos de Tenis",
+        "palabras": [
+            "saque",
+            "red",
+            "raqueta",
+            "pelota",
+            "set",
+            "juego",
+            "ventaja",
+            "deuce",
+            "break",
+            "volea"
+        ]
+    },
+    {
+        "name": "Deportes Acuáticos",
+        "palabras": [
+            "natacion",
+            "waterpolo",
+            "surf",
+            "buceo",
+            "vela",
+            "remo",
+            "piraguismo",
+            "kitesurf",
+            "esqui",
+            "windsurf"
+        ]
+    },
+    {
+        "name": "Deportes de Invierno",
+        "palabras": [
+            "esqui",
+            "snowboard",
+            "patinaje",
+            "hockey",
+            "curling",
+            "bobsleigh",
+            "luge",
+            "skeleton",
+            "biatlon",
+            "descenso"
+        ]
+    },
+    {
+        "name": "Hobbies y Aficiones",
+        "palabras": [
+            "leer",
+            "pintar",
+            "cantar",
+            "bailar",
+            "viajar",
+            "cocinar",
+            "jardineria",
+            "pescar",
+            "acampar",
+            "fotografia"
+        ]
+    },
+    {
+        "name": "Juegos Infantiles",
+        "palabras": [
+            "escondite",
+            "rayuela",
+            "comba",
+            "canicas",
+            "trompo",
+            "muneca",
+            "pelota",
+            "columpio",
+            "tobogan",
+            "balancin"
+        ]
+    },
+    {
+        "name": "Juegos de Mesa",
+        "palabras": [
+            "ajedrez",
+            "damas",
+            "parchis",
+            "oca",
+            "monopoly",
+            "trivial",
+            "catan",
+            "risk",
+            "scrabble",
+            "domino"
+        ]
+    },
+    {
+        "name": "Géneros de Videojuegos",
+        "palabras": [
+            "plataforma",
+            "estrategia",
+            "aventura",
+            "disparos",
+            "carreras",
+            "deportes",
+            "simulacion",
+            "rol",
+            "lucha",
+            "sigilo"
+        ]
+    },
+    {
+        "name": "Componentes de un Ordenador",
+        "palabras": [
+            "procesador",
+            "memoria",
+            "ram",
+            "disco",
+            "duro",
+            "placa",
+            "base",
+            "tarjeta",
+            "grafica",
+            "monitor"
+        ]
+    },
+    {
+        "name": "Elementos Químicos",
+        "palabras": [
+            "hidrogeno",
+            "helio",
+            "litio",
+            "carbono",
+            "nitrogeno",
+            "oxigeno",
+            "fluor",
+            "sodio",
+            "magnesio",
+            "aluminio"
+        ]
+    },
+    {
+        "name": "Fenómenos Físicos",
+        "palabras": [
+            "gravedad",
+            "inercia",
+            "friccion",
+            "reflexion",
+            "refraccion",
+            "difraccion",
+            "tension",
+            "presion",
+            "energia",
+            "magnetismo"
+        ]
+    },
+    {
+        "name": "Lenguajes de Programación",
+        "palabras": [
+            "python",
+            "javascript",
+            "java",
+            "ruby",
+            "swift",
+            "kotlin",
+            "rust",
+            "typescript",
+            "php",
+            "csharp"
+        ]
+    },
+    {
+        "name": "Planetas del Sistema Solar",
+        "palabras": [
+            "mercurio",
+            "venus",
+            "tierra",
+            "marte",
+            "jupiter",
+            "saturno",
+            "urano",
+            "neptuno",
+            "pluton",
+            "sol"
+        ]
+    },
+    {
+        "name": "Astronomía",
+        "palabras": [
+            "cometa",
+            "asteroide",
+            "nebulosa",
+            "galaxia",
+            "supernova",
+            "pulsar",
+            "quasar",
+            "planeta",
+            "estrella",
+            "satelite"
+        ]
+    },
+    {
+        "name": "Equipo de Laboratorio",
+        "palabras": [
+            "microscopio",
+            "probeta",
+            "matraz",
+            "pipeta",
+            "mechero",
+            "bunsen",
+            "balanza",
+            "termometro",
+            "tubo",
+            "ensayo"
+        ]
+    },
+    {
+        "name": "Términos de Biología",
+        "palabras": [
+            "celula",
+            "adn",
+            "gen",
+            "proteina",
+            "enzima",
+            "mitosis",
+            "meiosis",
+            "fosil",
+            "ecosistema",
+            "bacteria"
+        ]
+    },
+    {
+        "name": "Unidades de Medida",
+        "palabras": [
+            "metro",
+            "litro",
+            "gramo",
+            "segundo",
+            "amperio",
+            "kelvin",
+            "mol",
+            "candela",
+            "voltio",
+            "vatio"
+        ]
+    },
+    {
+        "name": "Instrumentos Musicales",
+        "palabras": [
+            "guitarra",
+            "piano",
+            "violin",
+            "bateria",
+            "flauta",
+            "trompeta",
+            "saxofon",
+            "clarinete",
+            "bajo",
+            "arpa"
+        ]
+    },
+    {
+        "name": "Instrumentos de Cuerda",
+        "palabras": [
+            "violin",
+            "viola",
+            "violonchelo",
+            "contrabajo",
+            "guitarra",
+            "arpa",
+            "laud",
+            "ukelele",
+            "bajo",
+            "mandolina"
+        ]
+    },
+    {
+        "name": "Instrumentos de Viento",
+        "palabras": [
+            "flauta",
+            "clarinete",
+            "oboe",
+            "fagot",
+            "trompeta",
+            "trombon",
+            "tuba",
+            "saxofon",
+            "corneta",
+            "armonica"
+        ]
+    },
+    {
+        "name": "Instrumentos de Percusión",
+        "palabras": [
+            "tambor",
+            "bombo",
+            "platillo",
+            "xilofono",
+            "timbal",
+            "triangulo",
+            "pandereta",
+            "maracas",
+            "congas",
+            "bateria"
+        ]
+    },
+    {
+        "name": "Géneros Musicales",
+        "palabras": [
+            "rock",
+            "pop",
+            "jazz",
+            "clasica",
+            "flamenco",
+            "salsa",
+            "reggae",
+            "electronica",
+            "hiphop",
+            "metal"
+        ]
+    },
+    {
+        "name": "Géneros de Películas",
+        "palabras": [
+            "comedia",
+            "drama",
+            "accion",
+            "terror",
+            "ciencia",
+            "ficcion",
+            "aventura",
+            "fantasia",
+            "musical",
+            "documental"
+        ]
+    },
+    {
+        "name": "Estilos Arquitectónicos",
+        "palabras": [
+            "gotico",
+            "barroco",
+            "romanico",
+            "renacimiento",
+            "neoclasico",
+            "moderno",
+            "art",
+            "deco",
+            "bauhaus",
+            "brutalismo"
+        ]
+    },
+    {
+        "name": "Pintores Famosos",
+        "palabras": [
+            "picasso",
+            "dali",
+            "velazquez",
+            "goya",
+            "monet",
+            "rembrandt",
+            "vangogh",
+            "davinci",
+            "miguelangel",
+            "rivera"
+        ]
+    },
+    {
+        "name": "Danzas del Mundo",
+        "palabras": [
+            "tango",
+            "salsa",
+            "flamenco",
+            "ballet",
+            "samba",
+            "cumbia",
+            "vals",
+            "bachata",
+            "merengue",
+            "mambo"
+        ]
+    },
+    {
+        "name": "Materiales de Arte",
+        "palabras": [
+            "lienzo",
+            "pincel",
+            "oleo",
+            "acuarela",
+            "carboncillo",
+            "pastel",
+            "acrilico",
+            "espatula",
+            "caballete",
+            "paleta"
+        ]
+    },
+    {
+        "name": "Continentes",
+        "palabras": [
+            "asia",
+            "africa",
+            "europa",
+            "america",
+            "oceania",
+            "antartida",
+            "norte",
+            "sur",
+            "central",
+            "insular"
+        ]
+    },
+    {
+        "name": "Capitales de Europa",
+        "palabras": [
+            "madrid",
+            "paris",
+            "roma",
+            "berlin",
+            "lisboa",
+            "londres",
+            "atenas",
+            "moscu",
+            "dublin",
+            "oslo"
+        ]
+    },
+    {
+        "name": "Países de Sudamérica",
+        "palabras": [
+            "argentina",
+            "brasil",
+            "chile",
+            "colombia",
+            "peru",
+            "venezuela",
+            "ecuador",
+            "bolivia",
+            "uruguay",
+            "paraguay"
+        ]
+    },
+    {
+        "name": "Ríos de Europa",
+        "palabras": [
+            "danubio",
+            "volga",
+            "rin",
+            "sena",
+            "tamesis",
+            "loira",
+            "ebro",
+            "tajo",
+            "duero",
+            "garona"
+        ]
+    },
+    {
+        "name": "Capitales Asiáticas",
+        "palabras": [
+            "tokio",
+            "pekin",
+            "seul",
+            "bangkok",
+            "delhi",
+            "singapur",
+            "manila",
+            "yakarta",
+            "hanoi",
+            "kuala"
+        ]
+    },
+    {
+        "name": "Imperios Antiguos",
+        "palabras": [
+            "romano",
+            "persa",
+            "egipcio",
+            "otomano",
+            "bizantino",
+            "inca",
+            "azteca",
+            "mongol",
+            "macedonio",
+            "babilonio"
+        ]
+    },
+    {
+        "name": "La Antigua Roma",
+        "palabras": [
+            "cesar",
+            "senado",
+            "legion",
+            "gladiador",
+            "coliseo",
+            "acueducto",
+            "foro",
+            "imperio",
+            "republica",
+            "patricio"
+        ]
+    },
+    {
+        "name": "Mitología Griega",
+        "palabras": [
+            "zeus",
+            "hera",
+            "poseidon",
+            "hades",
+            "apolo",
+            "artemisa",
+            "hermes",
+            "atenea",
+            "ares",
+            "afrodita"
+        ]
+    },
+    {
+        "name": "Siete Maravillas del Mundo Antiguo",
+        "palabras": [
+            "piramide",
+            "jardines",
+            "templo",
+            "estatua",
+            "mausoleo",
+            "coloso",
+            "faro",
+            "babilonia",
+            "olimpia",
+            "halicarnaso"
+        ]
+    },
+    {
+        "name": "En la Ciudad",
+        "palabras": [
+            "calle",
+            "plaza",
+            "edificio",
+            "semaforo",
+            "parque",
+            "tienda",
+            "museo",
+            "cine",
+            "teatro",
+            "puente"
+        ]
+    },
+    {
+        "name": "En un Supermercado",
+        "palabras": [
+            "carrito",
+            "cesta",
+            "caja",
+            "pasillo",
+            "estante",
+            "producto",
+            "oferta",
+            "cliente",
+            "cajero",
+            "bolsa"
+        ]
+    },
+    {
+        "name": "En un Aeropuerto",
+        "palabras": [
+            "avion",
+            "terminal",
+            "pista",
+            "embarque",
+            "facturar",
+            "pasaporte",
+            "maleta",
+            "aduana",
+            "vuelo",
+            "piloto"
+        ]
+    },
+    {
+        "name": "Partes de un Coche",
+        "palabras": [
+            "motor",
+            "rueda",
+            "volante",
+            "freno",
+            "asiento",
+            "puerta",
+            "ventana",
+            "maletero",
+            "parabrisas",
+            "capo"
+        ]
+    },
+    {
+        "name": "Vehículos de Construcción",
+        "palabras": [
+            "excavadora",
+            "grua",
+            "hormigonera",
+            "volquete",
+            "apisonadora",
+            "tractor",
+            "pala",
+            "cargadora",
+            "bulldozer",
+            "motoniveladora"
+        ]
+    },
+    {
+        "name": "Colores",
+        "palabras": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo",
+            "blanco",
+            "negro",
+            "naranja",
+            "morado",
+            "rosa",
+            "marron"
+        ]
+    },
+    {
+        "name": "Figuras Geométricas",
+        "palabras": [
+            "circulo",
+            "cuadrado",
+            "triangulo",
+            "rectangulo",
+            "rombo",
+            "hexagono",
+            "pentagono",
+            "trapecio",
+            "ovalo",
+            "cubo"
+        ]
+    },
+    {
+        "name": "Profesiones",
+        "palabras": [
+            "medico",
+            "maestro",
+            "bombero",
+            "policia",
+            "carpintero",
+            "fontanero",
+            "electricista",
+            "cocinero",
+            "abogado",
+            "ingeniero"
+        ]
+    },
+    {
+        "name": "Objetos de Oficina",
+        "palabras": [
+            "boligrafo",
+            "lapiz",
+            "papel",
+            "grapadora",
+            "ordenador",
+            "teclado",
+            "raton",
+            "monitor",
+            "impresora",
+            "agenda"
+        ]
+    },
+    {
+        "name": "Material Escolar",
+        "palabras": [
+            "cuaderno",
+            "libro",
+            "estuche",
+            "mochila",
+            "goma",
+            "sacapuntas",
+            "regla",
+            "tijeras",
+            "pegamento",
+            "pinturas"
+        ]
+    },
+    {
+        "name": "Medios de Transporte",
+        "palabras": [
+            "coche",
+            "autobus",
+            "tren",
+            "avion",
+            "barco",
+            "bicicleta",
+            "motocicleta",
+            "metro",
+            "tranvia",
+            "helicoptero"
+        ]
+    },
+    {
+        "name": "Miembros de la Familia",
+        "palabras": [
+            "padre",
+            "madre",
+            "hijo",
+            "hija",
+            "abuelo",
+            "abuela",
+            "tio",
+            "tia",
+            "primo",
+            "hermano"
+        ]
+    },
+    {
+        "name": "Emociones y Sentimientos",
+        "palabras": [
+            "alegria",
+            "tristeza",
+            "enfado",
+            "miedo",
+            "sorpresa",
+            "amor",
+            "odio",
+            "envidia",
+            "celos",
+            "verguenza"
+        ]
+    },
+    {
+        "name": "Virtudes",
+        "palabras": [
+            "honestidad",
+            "valentia",
+            "paciencia",
+            "generosidad",
+            "humildad",
+            "gratitud",
+            "perdon",
+            "lealtad",
+            "respeto",
+            "justicia"
+        ]
+    },
+    {
+        "name": "Superhéroes",
+        "palabras": [
+            "superman",
+            "batman",
+            "spiderman",
+            "ironman",
+            "hulk",
+            "thor",
+            "capitan",
+            "america",
+            "flash",
+            "linterna"
+        ]
+    },
+    {
+        "name": "Criaturas Míticas",
+        "palabras": [
+            "dragon",
+            "unicornio",
+            "grifo",
+            "centauro",
+            "minotauro",
+            "sirena",
+            "pegaso",
+            "fenix",
+            "medusa",
+            "ciclope"
+        ]
+    },
+    {
+        "name": "Razas de El Señor de los Anillos",
+        "palabras": [
+            "hobbit",
+            "elfo",
+            "enano",
+            "orco",
+            "humano",
+            "ent",
+            "mago",
+            "balrog",
+            "nazgul",
+            "uruk"
+        ]
+    },
+    {
+        "name": "Casas de Hogwarts",
+        "palabras": [
+            "gryffindor",
+            "hufflepuff",
+            "ravenclaw",
+            "slytherin",
+            "hogwarts",
+            "magia",
+            "hechiceria",
+            "quidditch",
+            "lechuza",
+            "varita"
+        ]
+    },
+    {
+        "name": "Términos de Star Wars",
+        "palabras": [
+            "jedi",
+            "sith",
+            "sable",
+            "luz",
+            "fuerza",
+            "estrella",
+            "muerte",
+            "droide",
+            "halcon",
+            "milenario"
+        ]
+    },
+    {
+        "name": "Personajes de Mario Bros",
+        "palabras": [
+            "mario",
+            "luigi",
+            "peach",
+            "bowser",
+            "toad",
+            "yoshi",
+            "donkey",
+            "wario",
+            "waluigi",
+            "goomba"
+        ]
+    },
+    {
+        "name": "Pokémon Legendarios (Gen 1)",
+        "palabras": [
+            "articuno",
+            "zapdos",
+            "moltres",
+            "mewtwo",
+            "mew",
+            "legendario",
+            "psiquico",
+            "electrico",
+            "hielo",
+            "fuego"
+        ]
+    },
+    {
+        "name": "Fobias Comunes",
+        "palabras": [
+            "acrofobia",
+            "claustrofobia",
+            "aracnofobia",
+            "agorafobia",
+            "astrafobia",
+            "cinofobia",
+            "misofobia",
+            "ofidiofobia",
+            "tripofobia",
+            "nictofobia"
+        ]
+    },
+    {
+        "name": "Razas de Perros",
+        "palabras": [
+            "labrador",
+            "bulldog",
+            "pastor",
+            "aleman",
+            "golden",
+            "retriever",
+            "caniche",
+            "beagle",
+            "rottweiler",
+            "chihuahua"
+        ]
+    },
+    {
+        "name": "Dinosaurios",
+        "palabras": [
+            "tiranosaurio",
+            "velociraptor",
+            "triceratops",
+            "estegosaurio",
+            "brontosaurio",
+            "pterodactilo",
+            "anquilosaurio",
+            "diplodocus",
+            "espinosaurio",
+            "iguanodon"
+        ]
+    },
+    {
+        "name": "Constelaciones Zodiacales",
+        "palabras": [
+            "aries",
+            "tauro",
+            "geminis",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "escorpio",
+            "sagitario",
+            "piscis"
+        ]
+    },
+    {
+        "name": "Especialidades Médicas",
+        "palabras": [
+            "cardiologia",
+            "dermatologia",
+            "pediatria",
+            "neurologia",
+            "oncologia",
+            "traumatologia",
+            "ginecologia",
+            "oftalmologia",
+            "urologia",
+            "psiquiatria"
+        ]
+    },
+    {
+        "name": "Partes de una Flor",
+        "palabras": [
+            "petalo",
+            "sepalo",
+            "estambre",
+            "pistilo",
+            "ovario",
+            "antera",
+            "filamento",
+            "estigma",
+            "estilo",
+            "caliz"
+        ]
+    },
+    {
+        "name": "Rocas y Minerales",
+        "palabras": [
+            "granito",
+            "marmol",
+            "pizarra",
+            "cuarzo",
+            "pirita",
+            "obsidiana",
+            "arenisca",
+            "caliza",
+            "basalto",
+            "feldespato"
+        ]
+    },
+    {
+        "name": "Huesos del Cráneo",
+        "palabras": [
+            "frontal",
+            "parietal",
+            "temporal",
+            "occipital",
+            "esfenoides",
+            "etmoides",
+            "maxilar",
+            "mandibula",
+            "nasal",
+            "cigomatico"
+        ]
+    },
+    {
+        "name": "Términos de Piratas",
+        "palabras": [
+            "abordaje",
+            "tesoro",
+            "garfio",
+            "parche",
+            "galeon",
+            "botin",
+            "bucanero",
+            "corsario",
+            "grumete",
+            "bandera"
+        ]
+    },
+    {
+        "name": "Piezas de Ajedrez",
+        "palabras": [
+            "rey",
+            "reina",
+            "torre",
+            "alfil",
+            "caballo",
+            "peon",
+            "jaque",
+            "mate",
+            "enroque",
+            "tablero"
+        ]
+    },
+    {
+        "name": "Cocina Japonesa",
+        "palabras": [
+            "sushi",
+            "ramen",
+            "tempura",
+            "sashimi",
+            "teriyaki",
+            "miso",
+            "wasabi",
+            "edamame",
+            "nigiri",
+            "onigiri"
+        ]
+    },
+    {
+        "name": "Géneros Literarios",
+        "palabras": [
+            "novela",
+            "poesia",
+            "ensayo",
+            "cuento",
+            "fabula",
+            "drama",
+            "epica",
+            "lirica",
+            "biografia",
+            "cronica"
+        ]
+    },
+    {
+        "name": "Roles en Cine",
+        "palabras": [
+            "director",
+            "productor",
+            "guionista",
+            "actor",
+            "editor",
+            "compositor",
+            "fotografo",
+            "sonidista",
+            "vestuarista",
+            "doble"
+        ]
+    },
+    {
+        "name": "Ingredientes de Repostería",
+        "palabras": [
+            "harina",
+            "azucar",
+            "huevo",
+            "mantequilla",
+            "levadura",
+            "esencia",
+            "vainilla",
+            "cacao",
+            "nata",
+            "merengue"
+        ]
+    },
+    {
+        "name": "Artes Marciales",
+        "palabras": [
+            "karate",
+            "judo",
+            "taekwondo",
+            "kungfu",
+            "aikido",
+            "jiujitsu",
+            "kravmaga",
+            "muaythai",
+            "capoeira",
+            "sumo"
+        ]
+    },
+    {
+        "name": "Términos de Fotografía",
+        "palabras": [
+            "diafragma",
+            "obturador",
+            "enfoque",
+            "exposicion",
+            "objetivo",
+            "sensor",
+            "tripode",
+            "balance",
+            "blancos",
+            "zoom"
+        ]
+    },
+    {
+        "name": "Monedas del Mundo",
+        "palabras": [
+            "dolar",
+            "euro",
+            "yen",
+            "libra",
+            "franco",
+            "rupia",
+            "rublo",
+            "peso",
+            "yuan",
+            "won"
+        ]
+    },
+    {
+        "name": "Capitales de Sudamérica",
+        "palabras": [
+            "bogota",
+            "brasilia",
+            "caracas",
+            "santiago",
+            "buenos",
+            "aires",
+            "montevideo",
+            "asuncion",
+            "lima",
+            "quito"
+        ]
+    },
+    {
+        "name": "Términos de Arquitectura",
+        "palabras": [
+            "columna",
+            "arco",
+            "cupula",
+            "cornisa",
+            "fuste",
+            "capitel",
+            "boveda",
+            "dintel",
+            "absida",
+            "fronton"
+        ]
+    },
+    {
+        "name": "Instrumentos de Navegación",
+        "palabras": [
+            "brujula",
+            "sextante",
+            "astrolabio",
+            "compas",
+            "mapa",
+            "carta",
+            "nautica",
+            "radar",
+            "sonar",
+            "gps"
+        ]
+    },
+    {
+        "name": "Formas de Gobierno",
+        "palabras": [
+            "democracia",
+            "monarquia",
+            "republica",
+            "dictadura",
+            "teocracia",
+            "oligarquia",
+            "anarquia",
+            "comunismo",
+            "socialismo",
+            "federacion"
+        ]
+    },
+    {
+        "name": "Organizaciones Mundiales",
+        "palabras": [
+            "onu",
+            "unesco",
+            "unicef",
+            "oms",
+            "otan",
+            "banco",
+            "mundial",
+            "fmi",
+            "cruz",
+            "roja"
+        ]
+    },
+    {
+        "name": "Términos de Ciberseguridad",
+        "palabras": [
+            "firewall",
+            "malware",
+            "phishing",
+            "antivirus",
+            "encriptado",
+            "contrasena",
+            "troyano",
+            "hacker",
+            "spyware",
+            "ransomware"
+        ]
+    },
+    {
+        "name": "Redes Sociales",
+        "palabras": [
+            "facebook",
+            "instagram",
+            "twitter",
+            "tiktok",
+            "linkedin",
+            "pinterest",
+            "snapchat",
+            "reddit",
+            "whatsapp",
+            "telegram"
+        ]
+    },
+    {
+        "name": "Dioses Nórdicos",
+        "palabras": [
+            "odin",
+            "thor",
+            "loki",
+            "freya",
+            "frigg",
+            "heimdall",
+            "tyr",
+            "balder",
+            "valhalla",
+            "asgard"
+        ]
+    },
+    {
+        "name": "Imperios de Star Wars",
+        "palabras": [
+            "republica",
+            "imperio",
+            "alianza",
+            "rebelde",
+            "separatista",
+            "sith",
+            "jedi",
+            "orden",
+            "resistencia",
+            "primera"
+        ]
+    },
+    {
+        "name": "Objetos Mágicos de Fantasía",
+        "palabras": [
+            "varita",
+            "anillo",
+            "espada",
+            "caldero",
+            "pocion",
+            "amuleto",
+            "talisman",
+            "orbe",
+            "baculo",
+            "grimorio"
+        ]
+    },
+    {
+        "name": "Figuras Retóricas",
+        "palabras": [
+            "metafora",
+            "simil",
+            "hiperbole",
+            "personificacion",
+            "ironia",
+            "paradoja",
+            "anafora",
+            "aliteracion",
+            "onomatopeya",
+            "antitesis"
+        ]
+    },
+    {
+        "name": "Nombres Colectivos",
+        "palabras": [
+            "rebano",
+            "jauria",
+            "cardumen",
+            "bandada",
+            "manada",
+            "enjambre",
+            "piara",
+            "colonia",
+            "ejercito",
+            "flota"
+        ]
+    },
+    {
+        "name": "Técnicas de Estudio",
+        "palabras": [
+            "resumen",
+            "esquema",
+            "subrayado",
+            "mnemotecnia",
+            "mapa",
+            "mental",
+            "fichas",
+            "repaso",
+            "pomodoro",
+            "lectura"
+        ]
+    },
+    {
+        "name": "Fobias Comunes",
+        "palabras": [
+            "acrofobia",
+            "claustrofobia",
+            "aracnofobia",
+            "agorafobia",
+            "astrafobia",
+            "cinofobia",
+            "misofobia",
+            "ofidiofobia",
+            "tripofobia",
+            "nictofobia"
+        ]
+    },
+    {
+        "name": "Razas de Perros",
+        "palabras": [
+            "labrador",
+            "bulldog",
+            "pastor",
+            "aleman",
+            "golden",
+            "retriever",
+            "caniche",
+            "beagle",
+            "rottweiler",
+            "chihuahua"
+        ]
+    },
+    {
+        "name": "Dinosaurios",
+        "palabras": [
+            "tiranosaurio",
+            "velociraptor",
+            "triceratops",
+            "estegosaurio",
+            "brontosaurio",
+            "pterodactilo",
+            "anquilosaurio",
+            "diplodocus",
+            "espinosaurio",
+            "iguanodon"
+        ]
+    },
+    {
+        "name": "Constelaciones Zodiacales",
+        "palabras": [
+            "aries",
+            "tauro",
+            "geminis",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "escorpio",
+            "sagitario",
+            "piscis"
+        ]
+    },
+    {
+        "name": "Especialidades Médicas",
+        "palabras": [
+            "cardiologia",
+            "dermatologia",
+            "pediatria",
+            "neurologia",
+            "oncologia",
+            "traumatologia",
+            "ginecologia",
+            "oftalmologia",
+            "urologia",
+            "psiquiatria"
+        ]
+    },
+    {
+        "name": "Partes de una Flor",
+        "palabras": [
+            "petalo",
+            "sepalo",
+            "estambre",
+            "pistilo",
+            "ovario",
+            "antera",
+            "filamento",
+            "estigma",
+            "estilo",
+            "caliz"
+        ]
+    },
+    {
+        "name": "Rocas y Minerales",
+        "palabras": [
+            "granito",
+            "marmol",
+            "pizarra",
+            "cuarzo",
+            "pirita",
+            "obsidiana",
+            "arenisca",
+            "caliza",
+            "basalto",
+            "feldespato"
+        ]
+    },
+    {
+        "name": "Huesos del Cráneo",
+        "palabras": [
+            "frontal",
+            "parietal",
+            "temporal",
+            "occipital",
+            "esfenoides",
+            "etmoides",
+            "maxilar",
+            "mandibula",
+            "nasal",
+            "cigomatico"
+        ]
+    },
+    {
+        "name": "Fenómenos Geológicos",
+        "palabras": [
+            "terremoto",
+            "volcan",
+            "geiser",
+            "falla",
+            "erosion",
+            "sedimento",
+            "magma",
+            "fosa",
+            "dorsal",
+            "tectonica"
+        ]
+    },
+    {
+        "name": "Términos de Piratas",
+        "palabras": [
+            "abordaje",
+            "tesoro",
+            "garfio",
+            "parche",
+            "galeon",
+            "botin",
+            "bucanero",
+            "corsario",
+            "grumete",
+            "bandera"
+        ]
+    },
+    {
+        "name": "Piezas de Ajedrez",
+        "palabras": [
+            "rey",
+            "reina",
+            "torre",
+            "alfil",
+            "caballo",
+            "peon",
+            "jaque",
+            "mate",
+            "enroque",
+            "tablero"
+        ]
+    },
+    {
+        "name": "Cocina Japonesa",
+        "palabras": [
+            "sushi",
+            "ramen",
+            "tempura",
+            "sashimi",
+            "teriyaki",
+            "miso",
+            "wasabi",
+            "edamame",
+            "nigiri",
+            "onigiri"
+        ]
+    },
+    {
+        "name": "Géneros Literarios",
+        "palabras": [
+            "novela",
+            "poesia",
+            "ensayo",
+            "cuento",
+            "fabula",
+            "drama",
+            "epica",
+            "lirica",
+            "biografia",
+            "cronica"
+        ]
+    },
+    {
+        "name": "Roles en Cine",
+        "palabras": [
+            "director",
+            "productor",
+            "guionista",
+            "actor",
+            "editor",
+            "compositor",
+            "fotografo",
+            "sonidista",
+            "vestuarista",
+            "doble"
+        ]
+    },
+    {
+        "name": "Ingredientes de Repostería",
+        "palabras": [
+            "harina",
+            "azucar",
+            "huevo",
+            "mantequilla",
+            "levadura",
+            "esencia",
+            "vainilla",
+            "cacao",
+            "nata",
+            "merengue"
+        ]
+    },
+    {
+        "name": "Artes Marciales",
+        "palabras": [
+            "karate",
+            "judo",
+            "taekwondo",
+            "kungfu",
+            "aikido",
+            "jiujitsu",
+            "kravmaga",
+            "muaythai",
+            "capoeira",
+            "sumo"
+        ]
+    },
+    {
+        "name": "Términos de Fotografía",
+        "palabras": [
+            "diafragma",
+            "obturador",
+            "enfoque",
+            "exposicion",
+            "objetivo",
+            "sensor",
+            "tripode",
+            "balance",
+            "blancos",
+            "zoom"
+        ]
+    },
+    {
+        "name": "Términos de Teatro",
+        "palabras": [
+            "escenario",
+            "telon",
+            "butaca",
+            "actor",
+            "guion",
+            "director",
+            "acto",
+            "escena",
+            "camerino",
+            "aplauso"
+        ]
+    },
+    {
+        "name": "Herramientas de Carpintería",
+        "palabras": [
+            "serrucho",
+            "formon",
+            "gubia",
+            "cepillo",
+            "escuadra",
+            "compas",
+            "tornillo",
+            "lijadora",
+            "berbiqui",
+            "garlopa"
+        ]
+    },
+    {
+        "name": "Cocina Italiana",
+        "palabras": [
+            "risotto",
+            "polenta",
+            "ossobuco",
+            "carpaccio",
+            "pesto",
+            "gnocchi",
+            "tiramisu",
+            "panna",
+            "cotta",
+            "bruschetta"
+        ]
+    },
+    {
+        "name": "Monedas del Mundo",
+        "palabras": [
+            "dolar",
+            "euro",
+            "yen",
+            "libra",
+            "franco",
+            "rupia",
+            "rublo",
+            "peso",
+            "yuan",
+            "won"
+        ]
+    },
+    {
+        "name": "Capitales de Sudamérica",
+        "palabras": [
+            "bogota",
+            "brasilia",
+            "caracas",
+            "santiago",
+            "buenos",
+            "aires",
+            "montevideo",
+            "asuncion",
+            "lima",
+            "quito"
+        ]
+    },
+    {
+        "name": "Términos de Arquitectura",
+        "palabras": [
+            "columna",
+            "arco",
+            "cupula",
+            "cornisa",
+            "fuste",
+            "capitel",
+            "boveda",
+            "dintel",
+            "absida",
+            "fronton"
+        ]
+    },
+    {
+        "name": "Instrumentos de Navegación",
+        "palabras": [
+            "brujula",
+            "sextante",
+            "astrolabio",
+            "compas",
+            "mapa",
+            "carta",
+            "nautica",
+            "radar",
+            "sonar",
+            "gps"
+        ]
+    },
+    {
+        "name": "Formas de Gobierno",
+        "palabras": [
+            "democracia",
+            "monarquia",
+            "republica",
+            "dictadura",
+            "teocracia",
+            "oligarquia",
+            "anarquia",
+            "comunismo",
+            "socialismo",
+            "federacion"
+        ]
+    },
+    {
+        "name": "Organizaciones Mundiales",
+        "palabras": [
+            "onu",
+            "unesco",
+            "unicef",
+            "oms",
+            "otan",
+            "banco",
+            "mundial",
+            "fmi",
+            "cruz",
+            "roja"
+        ]
+    },
+    {
+        "name": "Términos Náuticos",
+        "palabras": [
+            "babor",
+            "estribor",
+            "proa",
+            "popa",
+            "ancla",
+            "timon",
+            "vela",
+            "mastil",
+            "cubierta",
+            "camarote"
+        ]
+    },
+    {
+        "name": "Capitales Africanas",
+        "palabras": [
+            "cairo",
+            "nairobi",
+            "lagos",
+            "kinsasa",
+            "adis",
+            "abeba",
+            "luanda",
+            "dakar",
+            "rabat",
+            "argel"
+        ]
+    },
+    {
+        "name": "Términos Legales",
+        "palabras": [
+            "demanda",
+            "sentencia",
+            "abogado",
+            "fiscal",
+            "juez",
+            "jurado",
+            "apelacion",
+            "veredicto",
+            "testigo",
+            "evidencia"
+        ]
+    },
+    {
+        "name": "Términos de Ciberseguridad",
+        "palabras": [
+            "firewall",
+            "malware",
+            "phishing",
+            "antivirus",
+            "encriptado",
+            "contrasena",
+            "troyano",
+            "hacker",
+            "spyware",
+            "ransomware"
+        ]
+    },
+    {
+        "name": "Redes Sociales",
+        "palabras": [
+            "facebook",
+            "instagram",
+            "twitter",
+            "tiktok",
+            "linkedin",
+            "pinterest",
+            "snapchat",
+            "reddit",
+            "whatsapp",
+            "telegram"
+        ]
+    },
+    {
+        "name": "Dioses Nórdicos",
+        "palabras": [
+            "odin",
+            "thor",
+            "loki",
+            "freya",
+            "frigg",
+            "heimdall",
+            "tyr",
+            "balder",
+            "valhalla",
+            "asgard"
+        ]
+    },
+    {
+        "name": "Mitología Romana",
+        "palabras": [
+            "jupiter",
+            "juno",
+            "neptuno",
+            "marte",
+            "venus",
+            "apolo",
+            "diana",
+            "minerva",
+            "vulcano",
+            "mercurio"
+        ]
+    },
+    {
+        "name": "Objetos Mágicos de Fantasía",
+        "palabras": [
+            "varita",
+            "anillo",
+            "espada",
+            "caldero",
+            "pocion",
+            "amuleto",
+            "talisman",
+            "orbe",
+            "baculo",
+            "grimorio"
+        ]
+    },
+    {
+        "name": "Clases de Dragones y Mazmorras",
+        "palabras": [
+            "bardo",
+            "clerigo",
+            "druida",
+            "guerrero",
+            "monje",
+            "paladin",
+            "explorador",
+            "picaro",
+            "hechicero",
+            "mago"
+        ]
+    },
+    {
+        "name": "Figuras Retóricas",
+        "palabras": [
+            "metafora",
+            "simil",
+            "hiperbole",
+            "personificacion",
+            "ironia",
+            "paradoja",
+            "anafora",
+            "aliteracion",
+            "onomatopeya",
+            "antitesis"
+        ]
+    },
+    {
+        "name": "Nombres Colectivos",
+        "palabras": [
+            "rebano",
+            "jauria",
+            "cardumen",
+            "bandada",
+            "manada",
+            "enjambre",
+            "piara",
+            "colonia",
+            "ejercito",
+            "flota"
+        ]
+    },
+    {
+        "name": "Técnicas de Estudio",
+        "palabras": [
+            "resumen",
+            "esquema",
+            "subrayado",
+            "mnemotecnia",
+            "mapa",
+            "mental",
+            "fichas",
+            "repaso",
+            "pomodoro",
+            "lectura"
+        ]
+    },
+    {
+        "name": "Términos de Poesía",
+        "palabras": [
+            "verso",
+            "estrofa",
+            "rima",
+            "metrica",
+            "poema",
+            "soneto",
+            "oda",
+            "elegia",
+            "egloga",
+            "sinalefa"
+        ]
+    },
+    {
+        "name": "En el Gimnasio",
+        "palabras": [
+            "mancuerna",
+            "cinta",
+            "eliptica",
+            "pesa",
+            "barra",
+            "abdominal",
+            "sentadilla",
+            "flexiones",
+            "estirar",
+            "cardio"
+        ]
+    },
+    {
+        "name": "Partes de un Avión",
+        "palabras": [
+            "fuselaje",
+            "ala",
+            "cabina",
+            "motor",
+            "timon",
+            "alerones",
+            "flaps",
+            "tren",
+            "aterrizaje",
+            "helice"
+        ]
+    },
+    {
+        "name": "Movimientos Artísticos",
+        "palabras": [
+            "cubismo",
+            "surrealismo",
+            "impresionismo",
+            "expresionismo",
+            "renacimiento",
+            "barroco",
+            "romanticismo",
+            "dadaismo",
+            "futurismo",
+            "popart"
+        ]
+    },
+    {
+        "name": "Animales Australianos",
+        "palabras": [
+            "canguro",
+            "koala",
+            "wombat",
+            "ornitorrinco",
+            "equidna",
+            "demonio",
+            "tasmania",
+            "dingo",
+            "emu",
+            "cucaburra"
+        ]
+    },
+    {
+        "name": "Bailes de Salón",
+        "palabras": [
+            "vals",
+            "tango",
+            "foxtrot",
+            "chachacha",
+            "rumba",
+            "pasodoble",
+            "quickstep",
+            "jive",
+            "samba",
+            "bolero"
+        ]
+    },
+    {
+        "name": "Huesos de la Mano",
+        "palabras": [
+            "falange",
+            "metacarpo",
+            "carpo",
+            "escafoides",
+            "semilunar",
+            "piramidal",
+            "pisiforme",
+            "trapecio",
+            "trapezoide",
+            "ganchoso"
+        ]
+    },
+    {
+        "name": "Razas de Gatos",
+        "palabras": [
+            "siames",
+            "persa",
+            "bengala",
+            "esfinge",
+            "ragdoll",
+            "siberiano",
+            "birmano",
+            "abisinio",
+            "oriental",
+            "maine"
+        ]
+    },
+    {
+        "name": "Tipos de Té",
+        "palabras": [
+            "negro",
+            "verde",
+            "blanco",
+            "oolong",
+            "matcha",
+            "chai",
+            "rojo",
+            "manzanilla",
+            "menta",
+            "jengibre"
+        ]
+    },
+    {
+        "name": "Movimientos de Danza Clásica",
+        "palabras": [
+            "plie",
+            "tendu",
+            "releve",
+            "glissade",
+            "jete",
+            "pirouette",
+            "fouetté",
+            "adagio",
+            "allegro",
+            "arabesque"
+        ]
+    },
+    {
+        "name": "Vientos del Mundo",
+        "palabras": [
+            "siroco",
+            "mistral",
+            "monzon",
+            "tramontana",
+            "chinook",
+            "foehn",
+            "bora",
+            "levante",
+            "poniente",
+            "zonda"
+        ]
+    },
+    {
+        "name": "Mitología Egipcia",
+        "palabras": [
+            "anubis",
+            "ra",
+            "horus",
+            "isis",
+            "osiris",
+            "seth",
+            "thot",
+            "hathor",
+            "sekhmet",
+            "bastet"
+        ]
+    },
+    {
+        "name": "Inventores Famosos",
+        "palabras": [
+            "edison",
+            "tesla",
+            "davinci",
+            "gutenberg",
+            "bell",
+            "watt",
+            "franklin",
+            "wright",
+            "ford",
+            "nobel"
+        ]
+    },
+    {
+        "name": "Partes de un Barco de Vela",
+        "palabras": [
+            "mastil",
+            "botavara",
+            "orza",
+            "quilla",
+            "casco",
+            "driza",
+            "escota",
+            " obenque",
+            "estay",
+            "genova"
+        ]
+    },
+    {
+        "name": "Términos de Economía",
+        "palabras": [
+            "inflacion",
+            "deflacion",
+            "superavit",
+            "deficit",
+            "arancel",
+            "divisa",
+            "exportar",
+            "importar",
+            "macroeconomia",
+            "microeconomia"
+        ]
+    },
+    {
+        "name": "En una Orquesta Sinfónica",
+        "palabras": [
+            "director",
+            "concertino",
+            "partitura",
+            "atril",
+            "batuta",
+            "podio",
+            "foso",
+            "solista",
+            "sinfonia",
+            "obertura"
+        ]
+    },
+    {
+        "name": "Setas y Hongos Comestibles",
+        "palabras": [
+            "champiñon",
+            "portobello",
+            "niscalo",
+            "boletus",
+            "trufa",
+            "amanita",
+            "rebozuelo",
+            "colmenilla",
+            "shitake",
+            "maitake"
+        ]
+    },
+    {
+        "name": "Tipos de Sombreros",
+        "palabras": [
+            "bombin",
+            "fedora",
+            "pamela",
+            "chistera",
+            "gorra",
+            "boina",
+            "canotier",
+            "panama",
+            "sombrero",
+            "tricornio"
+        ]
+    },
+    {
+        "name": "Premios Nobel",
+        "palabras": [
+            "paz",
+            "literatura",
+            "fisica",
+            "quimica",
+            "medicina",
+            "economia",
+            "laureado",
+            "medalla",
+            "diploma",
+            "estocolmo"
+        ]
+    },
+    {
+        "name": "Términos de Impresión 3D",
+        "palabras": [
+            "filamento",
+            "extrusor",
+            "boquilla",
+            "balsa",
+            "soporte",
+            "capa",
+            "relleno",
+            "adhesion",
+            "laminar",
+            "gcode"
+        ]
+    },
+    {
+        "name": "Ninfas y Espíritus de la Naturaleza",
+        "palabras": [
+            "driade",
+            "nereida",
+            "naiade",
+            "oreade",
+            "silfide",
+            "salamandra",
+            "gnomo",
+            "ondina",
+            "elfo",
+            "hada"
+        ]
+    },
+    {
+        "name": "Instrumental Quirúrgico",
+        "palabras": [
+            "bisturi",
+            "pinzas",
+            "tijeras",
+            "escalpelo",
+            "separador",
+            "sutura",
+            "aguja",
+            "forceps",
+            "cánula",
+            "cateter"
+        ]
+    },
+    {
+        "name": "Capitales de Centroamérica",
+        "palabras": [
+            "panama",
+            "managua",
+            "tegucigalpa",
+            "guatemala",
+            "belmopan",
+            "salvador",
+            "sanjose",
+            "caribe",
+            "pacifico",
+            "istmo"
+        ]
+    },
+    {
+        "name": "Términos de Meteorología",
+        "palabras": [
+            "isobara",
+            "barometro",
+            "anemometro",
+            "pluviometro",
+            "frente",
+            "borrasca",
+            "anticiclon",
+            "humedad",
+            "presion",
+            "termometro"
+        ]
+    },
+    {
+        "name": "Tipos de Puentes",
+        "palabras": [
+            "colgante",
+            "atirantado",
+            "arco",
+            "viga",
+            "mensula",
+            "armadura",
+            "levadizo",
+            "giratorio",
+            "viaducto",
+            "pasarela"
+        ]
+    },
+    {
+        "name": "En la Papelería",
+        "palabras": [
+            "marcador",
+            "chincheta",
+            "clip",
+            "carpeta",
+            "archivador",
+            "pegamento",
+            "postit",
+            "cartulina",
+            "sobre",
+            "folio"
+        ]
+    },
+    {
+        "name": "Cocina Francesa",
+        "palabras": [
+            "croissant",
+            "foie",
+            "gras",
+            "souffle",
+            "ratatouille",
+            "quiche",
+            "macaron",
+            "crepe",
+            "eclair",
+            "brioche"
+        ]
+    },
+    {
+        "name": "Eras Geológicas",
+        "palabras": [
+            "paleozoico",
+            "mesozoico",
+            "cenozoico",
+            "jurasico",
+            "cretacico",
+            "triasico",
+            "pleistoceno",
+            "holoceno",
+            "precambrico",
+            "silurico"
+        ]
+    },
+    {
+        "name": "Términos de Ajedrez (Avanzado)",
+        "palabras": [
+            "gambito",
+            "celada",
+            "zugzwang",
+            "fianchetto",
+            "horquilla",
+            "clavada",
+            "ahogado",
+            "blitz",
+            "elo",
+            "apertura"
+        ]
+    },
+    {
+        "name": "Personajes de la Ilíada",
+        "palabras": [
+            "aquiles",
+            "hector",
+            "agamenon",
+            "priamo",
+            "helena",
+            "paris",
+            "odiseo",
+            "patroclo",
+            "ayax",
+            "diomedes"
+        ]
+    },
+    {
+        "name": "Bebidas Espirituosas",
+        "palabras": [
+            "whisky",
+            "ginebra",
+            "vodka",
+            "ron",
+            "tequila",
+            "brandy",
+            "absenta",
+            "orujo",
+            "grappa",
+            "mezcal"
+        ]
+    },
+    {
+        "name": "Términos de Esgrima",
+        "palabras": [
+            "florete",
+            "espada",
+            "sable",
+            "estocada",
+            "parada",
+            "respuesta",
+            "careta",
+            "pista",
+            "asalto",
+            "garde"
+        ]
+    },
+    {
+        "name": "Tipos de Tejidos (Ropa)",
+        "palabras": [
+            "algodon",
+            "lino",
+            "seda",
+            "lana",
+            "poliester",
+            "nylon",
+            "licra",
+            "terciopelo",
+            "pana",
+            "saten"
+        ]
+    },
+    {
+        "name": "Principales Músculos",
+        "palabras": [
+            "biceps",
+            "triceps",
+            "pectoral",
+            "dorsal",
+            "deltoides",
+            "cuadriceps",
+            "gemelos",
+            "gluteo",
+            "trapecio",
+            "femoral"
+        ]
+    },
+    {
+        "name": "Puestos de una Tripulación Aérea",
+        "palabras": [
+            "comandante",
+            "copiloto",
+            "navegante",
+            "sobrecargo",
+            "auxiliar",
+            "vuelo",
+            "azafata",
+            "mecanico",
+            "despachador",
+            "controlador"
+        ]
+    },
+    {
+        "name": "Títulos Nobiliarios",
+        "palabras": [
+            "rey",
+            "duque",
+            "marques",
+            "conde",
+            "vizconde",
+            "baron",
+            "hidalgo",
+            "infante",
+            "principe",
+            "emperador"
+        ]
+    },
+    {
+        "name": "Autores de Ciencia Ficción",
+        "palabras": [
+            "asimov",
+            "clarke",
+            "heinlein",
+            "verne",
+            "wells",
+            "orwell",
+            "huxley",
+            "bradbury",
+            "gibson",
+            "dick"
+        ]
+    },
+    {
+        "name": "Cortes de Carne de Vacuno",
+        "palabras": [
+            "solomillo",
+            "entrecot",
+            "chuleton",
+            "costillar",
+            "falda",
+            "morcillo",
+            "cadera",
+            "lomo",
+            "aguja",
+            "babilla"
+        ]
+    },
+    {
+        "name": "Mamíferos Prehistóricos",
+        "palabras": [
+            "mamut",
+            "mastodonte",
+            "megaterio",
+            "gliptodonte",
+            "smilodon",
+            "indricoterio",
+            "arsinoiterio",
+            "unitaterio",
+            "dientes",
+            "sable"
+        ]
+    },
+    {
+        "name": "Términos de Bolsa y Finanzas",
+        "palabras": [
+            "accion",
+            "bono",
+            "dividendo",
+            "indice",
+            "corredor",
+            "mercado",
+            "cotizacion",
+            "volatilidad",
+            "liquidez",
+            "cartera"
+        ]
+    },
+    {
+        "name": "Técnicas de Cocina",
+        "palabras": [
+            "escalfar",
+            "brasear",
+            "confitar",
+            "saltear",
+            "pochar",
+            "rehogar",
+            "freir",
+            "hervir",
+            "asar",
+            "hornear"
+        ]
+    },
+    {
+        "name": "En un Taller Mecánico",
+        "palabras": [
+            "gato",
+            "llave",
+            "inglesa",
+            "aceite",
+            "neumatico",
+            "bujia",
+            "filtro",
+            "correa",
+            "bateria",
+            "frenos"
+        ]
+    },
+    {
+        "name": "Mitología Mesopotámica",
+        "palabras": [
+            "gilgamesh",
+            "enkidu",
+            "ishtar",
+            "marduk",
+            "tiamat",
+            "apsu",
+            "zigurat",
+            "uruk",
+            "sumeria",
+            "babilonia"
+        ]
+    },
+    {
+        "name": "Herramientas de Escultura",
+        "palabras": [
+            "cincel",
+            "mazo",
+            "gradina",
+            "puntero",
+            "escofina",
+            "gubia",
+            "espatula",
+            "buril",
+            "taladro",
+            "calibre"
+        ]
+    },
+    {
+        "name": "Términos de Cloud Computing",
+        "palabras": [
+            "servidor",
+            "virtualizacion",
+            "contenedor",
+            "kubernetes",
+            "docker",
+            "serverless",
+            "microservicio",
+            "escalabilidad",
+            "latencia",
+            "api"
+        ]
+    },
+    {
+        "name": "Tipos de Nudos",
+        "palabras": [
+            "guia",
+            "ballestrinque",
+            "ocho",
+            "pescador",
+            "margarita",
+            "presilla",
+            "alondra",
+            "vuelta",
+            "cote",
+            "llano"
+        ]
+    },
+    {
+        "name": "En un Monasterio Medieval",
+        "palabras": [
+            "monje",
+            "abad",
+            "claustro",
+            "refectorio",
+            "scriptorium",
+            "cantico",
+            "novicio",
+            "celda",
+            "pergamino",
+            "tonsura"
+        ]
+    },
+    {
+        "name": "Elementos de una Armadura",
+        "palabras": [
+            "yelmo",
+            "coraza",
+            "hombrera",
+            "codal",
+            "manopla",
+            "escarcela",
+            "greba",
+            "escarpe",
+            "gorjal",
+            "peto"
+        ]
+    },
+    {
+        "name": "Figuras del Folclore Japonés",
+        "palabras": [
+            "kitsune",
+            "tengu",
+            "kappa",
+            "oni",
+            "yurei",
+            "tanuki",
+            "bakeneko",
+            "kodama",
+            "yokai",
+            "obake"
+        ]
+    },
+    {
+        "name": "Materiales de Oficina (Avanzado)",
+        "palabras": [
+            "destructora",
+            "plastificadora",
+            "guillotina",
+            "encuadernadora",
+            "etiquetadora",
+            "perforadora",
+            "tablon",
+            "proyector",
+            "pizarra",
+            "rotafolio"
+        ]
+    },
+    {
+        "name": "Instrumentos de Cartografía",
+        "palabras": [
+            "teodolito",
+            "planimetro",
+            "curvimetro",
+            "pantografo",
+            "cartabon",
+            "escalimetro",
+            "portaplanos",
+            "plumin",
+            "tiralineas",
+            "grafometro"
+        ]
+    },
+    {
+        "name": "Sabores de Helado",
+        "palabras": [
+            "vainilla",
+            "chocolate",
+            "fresa",
+            "limon",
+            "pistacho",
+            "menta",
+            "avellana",
+            "turron",
+            "stracciatella",
+            "tutti"
+        ]
+    },
+    {
+        "name": "En un Viñedo",
+        "palabras": [
+            "cepa",
+            "vid",
+            "parra",
+            "vendimia",
+            "uva",
+            "racimo",
+            "bodega",
+            "tonel",
+            "barrica",
+            "viticultor"
+        ]
+    },
+    {
+        "name": "Partes de una Bicicleta",
+        "palabras": [
+            "manillar",
+            "sillin",
+            "pedal",
+            "cadena",
+            "piñon",
+            "radio",
+            "llanta",
+            "cuadro",
+            "horquilla",
+            "maneta"
+        ]
+    },
+    {
+        "name": "Utensilios de Costura",
+        "palabras": [
+            "dedal",
+            "aguja",
+            "hilo",
+            "alfiler",
+            "enhebrador",
+            "descosedor",
+            "centimetro",
+            "tiza",
+            "maniqui",
+            "canilla"
+        ]
+    },
+    {
+        "name": "En un Estudio de Grabación",
+        "palabras": [
+            "microfono",
+            "mezclador",
+            "auricular",
+            "monitor",
+            "amplificador",
+            "interfaz",
+            "ecualizador",
+            "compresor",
+            "reverberacion",
+            "acustica"
+        ]
+    },
+    {
+        "name": "Indumentaria Gaucha",
+        "palabras": [
+            "poncho",
+            "bombacha",
+            "facon",
+            "rastra",
+            "chiripa",
+            "bota",
+            "espuela",
+            "chambergo",
+            "pañuelo",
+            "tirador"
+        ]
+    },
+    {
+        "name": "En una Mina",
+        "palabras": [
+            "piqueta",
+            "vagoneta",
+            "casco",
+            "lampara",
+            "tunel",
+            "galeria",
+            "veta",
+            "mena",
+            "cantera",
+            "dinamita"
+        ]
+    },
+    {
+        "name": "Tipos de Cortes (Cocina)",
+        "palabras": [
+            "juliana",
+            "brunoise",
+            "mirepoix",
+            "chiffonade",
+            "rodajas",
+            "dados",
+            "paisana",
+            "concasse",
+            "pluma",
+            "bastones"
+        ]
+    },
+    {
+        "name": "En un Observatorio Astronómico",
+        "palabras": [
+            "telescopio",
+            "cupula",
+            "espectrografo",
+            "montura",
+            "ocular",
+            "tripode",
+            "planetario",
+            "astrolabio",
+            "lente",
+            "buscador"
+        ]
+    },
+    {
+        "name": "Tipos de Barcos",
+        "palabras": [
+            "galeon",
+            "fragata",
+            "corbeta",
+            "goleta",
+            "carabela",
+            "junco",
+            "drakkar",
+            "trirreme",
+            "crucero",
+            "yate"
+        ]
+    },
+    {
+        "name": "Formaciones Rocosas",
+        "palabras": [
+            "acantilado",
+            "meseta",
+            "cañon",
+            "fiordo",
+            "estalactita",
+            "estalagmita",
+            "dolina",
+            "menhir",
+            "dolmen",
+            "barranco"
+        ]
+    },
+    {
+        "name": "Personajes de Don Quijote",
+        "palabras": [
+            "quijote",
+            "sancho",
+            "dulcinea",
+            "rocinante",
+            "aldonza",
+            "sanson",
+            "carrasco",
+            "bachiller",
+            "ventero",
+            "barbero"
+        ]
+    },
+    {
+        "name": "En una Ferretería",
+        "palabras": [
+            "tornillo",
+            "tuerca",
+            "arandela",
+            "clavo",
+            "taco",
+            "broca",
+            "escarpia",
+            "alcayata",
+            "bisagra",
+            "cerradura"
+        ]
+    },
+    {
+        "name": "Tribus Urbanas",
+        "palabras": [
+            "gotico",
+            "punk",
+            "mod",
+            "heavy",
+            "hippie",
+            "rapero",
+            "skater",
+            "emo",
+            "hipster",
+            "rocker"
+        ]
+    },
+    {
+        "name": "Jerarquía Angelical",
+        "palabras": [
+            "serafin",
+            "querubin",
+            "trono",
+            "dominacion",
+            "virtud",
+            "potestad",
+            "principado",
+            "arcangel",
+            "angel",
+            "custodio"
+        ]
+    },
+    {
+        "name": "Instrumentos de Vuelo de Avión",
+        "palabras": [
+            "altimetro",
+            "variometro",
+            "anemometro",
+            "brujula",
+            "horizonte",
+            "artificial",
+            "giroscopo",
+            "indicador",
+            "viraje",
+            "transpondedor"
+        ]
+    },
+    {
+        "name": "En un Colmenar (Apicultura)",
+        "palabras": [
+            "apicultor",
+            "colmena",
+            "panal",
+            "cera",
+            "miel",
+            "jalea",
+            "propoleo",
+            "reina",
+            "obrera",
+            "zangano"
+        ]
+    },
+    {
+        "name": "Cuentos de Hadas (Elementos)",
+        "palabras": [
+            "princesa",
+            "hada",
+            "madrina",
+            "ogro",
+            "duende",
+            "dragon",
+            "principe",
+            "bruja",
+            "hechizo",
+            "castillo"
+        ]
+    },
+    {
+        "name": "Animales de la Sabana Africana",
+        "palabras": [
+            "cebra",
+            "ñu",
+            "guepardo",
+            "hiena",
+            "rinoceronte",
+            "bufalo",
+            "suricata",
+            "avestruz",
+            "gacela",
+            "facocero"
+        ]
+    },
+    {
+        "name": "En una Biblioteca",
+        "palabras": [
+            "ficha",
+            "tejuelo",
+            "estanteria",
+            "catalogo",
+            "bibliotecario",
+            "prestamo",
+            "devolucion",
+            "incunable",
+            "manuscrito",
+            "hemeroteca"
+        ]
+    },
+    {
+        "name": "Términos de Esgrima",
+        "palabras": [
+            "florete",
+            "espada",
+            "sable",
+            "estocada",
+            "parada",
+            "respuesta",
+            "careta",
+            "pista",
+            "asalto",
+            "garde"
+        ]
+    },
+    {
+        "name": "Tipos de Tejidos",
+        "palabras": [
+            "algodon",
+            "lino",
+            "seda",
+            "lana",
+            "poliester",
+            "nylon",
+            "licra",
+            "terciopelo",
+            "pana",
+            "saten"
+        ]
+    },
+    {
+        "name": "Músculos del Cuerpo",
+        "palabras": [
+            "biceps",
+            "triceps",
+            "pectoral",
+            "dorsal",
+            "deltoides",
+            "cuadriceps",
+            "gemelos",
+            "gluteo",
+            "trapecio",
+            "femoral"
+        ]
+    },
+    {
+        "name": "Títulos Nobiliarios",
+        "palabras": [
+            "rey",
+            "duque",
+            "marques",
+            "conde",
+            "vizconde",
+            "baron",
+            "hidalgo",
+            "infante",
+            "principe",
+            "emperador"
+        ]
+    },
+    {
+        "name": "Cortes de Carne Vacuna",
+        "palabras": [
+            "solomillo",
+            "entrecot",
+            "chuleton",
+            "costillar",
+            "falda",
+            "morcillo",
+            "cadera",
+            "lomo",
+            "aguja",
+            "babilla"
+        ]
+    },
+    {
+        "name": "Mamíferos Prehistóricos",
+        "palabras": [
+            "mamut",
+            "mastodonte",
+            "megaterio",
+            "gliptodonte",
+            "smilodon",
+            "indricoterio",
+            "arsinoiterio",
+            "unitaterio",
+            "dientes",
+            "sable"
+        ]
+    },
+    {
+        "name": "Términos de Bolsa",
+        "palabras": [
+            "accion",
+            "bono",
+            "dividendo",
+            "indice",
+            "corredor",
+            "mercado",
+            "cotizacion",
+            "volatilidad",
+            "liquidez",
+            "cartera"
+        ]
+    },
+    {
+        "name": "Campos de la Ciencia",
+        "palabras": [
+            "fisica",
+            "quimica",
+            "biologia",
+            "geologia",
+            "astronomia",
+            "botanica",
+            "zoologia",
+            "genetica",
+            "ecologia",
+            "matematica"
+        ]
+    },
+    {
+        "name": "En el Circo",
+        "palabras": [
+            "payaso",
+            "acrobata",
+            "malabarista",
+            "trapecista",
+            "domador",
+            "contorsionista",
+            "mago",
+            "forzudo",
+            "equilibrista",
+            "presentador"
+        ]
+    },
+    {
+        "name": "Sonidos de Animales",
+        "palabras": [
+            "mu",
+            "guau",
+            "miau",
+            "pio",
+            "kikiriki",
+            "croac",
+            "be",
+            "oinc",
+            "cuac",
+            "bzz"
+        ]
+    },
+    {
+        "name": "Héroes Mitológicos",
+        "palabras": [
+            "hercules",
+            "perseo",
+            "teseo",
+            "ulises",
+            "aquiles",
+            "jason",
+            "belerofonte",
+            "orfeo",
+            "hector",
+            "edipo"
+        ]
+    },
+    {
+        "name": "Términos de Boxeo",
+        "palabras": [
+            "gancho",
+            "jab",
+            "crochet",
+            "uppercut",
+            "ring",
+            "asalto",
+            "esquina",
+            "guante",
+            "ko",
+            "cuerdas"
+        ]
+    },
+    {
+        "name": "Elementos de un Castillo",
+        "palabras": [
+            "muralla",
+            "torre",
+            "almena",
+            "foso",
+            "rastrillo",
+            "puente",
+            "levadizo",
+            "patio",
+            "armas",
+            "mazmorra"
+        ]
+    },
+    {
+        "name": "Términos de Golf",
+        "palabras": [
+            "swing",
+            "putt",
+            "bunker",
+            "green",
+            "fairway",
+            "tee",
+            "hoyo",
+            "caddie",
+            "birdie",
+            "bogey"
+        ]
+    },
+    {
+        "name": "Filósofos de la Ilustración",
+        "palabras": [
+            "voltaire",
+            "rousseau",
+            "montesquieu",
+            "diderot",
+            "locke",
+            "hume",
+            "kant",
+            "smith",
+            "paine",
+            "jefferson"
+        ]
+    },
+    {
+        "name": "Indumentaria Romana",
+        "palabras": [
+            "toga",
+            "tunica",
+            "sandalia",
+            "estola",
+            "palla",
+            "caliga",
+            "lorica",
+            "galea",
+            "scutum",
+            "gladius"
+        ]
+    },
+    {
+        "name": "Tipos de Salsas",
+        "palabras": [
+            "bechamel",
+            "pesto",
+            "boloñesa",
+            "carbonara",
+            "puttanesca",
+            "arrabbiata",
+            "marinara",
+            "holandesa",
+            "veloute",
+            "alioli"
+        ]
+    },
+    {
+        "name": "Fenómenos Ópticos",
+        "palabras": [
+            "arcoiris",
+            "espejismo",
+            "aurora",
+            "halo",
+            "sombra",
+            "eclipse",
+            "reflejo",
+            "iridiscencia",
+            "difraccion",
+            "penumbra"
+        ]
+    },
+    {
+        "name": "Términos de Imprenta",
+        "palabras": [
+            "tipografia",
+            "linotipia",
+            "xilografia",
+            "serigrafia",
+            "offset",
+            "plancha",
+            "tinta",
+            "rodillo",
+            "prensa",
+            "grabado"
+        ]
+    },
+    {
+        "name": "Acciones en el Jardín",
+        "palabras": [
+            "regar",
+            "podar",
+            "sembrar",
+            "abonar",
+            "trasplantar",
+            "rastrillar",
+            "escardar",
+            "injertar",
+            "cosechar",
+            "cultivar"
+        ]
+    },
+    {
+        "name": "En un Parque de Atracciones",
+        "palabras": [
+            "montaña",
+            "rusa",
+            "noria",
+            "carrusel",
+            "tiovivo",
+            "tobogan",
+            "lanzadera",
+            "tren",
+            "bruja",
+            "algodon"
+        ]
+    },
+    {
+        "name": "Monstruos del Cine Clásico",
+        "palabras": [
+            "dracula",
+            "frankenstein",
+            "hombrelobo",
+            "momia",
+            "godzilla",
+            "kingkong",
+            "criatura",
+            "lago",
+            "invisible",
+            "fantasma"
+        ]
+    },
+    {
+        "name": "Términos de Psicología",
+        "palabras": [
+            "inconsciente",
+            "ego",
+            "superego",
+            "terapia",
+            "fobia",
+            "neurosis",
+            "psicosis",
+            "conducta",
+            "cognicion",
+            "emocion"
+        ]
+    },
+    {
+        "name": "Componentes de la Sangre",
+        "palabras": [
+            "plasma",
+            "plaqueta",
+            "globulo",
+            "rojo",
+            "blanco",
+            "hemoglobina",
+            "leucocito",
+            "eritrocito",
+            "linfocito",
+            "anticuerpo"
+        ]
+    },
+    {
+        "name": "Criaturas del Bosque",
+        "palabras": [
+            "fauno",
+            "satiro",
+            "ninfa",
+            "duende",
+            "gnomo",
+            "pixie",
+            "ent",
+            "driad",
+            "silvano",
+            "leprechaun"
+        ]
+    },
+    {
+        "name": "Puntadas de Costura",
+        "palabras": [
+            "hilvan",
+            "pespunte",
+            "sobrehilado",
+            "feston",
+            "ojal",
+            "zurcido",
+            "borde",
+            "cruz",
+            "cadena",
+            "recta"
+        ]
+    },
+    {
+        "name": "Términos de Meteoritos",
+        "palabras": [
+            "asteroide",
+            "cometa",
+            "meteorito",
+            "bolido",
+            "aerolito",
+            "crater",
+            "impacto",
+            "orbita",
+            "tektita",
+            "siderito"
+        ]
+    },
+    {
+        "name": "Tipos de Poemas",
+        "palabras": [
+            "soneto",
+            "haiku",
+            "oda",
+            "elegia",
+            "epigrama",
+            "romance",
+            "copla",
+            "decima",
+            "terceto",
+            "lira"
+        ]
+    },
+    {
+        "name": "Herramientas de Albañilería",
+        "palabras": [
+            "paleta",
+            "llana",
+            "espuerta",
+            "plomada",
+            "nivel",
+            "cimbra",
+            "gaveta",
+            "maceta",
+            "puntero",
+            "cortafrio"
+        ]
+    },
+    {
+        "name": "Términos de Magia",
+        "palabras": [
+            "pentagrama",
+            "amuleto",
+            "talisman",
+            "hechizo",
+            "invocacion",
+            "grimorio",
+            "aquelarre",
+            "pocion",
+            "runa",
+            "sigilo"
+        ]
+    },
+    {
+        "name": "En una Estación de Tren",
+        "palabras": [
+            "anden",
+            "via",
+            "taquilla",
+            "consigna",
+            "maquinista",
+            "revisor",
+            "vagon",
+            "locomotora",
+            "horario",
+            "transbordo"
+        ]
+    },
+    {
+        "name": "Personajes de la Odisea",
+        "palabras": [
+            "penelope",
+            "telemaco",
+            "polifemo",
+            "circe",
+            "calipso",
+            "sirenas",
+            "escila",
+            "caribdis",
+            "mentor",
+            "eumeo"
+        ]
+    },
+    {
+        "name": "Términos de Vinos",
+        "palabras": [
+            "cosecha",
+            "añada",
+            "maridaje",
+            "decantar",
+            "sumiller",
+            "enologo",
+            "tanino",
+            "bouquet",
+            "terruño",
+            "cepa"
+        ]
+    },
+    {
+        "name": "Términos de Geometría",
+        "palabras": [
+            "angulo",
+            "vertice",
+            "radio",
+            "diametro",
+            "hipotenusa",
+            "cateto",
+            "perimetro",
+            "area",
+            "volumen",
+            "poligono"
+        ]
+    },
+    {
+        "name": "Anatomía Aviar",
+        "palabras": [
+            "pico",
+            "pluma",
+            "ala",
+            "garra",
+            "buche",
+            "moega",
+            "quilla",
+            "siringe",
+            "pigostilo",
+            "remiges"
+        ]
+    },
+    {
+        "name": "Capitales de Oceanía",
+        "palabras": [
+            "canberra",
+            "wellington",
+            "portmoresby",
+            "suva",
+            "apia",
+            "nukualofa",
+            "funafuti",
+            "palikir",
+            "majuro",
+            "tarawa"
+        ]
+    },
+    {
+        "name": "Términos de Ballet",
+        "palabras": [
+            "plié",
+            "tendu",
+            "jeté",
+            "relevé",
+            "arabesque",
+            "pirouette",
+            "fouetté",
+            "adagio",
+            "allegro",
+            "battement"
+        ]
+    },
+    {
+        "name": "Partes de un Libro",
+        "palabras": [
+            "portada",
+            "lomo",
+            "solapa",
+            "prologo",
+            "indice",
+            "capitulo",
+            "epilogo",
+            "contraportada",
+            "glosario",
+            "dedicatoria"
+        ]
+    },
+    {
+        "name": "Metales Preciosos",
+        "palabras": [
+            "oro",
+            "plata",
+            "platino",
+            "paladio",
+            "rodio",
+            "rutenio",
+            "iridio",
+            "osmio",
+            "renio",
+            "indio"
+        ]
+    },
+    {
+        "name": "Técnicas de Animación",
+        "palabras": [
+            "stopmotion",
+            "rotoscopia",
+            "pixelacion",
+            "celuloide",
+            "recortes",
+            "cgi",
+            "tradicional",
+            "limitada",
+            "motion",
+            "graficos"
+        ]
+    },
+    {
+        "name": "Tipos de Nubes",
+        "palabras": [
+            "cumulo",
+            "estrato",
+            "cirro",
+            "nimbo",
+            "altoestrato",
+            "cumulonimbo",
+            "cirrostrato",
+            "cirrocumulo",
+            "altocumulo",
+            "lenticular"
+        ]
+    },
+    {
+        "name": "Términos Militares",
+        "palabras": [
+            "batallon",
+            "peloton",
+            "brigada",
+            "regimiento",
+            "division",
+            "trinchera",
+            "estrategia",
+            "tactica",
+            "logistica",
+            "guarnicion"
+        ]
+    },
+    {
+        "name": "Árboles Frutales",
+        "palabras": [
+            "manzano",
+            "peral",
+            "naranjo",
+            "limonero",
+            "higuera",
+            "cerezo",
+            "ciruelo",
+            "melocotonero",
+            "albaricoquero",
+            "almendro"
+        ]
+    },
+    {
+        "name": "En un Hotel",
+        "palabras": [
+            "recepcion",
+            "conserje",
+            "botones",
+            "habitacion",
+            "suite",
+            "reserva",
+            "huesped",
+            "vestibulo",
+            "ascensor",
+            "servicio"
+        ]
+    },
+    {
+        "name": "En una Estación de Bomberos",
+        "palabras": [
+            "manguera",
+            "hacha",
+            "sirena",
+            "camion",
+            "escalera",
+            "casco",
+            "extintor",
+            "hidrante",
+            "alarma",
+            "bombero"
+        ]
+    },
+    {
+        "name": "Términos de Filosofía",
+        "palabras": [
+            "etica",
+            "logica",
+            "metafisica",
+            "estetica",
+            "epistemologia",
+            "dialectica",
+            "mayeutica",
+            "existencialismo",
+            "estoicismo",
+            "racionalismo"
+        ]
+    },
+    {
+        "name": "Razas de Caballos",
+        "palabras": [
+            "arabe",
+            "andaluz",
+            "percheron",
+            "frison",
+            "mustang",
+            "lipizzano",
+            "cuarto",
+            "milla",
+            "apaloosa",
+            "criollo"
+        ]
+    },
+    {
+        "name": "Términos de Marketing",
+        "palabras": [
+            "nicho",
+            "marca",
+            "segmento",
+            "embudo",
+            "conversion",
+            "lead",
+            "seo",
+            "sem",
+            "branding",
+            "engagement"
+        ]
+    },
+    {
+        "name": "Cocina de la India",
+        "palabras": [
+            "curry",
+            "samosa",
+            "tandoori",
+            "masala",
+            "naan",
+            "chutney",
+            "pakora",
+            "lassi",
+            "biryani",
+            "ghee"
+        ]
+    },
+    {
+        "name": "En una Carpintería",
+        "palabras": [
+            "serrin",
+            "viruta",
+            "barniz",
+            "formon",
+            "garlopa",
+            "lijadora",
+            "tupí",
+            "ensamblaje",
+            "tarugo",
+            "contrachapado"
+        ]
+    },
+    {
+        "name": "Términos de Espeleología",
+        "palabras": [
+            "cueva",
+            "gruta",
+            "sima",
+            "caverna",
+            "estalactita",
+            "estalagmita",
+            "colada",
+            "sifon",
+            "karst",
+            "aragonito"
+        ]
+    },
+    {
+        "name": "Mitología Azteca",
+        "palabras": [
+            "quetzalcoatl",
+            "huitzilopochtli",
+            "tezcatlipoca",
+            "tlaloc",
+            "coatlicue",
+            "chinampa",
+            "tenochtitlan",
+            "cenote",
+            "calpulli",
+            "macuahuitl"
+        ]
+    },
+    {
+        "name": "Partes de un Zapato",
+        "palabras": [
+            "suela",
+            "tacon",
+            "empeine",
+            "cordon",
+            "lengueta",
+            "puntera",
+            "plantilla",
+            "contrafuerte",
+            "ojal",
+            "empeine"
+        ]
+    },
+    {
+        "name": "En una Panadería",
+        "palabras": [
+            "horno",
+            "amasadora",
+            "levadura",
+            "harina",
+            "masa",
+            "madre",
+            "obrador",
+            "hogaza",
+            "baguette",
+            "croissant"
+        ]
+    },
+    {
+        "name": "Criaturas de la Mitología Eslava",
+        "palabras": [
+            "vodyanoy",
+            "rusalka",
+            "domovoi",
+            "leshy",
+            "baba",
+            "yaga",
+            "alikanto",
+            "kikimora",
+            "zmei",
+            "psoglav"
+        ]
+    },
+    {
+        "name": "En un Set de Filmación",
+        "palabras": [
+            "claqueta",
+            "foco",
+            "microfono",
+            "camara",
+            "dolly",
+            "grua",
+            "atrezo",
+            "catering",
+            "extra",
+            "guion"
+        ]
+    },
+    {
+        "name": "Términos de Genética",
+        "palabras": [
+            "gen",
+            "alelo",
+            "cromosoma",
+            "genoma",
+            "mutacion",
+            "fenotipo",
+            "genotipo",
+            "meiosis",
+            "mitosis",
+            "herencia"
+        ]
+    },
+    {
+        "name": "Tipos de Danza",
+        "palabras": [
+            "ballet",
+            "contemporaneo",
+            "jazz",
+            "hiphop",
+            "claqué",
+            "moderna",
+            "folclorica",
+            "acrobatica",
+            "lirica",
+            "breakdance"
+        ]
+    },
+    {
+        "name": "Herramientas de Dentista",
+        "palabras": [
+            "torno",
+            "espejo",
+            "sonda",
+            "pinza",
+            "excavador",
+            "turbina",
+            "fresa",
+            "jeringa",
+            "escupidera",
+            "eyector"
+        ]
+    },
+    {
+        "name": "En una Granja Lechera",
+        "palabras": [
+            "ordeño",
+            "ubre",
+            "pasto",
+            "heno",
+            "silo",
+            "establo",
+            "ternero",
+            "tanque",
+            "enfriamiento",
+            "forraje"
+        ]
+    },
+    {
+        "name": "Tipos de Madera",
+        "palabras": [
+            "roble",
+            "pino",
+            "caoba",
+            "cedro",
+            "nogal",
+            "haya",
+            "fresno",
+            "arce",
+            "teca",
+            "ebano"
+        ]
+    },
+    {
+        "name": "Navegantes Famosos",
+        "palabras": [
+            "colon",
+            "magallanes",
+            "elcano",
+            "vasco",
+            "gama",
+            "cook",
+            "drake",
+            "amundsen",
+            "vespucio",
+            "cabral"
+        ]
+    },
+    {
+        "name": "En una Tienda de Cómics",
+        "palabras": [
+            "grapa",
+            "tomo",
+            "manga",
+            "manhwa",
+            "onomatopeya",
+            "viñeta",
+            "bocadillo",
+            "novela",
+            "grafica",
+            "superheroe"
+        ]
+    },
+    {
+        "name": "Símbolos Químicos",
+        "palabras": [
+            "ag",
+            "au",
+            "fe",
+            "cu",
+            "pb",
+            "hg",
+            "sn",
+            "zn",
+            "na",
+            "cl"
+        ]
+    },
+    {
+        "name": "Términos de Criminología",
+        "palabras": [
+            "coartada",
+            "movil",
+            "recidiva",
+            "perfilacion",
+            "forense",
+            "modus",
+            "operandi",
+            "victima",
+            "delito",
+            "pesquisa"
+        ]
+    },
+    {
+        "name": "En un Taller de Cerámica",
+        "palabras": [
+            "arcilla",
+            "torno",
+            "esmalt",
+            "horno",
+            "engobe",
+            "rakú",
+            "modelado",
+            "vaciado",
+            "bizcocho",
+            "gres"
+        ]
+    },
+    {
+        "name": "Tipos de Sociedades",
+        "palabras": [
+            "limitada",
+            "anonima",
+            "cooperativa",
+            "comanditaria",
+            "civil",
+            "colectiva",
+            "laboral",
+            "unipersonal",
+            "mercantil",
+            "irregular"
+        ]
+    },
+    {
+        "name": "Folclore Argentino",
+        "palabras": [
+            "chacarera",
+            "zamba",
+            "gato",
+            "malambo",
+            "payada",
+            "gaucho",
+            "mate",
+            "asado",
+            "boleadoras",
+            "pulperia"
+        ]
+    },
+    {
+        "name": "En una Estación Espacial",
+        "palabras": [
+            "gravedad",
+            "cero",
+            "esclusa",
+            "cosmonauta",
+            "modulo",
+            "laboratorio",
+            "cometa",
+            "orbita",
+            "telemetria",
+            "acoplamiento"
+        ]
+    },
+    {
+        "name": "Marcas de Relojes",
+        "palabras": [
+            "rolex",
+            "omega",
+            "tagheuer",
+            "patek",
+            "philippe",
+            "audemars",
+            "piaget",
+            "cartier",
+            "seiko",
+            "casio"
+        ]
+    },
+    {
+        "name": "Términos de Jardinería Japonesa",
+        "palabras": [
+            "bonsai",
+            "kokedama",
+            "zen",
+            "linterna",
+            "estanque",
+            "koi",
+            "bambu",
+            "arce",
+            "musgo",
+            "sendero"
+        ]
+    },
+    {
+        "name": "Capitales de Estados de EE.UU.",
+        "palabras": [
+            "sacramento",
+            "albany",
+            "austin",
+            "tallahassee",
+            "columbus",
+            "boston",
+            "phoenix",
+            "denver",
+            "atlanta",
+            "honolulu"
+        ]
+    },
+    {
+        "name": "Términos de Billar",
+        "palabras": [
+            "taco",
+            "tiza",
+            "bola",
+            "tronera",
+            "banda",
+            "carambola",
+            "efecto",
+            "pifia",
+            "rombo",
+            "triangulo"
+        ]
+    },
+    {
+        "name": "En una Sastrería",
+        "palabras": [
+            "patron",
+            "ojal",
+            "bocamanga",
+            "solapa",
+            "forro",
+            "entretela",
+            "hilvan",
+            "maniqui",
+            "tijeras",
+            "dedal"
+        ]
+    },
+    {
+        "name": "Escritores del Siglo de Oro",
+        "palabras": [
+            "cervantes",
+            "lope",
+            "vega",
+            "quevedo",
+            "gongora",
+            "calderon",
+            "barca",
+            "gracian",
+            "tirso",
+            "molina"
+        ]
+    },
+    {
+        "name": "Tipos de Pasta (Formas)",
+        "palabras": [
+            "farfalle",
+            "rigatoni",
+            "fusilli",
+            "penne",
+            "macarron",
+            "tagliatelle",
+            "ravioli",
+            "tortellini",
+            "conchiglie",
+            "pappardelle"
+        ]
+    },
+    {
+        "name": "En un Juicio",
+        "palabras": [
+            "juez",
+            "fiscal",
+            "abogado",
+            "acusado",
+            "testigo",
+            "jurado",
+            "estrado",
+            "banquillo",
+            "sentencia",
+            "veredicto"
+        ]
+    },
+    {
+        "name": "Términos de Alpinismo",
+        "palabras": [
+            "piolet",
+            "crampon",
+            "arnes",
+            "mosqueton",
+            "cuerda",
+            "rapel",
+            "vivac",
+            "grieta",
+            "cornisa",
+            "cumbre"
+        ]
+    },
+    {
+        "name": "Términos de Redes Informáticas",
+        "palabras": [
+            "router",
+            "switch",
+            "firewall",
+            "protocolo",
+            "hub",
+            "lan",
+            "wan",
+            "dns",
+            "ip",
+            "ethernet"
+        ]
+    },
+    {
+        "name": "Verbos de Cocina",
+        "palabras": [
+            "saltear",
+            "hervir",
+            "freir",
+            "asar",
+            "hornear",
+            "escalfar",
+            "rehogar",
+            "guisar",
+            "brasear",
+            "emulsionar"
+        ]
+    },
+    {
+        "name": "Armas Medievales",
+        "palabras": [
+            "maza",
+            "mandoble",
+            "alabarda",
+            "mangual",
+            "hacha",
+            "arco",
+            "ballesta",
+            "catapulta",
+            "trebuchet",
+            "cimitarra"
+        ]
+    },
+    {
+        "name": "Arquitectura Gótica",
+        "palabras": [
+            "arbotante",
+            "contrafuerte",
+            "boveda",
+            "nervada",
+            "roseton",
+            "gargola",
+            "pinaculo",
+            "traceria",
+            "triforio",
+            "claristorio"
+        ]
+    },
+    {
+        "name": "En el Renacimiento",
+        "palabras": [
+            "mecenas",
+            "humanismo",
+            "imprenta",
+            "polimata",
+            "perspectiva",
+            "escorzo",
+            "sfumato",
+            "fresco",
+            "teocentrismo",
+            "gremio"
+        ]
+    },
+    {
+        "name": "Términos de Vela",
+        "palabras": [
+            "virar",
+            "trasluchar",
+            "escora",
+            "ceñir",
+            "amura",
+            "driza",
+            "escota",
+            "timon",
+            "orza",
+            "baupres"
+        ]
+    },
+    {
+        "name": "En un Volcán",
+        "palabras": [
+            "crater",
+            "caldera",
+            "magma",
+            "lava",
+            "chimenea",
+            "cono",
+            "piroclasto",
+            "fumarola",
+            "erupcion",
+            "lahar"
+        ]
+    },
+    {
+        "name": "Partes del Ojo Humano",
+        "palabras": [
+            "retina",
+            "cornea",
+            "pupila",
+            "iris",
+            "cristalino",
+            "esclerotica",
+            "nervio",
+            "optico",
+            "macula",
+            "humor"
+        ]
+    },
+    {
+        "name": "Mitología de Cthulhu",
+        "palabras": [
+            "cthulhu",
+            "nyarlathotep",
+            "shoggoth",
+            "azathoth",
+            "yogsothoth",
+            "dagon",
+            "migo",
+            "primigenio",
+            "profundo",
+            "sectario"
+        ]
+    },
+    {
+        "name": "Programación Orientada a Objetos",
+        "palabras": [
+            "clase",
+            "objeto",
+            "herencia",
+            "polimorfismo",
+            "encapsulacion",
+            "abstraccion",
+            "metodo",
+            "atributo",
+            "instancia",
+            "constructor"
+        ]
+    },
+    {
+        "name": "Tipos de Queso (Nuevos)",
+        "palabras": [
+            "roquefort",
+            "gorgonzola",
+            "stilton",
+            "emmental",
+            "gruyer",
+            "provolone",
+            "feta",
+            "halloumi",
+            "cotija",
+            "edam"
+        ]
+    },
+    {
+        "name": "Términos de Agricultura",
+        "palabras": [
+            "arado",
+            "siembra",
+            "cosecha",
+            "barbecho",
+            "rotacion",
+            "fertilizante",
+            "pesticida",
+            "irrigacion",
+            "monocultivo",
+            "terraza"
+        ]
+    },
+    {
+        "name": "Escritoras Famosas",
+        "palabras": [
+            "austen",
+            "woolf",
+            "shelley",
+            "christie",
+            "beauvoir",
+            "allende",
+            "leguin",
+            "murakami",
+            "lispector",
+            "dickinson"
+        ]
+    },
+    {
+        "name": "En un Submarino",
+        "palabras": [
+            "periscopio",
+            "sonar",
+            "torpedo",
+            "mamparo",
+            "escotilla",
+            "lastre",
+            "reactor",
+            "helice",
+            "puente",
+            "camarote"
+        ]
+    },
+    {
+        "name": "Términos de Jazz",
+        "palabras": [
+            "swing",
+            "bebop",
+            "cool",
+            "fusion",
+            "bigband",
+            "improvisacion",
+            "scat",
+            "standard",
+            "jam",
+            "session"
+        ]
+    },
+    {
+        "name": "Partes de un Átomo",
+        "palabras": [
+            "proton",
+            "neutron",
+            "electron",
+            "nucleo",
+            "orbital",
+            "cuark",
+            "lepton",
+            "boson",
+            "fermion",
+            "valencia"
+        ]
+    },
+    {
+        "name": "Cocina Tailandesa",
+        "palabras": [
+            "padthai",
+            "tomyum",
+            "curry",
+            "satay",
+            "nampla",
+            "galanga",
+            "lemongrass",
+            "kaffir",
+            "khao",
+            "phat"
+        ]
+    },
+    {
+        "name": "En el Antiguo Egipto",
+        "palabras": [
+            "faraon",
+            "piramide",
+            "esfinge",
+            "momia",
+            "sarcofago",
+            "jeroglifico",
+            "papiro",
+            "escarabajo",
+            "ankh",
+            "canopo"
+        ]
+    },
+    {
+        "name": "Maquillaje (Productos)",
+        "palabras": [
+            "base",
+            "corrector",
+            "polvo",
+            "colorete",
+            "iluminador",
+            "sombra",
+            "delineador",
+            "mascara",
+            "labial",
+            "brillo"
+        ]
+    },
+    {
+        "name": "Términos de Electricidad",
+        "palabras": [
+            "voltaje",
+            "amperaje",
+            "resistencia",
+            "vatio",
+            "circuito",
+            "corriente",
+            "alterna",
+            "continua",
+            "fusible",
+            "transformador"
+        ]
+    },
+    {
+        "name": "Términos de Baile de Salón",
+        "palabras": [
+            "paso",
+            "doble",
+            "abrazo",
+            "pivote",
+            "figura",
+            "chasis",
+            "promenade",
+            "contrapaso",
+            "ocho",
+            "corte"
+        ]
+    },
+    {
+        "name": "Proceso del Vino",
+        "palabras": [
+            "fermentacion",
+            "maceracion",
+            "prensado",
+            "trasiego",
+            "clarificacion",
+            "crianza",
+            "embotellado",
+            "despalillado",
+            "sulfitos",
+            "remontado"
+        ]
+    },
+    {
+        "name": "Instrumentos Andinos",
+        "palabras": [
+            "quena",
+            "zampoña",
+            "charango",
+            "bombo",
+            "leguero",
+            "sicu",
+            "antara",
+            "rondador",
+            "tarka",
+            "pinkillo"
+        ]
+    },
+    {
+        "name": "Términos de Tipografía",
+        "palabras": [
+            "serif",
+            "sansserif",
+            "kerning",
+            "tracking",
+            "leading",
+            "fuente",
+            "glifo",
+            "ligadura",
+            "versalita",
+            "interlineado"
+        ]
+    },
+    {
+        "name": "Roles en un Barco Pirata",
+        "palabras": [
+            "capitan",
+            "contramaestre",
+            "artillero",
+            "vigia",
+            "cirujano",
+            "timonel",
+            "grumete",
+            "intendente",
+            "carpintero",
+            "cocinero"
+        ]
+    },
+    {
+        "name": "Criaturas Fantásticas (Nuevas)",
+        "palabras": [
+            "manticora",
+            "basilisco",
+            "quimera",
+            "hidra",
+            "arpia",
+            "golem",
+            "licantropo",
+            "kraken",
+            "leviatan",
+            "behemot"
+        ]
+    },
+    {
+        "name": "En una Selva Tropical",
+        "palabras": [
+            "liana",
+            "orquidea",
+            "sotobosque",
+            "dosel",
+            "manglar",
+            "tucan",
+            "perezoso",
+            "jaguar",
+            "anaconda",
+            "capibara"
+        ]
+    },
+    {
+        "name": "Elementos de un Escudo de Armas",
+        "palabras": [
+            "blason",
+            "yelmo",
+            "lambrequin",
+            "cimera",
+            "campo",
+            "particion",
+            "figura",
+            "esmalte",
+            "lema",
+            "soporte"
+        ]
+    },
+    {
+        "name": "Tipos de Naves Espaciales",
+        "palabras": [
+            "cohete",
+            "transbordador",
+            "satelite",
+            "sonda",
+            "capsula",
+            "estacion",
+            "rover",
+            "lander",
+            "orbitador",
+            "carguero"
+        ]
+    },
+    {
+        "name": "Fotografía Analógica",
+        "palabras": [
+            "carrete",
+            "negativo",
+            "revelado",
+            "ampliadora",
+            "cuarto",
+            "oscuro",
+            "diafragma",
+            "obturador",
+            "fotometro",
+            "haluro"
+        ]
+    },
+    {
+        "name": "Capitales del Sudeste Asiático",
+        "palabras": [
+            "bangkok",
+            "hanoi",
+            "singapur",
+            "yakarta",
+            "manila",
+            "kualalumpur",
+            "nompen",
+            "vientian",
+            "naypyidaw",
+            "bandar"
+        ]
+    },
+    {
+        "name": "Meteorología (Avanzado)",
+        "palabras": [
+            "ciclogenesis",
+            "baroclinidad",
+            "cizalladura",
+            "gradiente",
+            "convergencia",
+            "divergencia",
+            "vaguada",
+            "dorsal",
+            "adveccion",
+            "inversion"
+        ]
+    },
+    {
+        "name": "En un Mercado Medieval",
+        "palabras": [
+            "mercader",
+            "artesano",
+            "juglar",
+            "pregonero",
+            "puesto",
+            "gremio",
+            "trueque",
+            "diezmo",
+            "maravedi",
+            "balanza"
+        ]
+    },
+    {
+        "name": "Tipos de Versos (Métrica)",
+        "palabras": [
+            "octosilabo",
+            "endecasilabo",
+            "alejandrino",
+            "heptasilabo",
+            "arte",
+            "mayor",
+            "menor",
+            "pareado",
+            "redondilla",
+            "serventesio"
+        ]
+    },
+    {
+        "name": "Verbos de Movimiento",
+        "palabras": [
+            "correr",
+            "saltar",
+            "caminar",
+            "reptar",
+            "nadar",
+            "volar",
+            "trepar",
+            "deslizar",
+            "gatear",
+            "danzar"
+        ]
+    },
+    {
+        "name": "Primera Guerra Mundial",
+        "palabras": [
+            "trinchera",
+            "gasmostaza",
+            "zepelin",
+            "biplano",
+            "armisticio",
+            "verdun",
+            "somme",
+            "archiduque",
+            "telegrama",
+            "alianzas"
+        ]
+    },
+    {
+        "name": "Costura (Avanzado)",
+        "palabras": [
+            "bies",
+            "fruncir",
+            "plisado",
+            "pinza",
+            "dobladillo",
+            "remalladora",
+            "canilla",
+            "prensatelas",
+            "ojal",
+            "entretela"
+        ]
+    },
+    {
+        "name": "En una Cafetería",
+        "palabras": [
+            "barista",
+            "expreso",
+            "capuchino",
+            "latte",
+            "molinillo",
+            "prensa",
+            "francesa",
+            "filtro",
+            "cafetera",
+            "terraza"
+        ]
+    },
+    {
+        "name": "Organelos Celulares",
+        "palabras": [
+            "nucleo",
+            "mitocondria",
+            "ribosoma",
+            "lisosoma",
+            "reticulo",
+            "golgi",
+            "vacuola",
+            "citoplasma",
+            "peroxisoma",
+            "centriolo"
+        ]
+    },
+    {
+        "name": "Huesos del Cuerpo",
+        "palabras": [
+            "femur",
+            "tibia",
+            "perone",
+            "humero",
+            "radio",
+            "cubito",
+            "craneo",
+            "costilla",
+            "vertebra",
+            "clavicula"
+        ]
+    },
+    {
+        "name": "Campos de la Física",
+        "palabras": [
+            "mecanica",
+            "termodinamica",
+            "optica",
+            "acustica",
+            "electromagnetismo",
+            "relatividad",
+            "cuantica",
+            "astrofisica",
+            "biofisica",
+            "geofisica"
+        ]
+    },
+    {
+        "name": "El Sistema Nervioso",
+        "palabras": [
+            "neurona",
+            "sinapsis",
+            "axon",
+            "dendrita",
+            "mielina",
+            "encefalo",
+            "cerebelo",
+            "talamo",
+            "hipotalamo",
+            "neurotransmisor"
+        ]
+    },
+    {
+        "name": "Taxonomía Biológica",
+        "palabras": [
+            "reino",
+            "filo",
+            "clase",
+            "orden",
+            "familia",
+            "genero",
+            "especie",
+            "dominio",
+            "taxonomia",
+            "nomenclatura"
+        ]
+    },
+    {
+        "name": "Términos de Vulcanología",
+        "palabras": [
+            "caldera",
+            "lahar",
+            "fumarola",
+            "piroclasto",
+            "obsidiana",
+            "lapilli",
+            "tefra",
+            "domo",
+            "colada",
+            "estromboliano"
+        ]
+    },
+    {
+        "name": "Química Orgánica",
+        "palabras": [
+            "alcano",
+            "alqueno",
+            "alquino",
+            "alcohol",
+            "cetona",
+            "aldehido",
+            "ester",
+            "eter",
+            "amina",
+            "isomero"
+        ]
+    },
+    {
+        "name": "Fuerzas Fundamentales",
+        "palabras": [
+            "gravedad",
+            "electromagnetismo",
+            "nuclear",
+            "fuerte",
+            "debil",
+            "interaccion",
+            "boson",
+            "gluon",
+            "foton",
+            "graviton"
+        ]
+    },
+    {
+        "name": "Partes de un Gen",
+        "palabras": [
+            "exon",
+            "intron",
+            "promotor",
+            "codon",
+            "alelo",
+            "locus",
+            "telomero",
+            "centromero",
+            "cromatina",
+            "histona"
+        ]
+    },
+    {
+        "name": "El Espectro Electromagnético",
+        "palabras": [
+            "radio",
+            "microondas",
+            "infrarrojo",
+            "ultravioleta",
+            "rayosx",
+            "gamma",
+            "frecuencia",
+            "longitud",
+            "onda",
+            "foton"
+        ]
+    },
+    {
+        "name": "Instrumental de Laboratorio",
+        "palabras": [
+            "probeta",
+            "matraz",
+            "pipeta",
+            "bureta",
+            "erlenmeyer",
+            "centrifuga",
+            "espectrometro",
+            "cromatografo",
+            "calorimetro",
+            "viscosimetro"
+        ]
+    },
+    {
+        "name": "Máquinas Simples",
+        "palabras": [
+            "palanca",
+            "polea",
+            "torno",
+            "cuña",
+            "tornillo",
+            "rueda",
+            "plano",
+            "inclinado",
+            "engranaje",
+            "biela"
+        ]
+    },
+    {
+        "name": "Procesos Geológicos",
+        "palabras": [
+            "erosion",
+            "sedimentacion",
+            "subduccion",
+            "metamorfismo",
+            "magmatismo",
+            "diagénesis",
+            "litificacion",
+            "isostasia",
+            "meteorizacion",
+            "orogenia"
+        ]
+    },
+    {
+        "name": "El Sistema Endocrino",
+        "palabras": [
+            "tiroides",
+            "hipofisis",
+            "pancreas",
+            "suprarrenal",
+            "timo",
+            "glandula",
+            "hormona",
+            "insulina",
+            "adrenalina",
+            "testosterona"
+        ]
+    },
+    {
+        "name": "Términos de Paleontología",
+        "palabras": [
+            "fosil",
+            "trilobite",
+            "amonites",
+            "coprolito",
+            "icnita",
+            "tafonomia",
+            "holotipo",
+            "biocron",
+            "yacimiento",
+            "mold"
+        ]
+    },
+    {
+        "name": "Fases de la Mitosis",
+        "palabras": [
+            "profase",
+            "metafase",
+            "anafase",
+            "telofase",
+            "citocinesis",
+            "interfase",
+            "cromosoma",
+            "huso",
+            "acromatico",
+            "centromero"
+        ]
+    },
+    {
+        "name": "Unidades del SI",
+        "palabras": [
+            "metro",
+            "kilogramo",
+            "segundo",
+            "amperio",
+            "kelvin",
+            "mol",
+            "candela",
+            "newton",
+            "julio",
+            "vatio"
+        ]
+    },
+    {
+        "name": "Tipos de Enlace Químico",
+        "palabras": [
+            "ionico",
+            "covalente",
+            "metalico",
+            "polar",
+            "apolar",
+            "puente",
+            "hidrogeno",
+            "dipolo",
+            "valencia",
+            "octeto"
+        ]
+    },
+    {
+        "name": "Ciclos Biogeoquímicos",
+        "palabras": [
+            "carbono",
+            "nitrogeno",
+            "fosforo",
+            "azufre",
+            "agua",
+            "oxigeno",
+            "ciclo",
+            "descomposicion",
+            "fijacion",
+            "nitrificacion"
+        ]
+    },
+    {
+        "name": "Conceptos de Termodinámica",
+        "palabras": [
+            "entropia",
+            "entalpia",
+            "energia",
+            "interna",
+            "isobara",
+            "isocora",
+            "isoterma",
+            "adiabatica",
+            "equilibrio",
+            "proceso"
+        ]
+    },
+    {
+        "name": "Estructuras de Datos",
+        "palabras": [
+            "pila",
+            "cola",
+            "lista",
+            "arbol",
+            "grafo",
+            "array",
+            "matriz",
+            "hash",
+            "puntero",
+            "nodo"
+        ]
+    },
+    {
+        "name": "Clasificación Estelar",
+        "palabras": [
+            "enana",
+            "blanca",
+            "roja",
+            "gigante",
+            "supergigante",
+            "neutrones",
+            "pulsar",
+            "magnetar",
+            "secuencia",
+            "principal"
+        ]
+    },
+    {
+        "name": "Términos de Oceanografía",
+        "palabras": [
+            "corriente",
+            "marea",
+            "termoclina",
+            "haloclina",
+            "picnoclina",
+            "plataforma",
+            "talud",
+            "dorsal",
+            "abisal",
+            "afloramiento"
+        ]
+    },
+    {
+        "name": "Términos de Virología",
+        "palabras": [
+            "virus",
+            "virion",
+            "capside",
+            "retrovirus",
+            "bacteriofago",
+            "pandemia",
+            "infeccion",
+            "antigeno",
+            "vector",
+            "zoonosis"
+        ]
+    },
+    {
+        "name": "El Sistema Inmune",
+        "palabras": [
+            "linfocito",
+            "anticuerpo",
+            "macrofago",
+            "antigeno",
+            "vacuna",
+            "fagocitosis",
+            "inmunidad",
+            "alergia",
+            "histamina",
+            "interferon"
+        ]
+    },
+    {
+        "name": "Términos de Sismología",
+        "palabras": [
+            "epicentro",
+            "hipocentro",
+            "falla",
+            "sismografo",
+            "magnitud",
+            "escala",
+            "richter",
+            "tsunami",
+            "replica",
+            "precursor"
+        ]
+    },
+    {
+        "name": "Técnicas de Laboratorio (Biología)",
+        "palabras": [
+            "pcr",
+            "electroforesis",
+            "westernblot",
+            "elisa",
+            "secuenciacion",
+            "clonacion",
+            "hibridacion",
+            "cultivo",
+            "inmunohistoquimica",
+            "citometria"
+        ]
+    },
+    {
+        "name": "Términos de Algoritmia",
+        "palabras": [
+            "recursividad",
+            "iteracion",
+            "complejidad",
+            "ordenacion",
+            "busqueda",
+            "burbuja",
+            "quicksort",
+            "mergesort",
+            "heuristica",
+            "dinamica"
+        ]
+    },
+    {
+        "name": "Términos de Botánica",
+        "palabras": [
+            "xilema",
+            "floema",
+            "estoma",
+            "clorofila",
+            "fotosintesis",
+            "polinizacion",
+            "cotiledon",
+            "meristemo",
+            "pistilo",
+            "estambre"
+        ]
+    },
+    {
+        "name": "Términos de Acústica",
+        "palabras": [
+            "decibelio",
+            "frecuencia",
+            "amplitud",
+            "timbre",
+            "resonancia",
+            "eco",
+            "reverberacion",
+            "doppler",
+            "infrasonido",
+            "ultrasonido"
+        ]
+    },
+    {
+        "name": "El Sistema Digestivo",
+        "palabras": [
+            "esofago",
+            "estomago",
+            "intestino",
+            "delgado",
+            "grueso",
+            "pancreas",
+            "higado",
+            "vesicula",
+            "enzima",
+            "peristalsis"
+        ]
+    },
+    {
+        "name": "Términos de Mineralogía",
+        "palabras": [
+            "dureza",
+            "exfoliacion",
+            "fractura",
+            "brillo",
+            "raya",
+            "habito",
+            "cristalino",
+            "macla",
+            "silicato",
+            "carbonato"
+        ]
+    },
+    {
+        "name": "Tipos de Rocas",
+        "palabras": [
+            "ignea",
+            "sedimentaria",
+            "metamorfica",
+            "granito",
+            "basalto",
+            "arenisca",
+            "caliza",
+            "marmol",
+            "pizarra",
+            "esquisto"
+        ]
+    },
+    {
+        "name": "Términos de Farmacología",
+        "palabras": [
+            "farmaco",
+            "principio",
+            "activo",
+            "excipiente",
+            "posologia",
+            "cinetica",
+            "dinamia",
+            "metabolito",
+            "placebo",
+            "biodisponibilidad"
+        ]
+    },
+    {
+        "name": "Términos de Cirugía",
+        "palabras": [
+            "anestesia",
+            "bisturi",
+            "sutura",
+            "biopsia",
+            "trasplante",
+            "laparoscopia",
+            "endoscopia",
+            "cateter",
+            "drenaje",
+            "hemostasia"
+        ]
+    },
+    {
+        "name": "Términos de Computación Cuántica",
+        "palabras": [
+            "qubit",
+            "superposicion",
+            "entrelazamiento",
+            "teleportacion",
+            "algoritmo",
+            "shor",
+            "grover",
+            "decoherencia",
+            "computacion",
+            "puerta"
+        ]
+    },
+    {
+        "name": "Diseñadores de Alta Costura",
+        "palabras": [
+            "chanel",
+            "dior",
+            "versace",
+            "armani",
+            "valentino",
+            "prada",
+            "givenchy",
+            "balenciaga",
+            "gucci",
+            "rabanne"
+        ]
+    },
+    {
+        "name": "Tipos de Estampados",
+        "palabras": [
+            "lunares",
+            "rayas",
+            "cuadros",
+            "tartan",
+            "paisley",
+            "floral",
+            "animal",
+            "camuflaje",
+            "pata",
+            "gallo"
+        ]
+    },
+    {
+        "name": "Tipos de Escotes",
+        "palabras": [
+            "palabra",
+            "honor",
+            "barco",
+            "halter",
+            "pico",
+            "redondo",
+            "cuadrado",
+            "asimetrico",
+            "corazon",
+            "chimenea"
+        ]
+    },
+    {
+        "name": "Tipos de Faldas",
+        "palabras": [
+            "minifalda",
+            "lapiz",
+            "tubo",
+            "campana",
+            "tableada",
+            "pareo",
+            "evasé",
+            "tulipa",
+            "capa",
+            "pantalon"
+        ]
+    },
+    {
+        "name": "Ropa Formal Masculina",
+        "palabras": [
+            "esmoquin",
+            "frac",
+            "chaque",
+            "traje",
+            "chaleco",
+            "corbata",
+            "pajarita",
+            "gemelos",
+            "tirantes",
+            "pañuelo"
+        ]
+    },
+    {
+        "name": "Calzado Femenino",
+        "palabras": [
+            "stiletto",
+            "sandalia",
+            "bailarina",
+            "cuña",
+            "plataforma",
+            "botin",
+            "mocasin",
+            "zueco",
+            "esparto",
+            "peeptoe"
+        ]
+    },
+    {
+        "name": "Bolsos y Carteras",
+        "palabras": [
+            "tote",
+            "clutch",
+            "bandolera",
+            "satchel",
+            "mochila",
+            "riñonera",
+            "capazo",
+            "neceser",
+            "billetera",
+            "monedero"
+        ]
+    },
+    {
+        "name": "Términos de Modelaje",
+        "palabras": [
+            "pasarela",
+            "casting",
+            "portfolio",
+            "booker",
+            "editorial",
+            "campaña",
+            "lookbook",
+            "fitting",
+            "backstage",
+            "pose"
+        ]
+    },
+    {
+        "name": "Tejidos de Lujo",
+        "palabras": [
+            "seda",
+            "cachemira",
+            "terciopelo",
+            "saten",
+            "brocado",
+            "damasco",
+            "organza",
+            "gasa",
+            "alpaca",
+            "angora"
+        ]
+    },
+    {
+        "name": "Partes de una Prenda",
+        "palabras": [
+            "solapa",
+            "puño",
+            "cuello",
+            "ojal",
+            "boton",
+            "cremallera",
+            "dobladillo",
+            "costura",
+            "forro",
+            "bolsillo"
+        ]
+    },
+    {
+        "name": "Joyas (Tipos)",
+        "palabras": [
+            "gargantilla",
+            "pendiente",
+            "sortija",
+            "esclava",
+            "broche",
+            "colgante",
+            "pasador",
+            "diadema",
+            "tobillera",
+            "camafeo"
+        ]
+    },
+    {
+        "name": "Décadas de la Moda (S.XX)",
+        "palabras": [
+            "veinte",
+            "treinta",
+            "cuarenta",
+            "cincuenta",
+            "sesenta",
+            "setenta",
+            "ochenta",
+            "noventa",
+            "flapper",
+            "hippie"
+        ]
+    },
+    {
+        "name": "Términos de Alta Costura",
+        "palabras": [
+            "atelier",
+            "couture",
+            "patron",
+            "toile",
+            "maniqui",
+            "fitting",
+            "bordado",
+            "exclusivo",
+            "artesanal",
+            "desfile"
+        ]
+    },
+    {
+        "name": "Marcas de Ropa Deportiva",
+        "palabras": [
+            "nike",
+            "adidas",
+            "puma",
+            "reebok",
+            "under",
+            "armour",
+            "asics",
+            "newbalance",
+            "fila",
+            "kappa"
+        ]
+    },
+    {
+        "name": "Capitales de la Moda",
+        "palabras": [
+            "paris",
+            "milan",
+            "londres",
+            "nuevayork",
+            "tokio",
+            "amberes",
+            "madrid",
+            "barcelona",
+            "berlin",
+            "seoul"
+        ]
+    },
+    {
+        "name": "Términos de Perfumería",
+        "palabras": [
+            "fragancia",
+            "aroma",
+            "esencia",
+            "perfume",
+            "colonia",
+            "nota",
+            "salida",
+            "corazon",
+            "fondo",
+            "bouquet"
+        ]
+    },
+    {
+        "name": "Accesorios para el Cabello",
+        "palabras": [
+            "diadema",
+            "horquilla",
+            "pasador",
+            "coletero",
+            "goma",
+            "pinza",
+            "lazo",
+            "turbante",
+            "pañuelo",
+            "cinta"
+        ]
+    },
+    {
+        "name": "Tipos de Pantalones",
+        "palabras": [
+            "vaquero",
+            "chino",
+            "cargo",
+            "pitillo",
+            "campana",
+            "palazzo",
+            "culotte",
+            "jogger",
+            "legging",
+            "bermuda"
+        ]
+    },
+    {
+        "name": "Estilos de Moda",
+        "palabras": [
+            "vintage",
+            "retro",
+            "bohemio",
+            "minimalista",
+            "grunge",
+            "preppy",
+            "gotico",
+            "punk",
+            "urbano",
+            "clasico"
+        ]
+    },
+    {
+        "name": "Ropa de Baño",
+        "palabras": [
+            "bikini",
+            "bañador",
+            "trikini",
+            "tankini",
+            "pareo",
+            "short",
+            "kaftan",
+            "chancla",
+            "toalla",
+            "capazo"
+        ]
+    },
+    {
+        "name": "Prendas de Abrigo",
+        "palabras": [
+            "gabardina",
+            "trenca",
+            "anorak",
+            "parka",
+            "plumifero",
+            "bomber",
+            "blazer",
+            "cazadora",
+            "chaleco",
+            "capa"
+        ]
+    },
+    {
+        "name": "Materiales de Calzado",
+        "palabras": [
+            "cuero",
+            "ante",
+            "charol",
+            "lona",
+            "goma",
+            "esparto",
+            "corcho",
+            "sintetico",
+            "serraje",
+            "nubuck"
+        ]
+    },
+    {
+        "name": "Iconos de la Moda",
+        "palabras": [
+            "chanel",
+            "hepburn",
+            "monroe",
+            "kennedy",
+            "moss",
+            "schiffer",
+            "campbell",
+            "versace",
+            "lagerfeld",
+            "mcqueen"
+        ]
+    },
+    {
+        "name": "Herramientas de Maquillaje",
+        "palabras": [
+            "brocha",
+            "pincel",
+            "esponja",
+            "borla",
+            "rizador",
+            "aplicador",
+            "difuminador",
+            "goupillon",
+            "espatula",
+            "neceser"
+        ]
+    },
+    {
+        "name": "Tipos de Gafas",
+        "palabras": [
+            "aviador",
+            "redondas",
+            "gata",
+            "wayfarer",
+            "clubmaster",
+            "mariposa",
+            "pantalla",
+            "deportivas",
+            "graduadas",
+            "sol"
+        ]
+    },
+    {
+        "name": "Ropa Interior Femenina",
+        "palabras": [
+            "sujetador",
+            "braguita",
+            "tanga",
+            "culotte",
+            "body",
+            "liguero",
+            "picardias",
+            "corset",
+            "combinacion",
+            "faja"
+        ]
+    },
+    {
+        "name": "Patronaje y Confección",
+        "palabras": [
+            "patron",
+            "costura",
+            "hilvan",
+            "dobladillo",
+            "pinza",
+            "sisa",
+            "canesú",
+            "nesga",
+            "bies",
+            "ojal"
+        ]
+    },
+    {
+        "name": "Tipos de Cuellos (Camisa)",
+        "palabras": [
+            "italiano",
+            "ingles",
+            "frances",
+            "mao",
+            "americano",
+            "opera",
+            "esmoquin",
+            "pajarita",
+            "club",
+            "cutaway"
+        ]
+    },
+    {
+        "name": "Tipos de Sombreros",
+        "palabras": [
+            "fedora",
+            "bombin",
+            "pamela",
+            "canotier",
+            "cloche",
+            "borsalino",
+            "chistera",
+            "turbante",
+            "visera",
+            "gorro"
+        ]
+    },
+    {
+        "name": "Tipos de Bolsillos",
+        "palabras": [
+            "parche",
+            "ojal",
+            "ribete",
+            "fuelle",
+            "canguro",
+            "relojero",
+            "frances",
+            "sastre",
+            "cartera",
+            "plastron"
+        ]
+    },
+    {
+        "name": "Marcas de Ropa Casual",
+        "palabras": [
+            "zara",
+            "mango",
+            "levis",
+            "diesel",
+            "gap",
+            "benetton",
+            "lacoste",
+            "tommy",
+            "calvin",
+            "klein"
+        ]
+    },
+    {
+        "name": "Calzado Deportivo",
+        "palabras": [
+            "zapatilla",
+            "bota",
+            "running",
+            "trekking",
+            "baloncesto",
+            "futbol",
+            "tenis",
+            "skate",
+            "training",
+            "crossfit"
+        ]
+    },
+    {
+        "name": "Accesorios Masculinos",
+        "palabras": [
+            "corbata",
+            "pajarita",
+            "gemelos",
+            "pisacorbatas",
+            "tirantes",
+            "cinturon",
+            "reloj",
+            "billetera",
+            "pañuelo",
+            "alfiler"
+        ]
+    },
+    {
+        "name": "Ropa de Gala Femenina",
+        "palabras": [
+            "vestido",
+            "noche",
+            "coctel",
+            "largo",
+            "sirena",
+            "princesa",
+            "imperio",
+            "palabra",
+            "honor",
+            "lentejuela"
+        ]
+    },
+    {
+        "name": "Términos de Tendencia",
+        "palabras": [
+            "tendencia",
+            "musthave",
+            "itgirl",
+            "coolhunter",
+            "viral",
+            "hype",
+            "streetstyle",
+            "pasarela",
+            "vanguardia",
+            "revival"
+        ]
+    },
+    {
+        "name": "Términos de E-commerce de Moda",
+        "palabras": [
+            "haul",
+            "unboxing",
+            "lookbook",
+            "wishlist",
+            "outlet",
+            "showroom",
+            "dropshipping",
+            "influencer",
+            "colaboracion",
+            "marketplace"
+        ]
+    },
+    {
+        "name": "Las Vocales",
+        "palabras": [
+            "a",
+            "e",
+            "i",
+            "o",
+            "u",
+            "letra",
+            "sonido",
+            "leer",
+            "palabra",
+            "vocal"
+        ]
+    },
+    {
+        "name": "Números del 1 al 10",
+        "palabras": [
+            "uno",
+            "dos",
+            "tres",
+            "cuatro",
+            "cinco",
+            "seis",
+            "siete",
+            "ocho",
+            "nueve",
+            "diez"
+        ]
+    },
+    {
+        "name": "Figuras Geométricas",
+        "palabras": [
+            "circulo",
+            "cuadrado",
+            "triangulo",
+            "rectangulo",
+            "estrella",
+            "corazon",
+            "rombo",
+            "ovalo",
+            "luna",
+            "sol"
+        ]
+    },
+    {
+        "name": "Colores Primarios",
+        "palabras": [
+            "rojo",
+            "amarillo",
+            "azul",
+            "pintar",
+            "mezclar",
+            "color",
+            "pincel",
+            "tempera",
+            "arte",
+            "mancha"
+        ]
+    },
+    {
+        "name": "En el Salón de Clases",
+        "palabras": [
+            "maestra",
+            "amigo",
+            "mesa",
+            "silla",
+            "pizarra",
+            "libro",
+            "cuento",
+            "juego",
+            "lapiz",
+            "crayola"
+        ]
+    },
+    {
+        "name": "Mi Familia",
+        "palabras": [
+            "mama",
+            "papa",
+            "hermano",
+            "hermana",
+            "abuelo",
+            "abuela",
+            "bebe",
+            "familia",
+            "casa",
+            "amor"
+        ]
+    },
+    {
+        "name": "Animales de la Granja",
+        "palabras": [
+            "vaca",
+            "pollo",
+            "cerdo",
+            "caballo",
+            "oveja",
+            "gallo",
+            "pato",
+            "conejo",
+            "perro",
+            "gato"
+        ]
+    },
+    {
+        "name": "Animales de la Selva",
+        "palabras": [
+            "mono",
+            "leon",
+            "tigre",
+            "elefante",
+            "jirafa",
+            "cebra",
+            "serpiente",
+            "tucan",
+            "cocodrilo",
+            "hipopotamo"
+        ]
+    },
+    {
+        "name": "Frutas Comunes",
+        "palabras": [
+            "manzana",
+            "platano",
+            "naranja",
+            "fresa",
+            "uva",
+            "pera",
+            "sandia",
+            "piña",
+            "melon",
+            "limon"
+        ]
+    },
+    {
+        "name": "Verduras Comunes",
+        "palabras": [
+            "zanahoria",
+            "tomate",
+            "lechuga",
+            "papa",
+            "brocoli",
+            "pepino",
+            "maiz",
+            "cebolla",
+            "pimiento",
+            "calabaza"
+        ]
+    },
+    {
+        "name": "El Clima",
+        "palabras": [
+            "sol",
+            "lluvia",
+            "nube",
+            "viento",
+            "nieve",
+            "arcoiris",
+            "trueno",
+            "calor",
+            "frio",
+            "dia"
+        ]
+    },
+    {
+        "name": "Medios de Transporte",
+        "palabras": [
+            "carro",
+            "autobus",
+            "avion",
+            "tren",
+            "barco",
+            "bicicleta",
+            "moto",
+            "camion",
+            "helicoptero",
+            "cohete"
+        ]
+    },
+    {
+        "name": "Partes del Cuerpo",
+        "palabras": [
+            "cabeza",
+            "ojos",
+            "nariz",
+            "boca",
+            "orejas",
+            "manos",
+            "pies",
+            "brazos",
+            "piernas",
+            "pelo"
+        ]
+    },
+    {
+        "name": "Ropa Básica",
+        "palabras": [
+            "camisa",
+            "pantalon",
+            "zapatos",
+            "calcetin",
+            "vestido",
+            "falda",
+            "abrigo",
+            "gorro",
+            "guantes",
+            "bufanda"
+        ]
+    },
+    {
+        "name": "Juguetes",
+        "palabras": [
+            "pelota",
+            "muñeca",
+            "carro",
+            "bloque",
+            "oso",
+            "tren",
+            "rompecabezas",
+            "cubo",
+            "pala",
+            "dinosaurio"
+        ]
+    },
+    {
+        "name": "Alimentos y Bebidas",
+        "palabras": [
+            "leche",
+            "agua",
+            "jugo",
+            "pan",
+            "queso",
+            "huevo",
+            "galleta",
+            "sopa",
+            "arroz",
+            "pollo"
+        ]
+    },
+    {
+        "name": "Acciones y Verbos",
+        "palabras": [
+            "jugar",
+            "correr",
+            "saltar",
+            "comer",
+            "dormir",
+            "pintar",
+            "cantar",
+            "bailar",
+            "leer",
+            "reir"
+        ]
+    },
+    {
+        "name": "En la Naturaleza",
+        "palabras": [
+            "arbol",
+            "flor",
+            "hoja",
+            "pasto",
+            "rio",
+            "montaña",
+            "piedra",
+            "cielo",
+            "sol",
+            "luna"
+        ]
+    },
+    {
+        "name": "Sentimientos y Emociones",
+        "palabras": [
+            "feliz",
+            "triste",
+            "enojado",
+            "miedo",
+            "sorpresa",
+            "amor",
+            "risa",
+            "llanto",
+            "abrazo",
+            "beso"
+        ]
+    },
+    {
+        "name": "Opuestos Básicos",
+        "palabras": [
+            "grande",
+            "pequeño",
+            "alto",
+            "bajo",
+            "dia",
+            "noche",
+            "dentro",
+            "fuera",
+            "arriba",
+            "abajo"
+        ]
+    },
+    {
+        "name": "Instrumentos Musicales Simples",
+        "palabras": [
+            "tambor",
+            "maraca",
+            "pandereta",
+            "triangulo",
+            "flauta",
+            "campana",
+            "xilofono",
+            "claves",
+            "guitarra",
+            "piano"
+        ]
+    },
+    {
+        "name": "Materiales de Arte",
+        "palabras": [
+            "plastilina",
+            "tijeras",
+            "pegamento",
+            "papel",
+            "pincel",
+            "crayola",
+            "marcador",
+            "pintura",
+            "masa",
+            "brillantina"
+        ]
+    },
+    {
+        "name": "En el Parque",
+        "palabras": [
+            "columpio",
+            "tobogan",
+            "resbaladilla",
+            "pasamanos",
+            "arenero",
+            "banca",
+            "pasto",
+            "juego",
+            "amigo",
+            "pelota"
+        ]
+    },
+    {
+        "name": "Hábitos de Higiene",
+        "palabras": [
+            "jabon",
+            "agua",
+            "cepillo",
+            "pasta",
+            "dientes",
+            "baño",
+            "ducha",
+            "peine",
+            "lavar",
+            "manos"
+        ]
+    },
+    {
+        "name": "Profesiones y Ayudantes",
+        "palabras": [
+            "doctor",
+            "policia",
+            "bombero",
+            "maestra",
+            "cocinero",
+            "cartero",
+            "granjero",
+            "piloto",
+            "musico",
+            "pintor"
+        ]
+    },
+    {
+        "name": "Personajes de Cuentos",
+        "palabras": [
+            "principe",
+            "princesa",
+            "rey",
+            "reina",
+            "lobo",
+            "cerdito",
+            "bruja",
+            "hada",
+            "gigante",
+            "enano"
+        ]
+    },
+    {
+        "name": "El Espacio Exterior",
+        "palabras": [
+            "sol",
+            "luna",
+            "estrella",
+            "planeta",
+            "cohete",
+            "astronauta",
+            "espacio",
+            "cometa",
+            "galaxia",
+            "extraterrestre"
+        ]
+    },
+    {
+        "name": "Bichos e Insectos",
+        "palabras": [
+            "hormiga",
+            "mariposa",
+            "abeja",
+            "mariquita",
+            "gusano",
+            "araña",
+            "grillo",
+            "caracol",
+            "mosquito",
+            "libelula"
+        ]
+    },
+    {
+        "name": "En el Mar",
+        "palabras": [
+            "pez",
+            "ballena",
+            "delfin",
+            "pulpo",
+            "cangrejo",
+            "tiburon",
+            "tortuga",
+            "playa",
+            "ola",
+            "arena"
+        ]
+    },
+    {
+        "name": "Herramientas de Juguete",
+        "palabras": [
+            "martillo",
+            "serrucho",
+            "clavo",
+            "tornillo",
+            "destornillador",
+            "llave",
+            "tuerca",
+            "taladro",
+            "casco",
+            "cinta"
+        ]
+    },
+    {
+        "name": "Formas de la Naturaleza",
+        "palabras": [
+            "hoja",
+            "gota",
+            "copo",
+            "nieve",
+            "concha",
+            "pluma",
+            "semilla",
+            "huevo",
+            "nido",
+            "telaraña"
+        ]
+    },
+    {
+        "name": "Comidas del Día",
+        "palabras": [
+            "desayuno",
+            "almuerzo",
+            "cena",
+            "merienda",
+            "postre",
+            "sopa",
+            "ensalada",
+            "fruta",
+            "yogur",
+            "cereal"
+        ]
+    },
+    {
+        "name": "Colores Secundarios",
+        "palabras": [
+            "verde",
+            "naranja",
+            "morado",
+            "violeta",
+            "rosa",
+            "cafe",
+            "negro",
+            "blanco",
+            "gris",
+            "celeste"
+        ]
+    },
+    {
+        "name": "Días de la Semana",
+        "palabras": [
+            "lunes",
+            "martes",
+            "miercoles",
+            "jueves",
+            "viernes",
+            "sabado",
+            "domingo",
+            "hoy",
+            "mañana",
+            "ayer"
+        ]
+    },
+    {
+        "name": "Conceptos de Tiempo",
+        "palabras": [
+            "ahora",
+            "despues",
+            "antes",
+            "temprano",
+            "tarde",
+            "rapido",
+            "lento",
+            "siempre",
+            "nunca",
+            "dia"
+        ]
+    },
+    {
+        "name": "Ropa de Cama",
+        "palabras": [
+            "almohada",
+            "sabana",
+            "cobija",
+            "manta",
+            "pijama",
+            "cama",
+            "colchon",
+            "edredon",
+            "funda",
+            "cuna"
+        ]
+    },
+    {
+        "name": "Materias de la Escuela",
+        "palabras": [
+            "matematicas",
+            "lectura",
+            "ciencias",
+            "historia",
+            "geografia",
+            "arte",
+            "musica",
+            "deporte",
+            "recreo",
+            "tarea"
+        ]
+    },
+    {
+        "name": "Actividades de la Tarde",
+        "palabras": [
+            "futbol",
+            "ballet",
+            "karate",
+            "natacion",
+            "piano",
+            "dibujo",
+            "parque",
+            "jugar",
+            "amigos",
+            "bicicleta"
+        ]
+    },
+    {
+        "name": "En la Biblioteca",
+        "palabras": [
+            "silencio",
+            "cuento",
+            "libro",
+            "revista",
+            "prestamo",
+            "computadora",
+            "estudiar",
+            "leer",
+            "pagina",
+            "devolver"
+        ]
+    },
+    {
+        "name": "Partes de un Cuento",
+        "palabras": [
+            "personaje",
+            "principio",
+            "final",
+            "problema",
+            "solucion",
+            "titulo",
+            "autor",
+            "dibujo",
+            "villano",
+            "heroe"
+        ]
+    },
+    {
+        "name": "Los Continentes",
+        "palabras": [
+            "america",
+            "europa",
+            "asia",
+            "africa",
+            "oceania",
+            "antartida",
+            "mundo",
+            "pais",
+            "mapa",
+            "continente"
+        ]
+    },
+    {
+        "name": "El Sistema Solar",
+        "palabras": [
+            "mercurio",
+            "venus",
+            "tierra",
+            "marte",
+            "jupiter",
+            "saturno",
+            "urano",
+            "neptuno",
+            "planeta",
+            "sol"
+        ]
+    },
+    {
+        "name": "Dinosaurios Famosos",
+        "palabras": [
+            "rex",
+            "velociraptor",
+            "triceratops",
+            "estegosaurio",
+            "brontosaurio",
+            "fosil",
+            "hueso",
+            "extinto",
+            "era",
+            "jurásico"
+        ]
+    },
+    {
+        "name": "Cosas de Superhéroes",
+        "palabras": [
+            "heroe",
+            "villano",
+            "poder",
+            "capa",
+            "mascara",
+            "secreto",
+            "identidad",
+            "fuerza",
+            "velocidad",
+            "salvar"
+        ]
+    },
+    {
+        "name": "En los Videojuegos",
+        "palabras": [
+            "jugador",
+            "nivel",
+            "vida",
+            "puntos",
+            "mision",
+            "jefe",
+            "mapa",
+            "control",
+            "pausa",
+            "ganar"
+        ]
+    },
+    {
+        "name": "Una Fiesta de Cumpleaños",
+        "palabras": [
+            "invitacion",
+            "regalo",
+            "pastel",
+            "vela",
+            "piñata",
+            "juegos",
+            "amigos",
+            "sorpresa",
+            "globo",
+            "cancion"
+        ]
+    },
+    {
+        "name": "Meses del Año",
+        "palabras": [
+            "enero",
+            "febrero",
+            "marzo",
+            "abril",
+            "mayo",
+            "junio",
+            "julio",
+            "agosto",
+            "septiembre",
+            "octubre"
+        ]
+    },
+    {
+        "name": "En un Restaurante",
+        "palabras": [
+            "menu",
+            "mesero",
+            "comida",
+            "postre",
+            "bebida",
+            "cuenta",
+            "propina",
+            "mesa",
+            "silla",
+            "cocinero"
+        ]
+    },
+    {
+        "name": "El Ciclo del Agua",
+        "palabras": [
+            "evaporacion",
+            "condensacion",
+            "precipitacion",
+            "coleccion",
+            "nube",
+            "lluvia",
+            "rio",
+            "mar",
+            "vapor",
+            "ciclo"
+        ]
+    },
+    {
+        "name": "En el Supermercado",
+        "palabras": [
+            "carrito",
+            "lista",
+            "comida",
+            "pasillo",
+            "caja",
+            "pagar",
+            "dinero",
+            "bolsa",
+            "cliente",
+            "producto"
+        ]
+    },
+    {
+        "name": "Cosas que Crecen",
+        "palabras": [
+            "planta",
+            "semilla",
+            "raiz",
+            "tallo",
+            "hoja",
+            "flor",
+            "fruto",
+            "crecer",
+            "regar",
+            "tierra"
+        ]
+    },
+    {
+        "name": "Adjetivos Descriptivos",
+        "palabras": [
+            "grande",
+            "pequeño",
+            "rapido",
+            "lento",
+            "fuerte",
+            "debil",
+            "caliente",
+            "frio",
+            "feliz",
+            "triste"
+        ]
+    },
+    {
+        "name": "El Cuerpo por Dentro",
+        "palabras": [
+            "corazon",
+            "cerebro",
+            "pulmones",
+            "estomago",
+            "hueso",
+            "musculo",
+            "sangre",
+            "esqueleto",
+            "respirar",
+            "digerir"
+        ]
+    },
+    {
+        "name": "Oficios y Profesiones",
+        "palabras": [
+            "doctora",
+            "maestro",
+            "policia",
+            "bombera",
+            "cientifico",
+            "astronauta",
+            "veterinaria",
+            "artista",
+            "conductor",
+            "periodista"
+        ]
+    },
+    {
+        "name": "En un Campamento",
+        "palabras": [
+            "tienda",
+            "carpa",
+            "fogata",
+            "malvavisco",
+            "bosque",
+            "linterna",
+            "brujula",
+            "mapa",
+            "excursion",
+            "saco"
+        ]
+    },
+    {
+        "name": "Mascotas",
+        "palabras": [
+            "perro",
+            "gato",
+            "hamster",
+            "pez",
+            "tortuga",
+            "conejo",
+            "pajaro",
+            "mascota",
+            "cuidar",
+            "jugar"
+        ]
+    },
+    {
+        "name": "La Cadena Alimenticia",
+        "palabras": [
+            "sol",
+            "planta",
+            "herbivoro",
+            "carnivoro",
+            "presa",
+            "depredador",
+            "animal",
+            "comer",
+            "energia",
+            "cadena"
+        ]
+    },
+    {
+        "name": "Cosas en mi Habitación",
+        "palabras": [
+            "cama",
+            "juguete",
+            "escritorio",
+            "lampara",
+            "alfombra",
+            "cortina",
+            "armario",
+            "ventana",
+            "almohada",
+            "libro"
+        ]
+    },
+    {
+        "name": "Términos de Computadora",
+        "palabras": [
+            "pantalla",
+            "teclado",
+            "raton",
+            "internet",
+            "juego",
+            "video",
+            "email",
+            "carpeta",
+            "archivo",
+            "contraseña"
+        ]
+    },
+    {
+        "name": "Verbos en Pasado",
+        "palabras": [
+            "jugue",
+            "comi",
+            "corri",
+            "dormi",
+            "fui",
+            "hice",
+            "vi",
+            "lei",
+            "dije",
+            "cante"
+        ]
+    },
+    {
+        "name": "En el Zoológico",
+        "palabras": [
+            "jaula",
+            "animal",
+            "visitante",
+            "cuidador",
+            "comida",
+            "habitat",
+            "mapa",
+            "boleto",
+            "entrada",
+            "salida"
+        ]
+    },
+    {
+        "name": "Cosas de Magia",
+        "palabras": [
+            "mago",
+            "varita",
+            "sombrero",
+            "conejo",
+            "truco",
+            "hechizo",
+            "pocion",
+            "desaparecer",
+            "aparecer",
+            "ilusion"
+        ]
+    },
+    {
+        "name": "En Navidad",
+        "palabras": [
+            "arbol",
+            "regalo",
+            "nieve",
+            "adorno",
+            "luces",
+            "estrella",
+            "trineo",
+            "reno",
+            "chimenea",
+            "diciembre"
+        ]
+    },
+    {
+        "name": "Cosas que se Reciclan",
+        "palabras": [
+            "papel",
+            "carton",
+            "plastico",
+            "vidrio",
+            "lata",
+            "basura",
+            "reciclar",
+            "contenedor",
+            "planeta",
+            "reducir"
+        ]
+    },
+    {
+        "name": "Tipos de Historias",
+        "palabras": [
+            "aventura",
+            "misterio",
+            "comedia",
+            "fantasia",
+            "terror",
+            "leyenda",
+            "fabula",
+            "chiste",
+            "poema",
+            "biografia"
+        ]
+    },
+    {
+        "name": "Herramientas de Verdad",
+        "palabras": [
+            "martillo",
+            "serrucho",
+            "destornillador",
+            "clavo",
+            "tornillo",
+            "taladro",
+            "llave",
+            "inglesa",
+            "metro",
+            "pinzas"
+        ]
+    },
+    {
+        "name": "En una Orquesta",
+        "palabras": [
+            "violin",
+            "trompeta",
+            "flauta",
+            "tambor",
+            "piano",
+            "director",
+            "musica",
+            "concierto",
+            "escenario",
+            "aplauso"
+        ]
+    },
+    {
+        "name": "Cosas del Mar",
+        "palabras": [
+            "barco",
+            "submarino",
+            "faro",
+            "isla",
+            "tesoro",
+            "pirata",
+            "ancla",
+            "puerto",
+            "capitan",
+            "marinero"
+        ]
+    },
+    {
+        "name": "La Comunidad",
+        "palabras": [
+            "escuela",
+            "hospital",
+            "parque",
+            "tienda",
+            "biblioteca",
+            "correo",
+            "vecino",
+            "ciudad",
+            "pueblo",
+            "casa"
+        ]
+    },
+    {
+        "name": "Verbos de la Mente",
+        "palabras": [
+            "pensar",
+            "creer",
+            "imaginar",
+            "recordar",
+            "olvidar",
+            "soñar",
+            "decidir",
+            "aprender",
+            "saber",
+            "entender"
+        ]
+    },
+    {
+        "name": "Cosas que Vuelan",
+        "palabras": [
+            "avion",
+            "helicoptero",
+            "pajaro",
+            "mariposa",
+            "abeja",
+            "cometa",
+            "globo",
+            "cohete",
+            "murcielago",
+            "libelula"
+        ]
+    },
+    {
+        "name": "Palabras de Pregunta",
+        "palabras": [
+            "que",
+            "quien",
+            "cuando",
+            "donde",
+            "por",
+            "que",
+            "como",
+            "cual",
+            "cuanto",
+            "pregunta"
+        ]
+    },
+    {
+        "name": "Música de los 50",
+        "palabras": [
+            "rockandroll",
+            "elvis",
+            "presley",
+            "chuckberry",
+            "boogie",
+            "jukebox",
+            "vinilo",
+            "tocadiscos",
+            "guateque",
+            "duduá"
+        ]
+    },
+    {
+        "name": "Cine y Actores de los 50",
+        "palabras": [
+            "marilyn",
+            "monroe",
+            "jamesdean",
+            "rebelde",
+            "autocine",
+            "technicolor",
+            "hitchcock",
+            "hollywood",
+            "western",
+            "cienciaficcion"
+        ]
+    },
+    {
+        "name": "Moda de los 50",
+        "palabras": [
+            "caniche",
+            "falda",
+            "rockabilly",
+            "tupé",
+            "brillantina",
+            "chaqueta",
+            "cuero",
+            "newlook",
+            "cardigan",
+            "polka"
+        ]
+    },
+    {
+        "name": "Coches Clásicos",
+        "palabras": [
+            "cadillac",
+            "chevrolet",
+            "belair",
+            "thunderbird",
+            "corvette",
+            "alas",
+            "cromado",
+            "descapotable",
+            "ford",
+            "buick"
+        ]
+    },
+    {
+        "name": "La Guerra Fría",
+        "palabras": [
+            "comunismo",
+            "capitalismo",
+            "sputnik",
+            "telon",
+            "acero",
+            "macartismo",
+            "espionaje",
+            "propaganda",
+            "nuclear",
+            "kremlin"
+        ]
+    },
+    {
+        "name": "Vida Cotidiana de los 50",
+        "palabras": [
+            "television",
+            "blancoynegro",
+            "diner",
+            "malteada",
+            "hulahop",
+            "suburbio",
+            "babyboom",
+            "tupperware",
+            "drivein",
+            "telefono"
+        ]
+    },
+    {
+        "name": "Inventos y Novedades",
+        "palabras": [
+            "transistor",
+            "vacuna",
+            "polio",
+            "tarjeta",
+            "credito",
+            "microondas",
+            "lego",
+            "cinturon",
+            "codigo",
+            "barras"
+        ]
+    },
+    {
+        "name": "Programas de TV Famosos",
+        "palabras": [
+            "ilovelucy",
+            "dimension",
+            "desconocida",
+            "zorro",
+            "lassie",
+            "bonanza",
+            "telediario",
+            "antena",
+            "valvula",
+            "directo"
+        ]
+    },
+    {
+        "name": "Jerga de la Época",
+        "palabras": [
+            "chupa",
+            "cuero",
+            "vespa",
+            "lambretta",
+            "ye-ye",
+            "copete",
+            "pringado",
+            "basca",
+            "fiera",
+            "dabuten"
+        ]
+    },
+    {
+        "name": "Inicio de la Carrera Espacial",
+        "palabras": [
+            "sputnik",
+            "nasa",
+            "laika",
+            "cohete",
+            "satelite",
+            "orbita",
+            "astronauta",
+            "cosmonauta",
+            "explorer",
+            "cabo"
+        ]
+    },
+    {
+        "name": "Comida de Diner",
+        "palabras": [
+            "hamburguesa",
+            "batido",
+            "aros",
+            "cebolla",
+            "perrito",
+            "caliente",
+            "refresco",
+            "cola",
+            "patatas",
+            "fritas"
+        ]
+    },
+    {
+        "name": "Juguetes Populares",
+        "palabras": [
+            "hulahop",
+            "yoyo",
+            "frisbee",
+            "mrpotato",
+            "slinky",
+            "playdoh",
+            "matchbox",
+            "barbie",
+            "patines",
+            "triciclo"
+        ]
+    },
+    {
+        "name": "Estilos de Baile",
+        "palabras": [
+            "swing",
+            "jive",
+            "boogiewoogie",
+            "lindyhop",
+            "stroll",
+            "chachacha",
+            "mambo",
+            "baile",
+            "salon",
+            "pareja"
+        ]
+    },
+    {
+        "name": "Generación Beat",
+        "palabras": [
+            "beatnik",
+            "kerouac",
+            "ginsberg",
+            "burroughs",
+            "contracultura",
+            "poesia",
+            "jazz",
+            "carretera",
+            "cafe",
+            "bohemio"
+        ]
+    },
+    {
+        "name": "Electrodomésticos Populares",
+        "palabras": [
+            "frigorifico",
+            "aspiradora",
+            "tostadora",
+            "batidora",
+            "lavadora",
+            "radio",
+            "televisor",
+            "horno",
+            "plancha",
+            "secador"
+        ]
+    },
+    {
+        "name": "Diseño y Arquitectura",
+        "palabras": [
+            "googie",
+            "modernismo",
+            "atomico",
+            "formica",
+            "terrazo",
+            "futurista",
+            "aerodinamico",
+            "neon",
+            "funcionalismo",
+            "acero"
+        ]
+    },
+    {
+        "name": "Música (Pop y Rock)",
+        "palabras": [
+            "timbiriche",
+            "flans",
+            "pandora",
+            "caifanes",
+            "maldita",
+            "vecindad",
+            "luismiguel",
+            "emmanuel",
+            "sodastereo",
+            "hombresg"
+        ]
+    },
+    {
+        "name": "Televisión Icónica",
+        "palabras": [
+            "cachuncachun",
+            "siempre",
+            "domingo",
+            "xetu",
+            "cuna",
+            "lobos",
+            "quinceañera",
+            "chiquilladas",
+            "burbujas",
+            "papásoltero"
+        ]
+    },
+    {
+        "name": "Eventos Clave de la Década",
+        "palabras": [
+            "terremoto85",
+            "mundial86",
+            "devaluacion",
+            "decada",
+            "perdida",
+            "caida",
+            "sistema",
+            "tecnocrata",
+            "topos",
+            "brigadistas"
+        ]
+    },
+    {
+        "name": "Jerga Ochentera",
+        "palabras": [
+            "queonda",
+            "chido",
+            "neta",
+            "aguas",
+            "chale",
+            "simon",
+            "chance",
+            "cotorrear",
+            "fresa",
+            "naco"
+        ]
+    },
+    {
+        "name": "Vida Cotidiana y Consumo",
+        "palabras": [
+            "vocho",
+            "videocentro",
+            "walkman",
+            "betamax",
+            "atari",
+            "gansito",
+            "duvalin",
+            "boing",
+            "cassette",
+            "autostereo"
+        ]
+    },
+    {
+        "name": "Moda y Peinados",
+        "palabras": [
+            "hombreras",
+            "copete",
+            "permanente",
+            "mallones",
+            "neon",
+            "pans",
+            "tenis",
+            "bota",
+            "aretes",
+            "grandes"
+        ]
+    },
+    {
+        "name": "Cine Mexicano de los 80",
+        "palabras": [
+            "rojoamanecer",
+            "ficheras",
+            "indiamaria",
+            "milusos",
+            "veneno",
+            "justicia",
+            "lagunilla",
+            "barrio",
+            "rarara",
+            "doñaherlinda"
+        ]
+    },
+    {
+        "name": "Ídolos del Deporte",
+        "palabras": [
+            "hugosanchez",
+            "valenzuela",
+            "chavez",
+            "pentapichichi",
+            "fernandomania",
+            "maradona",
+            "negrete",
+            "quirarte",
+            "boxeo",
+            "mundial"
+        ]
+    },
+    {
+        "name": "Programas Infantiles",
+        "palabras": [
+            "odisea",
+            "burbujas",
+            "chiquilladas",
+            "tatiana",
+            "cepillin",
+            "topogigio",
+            "corre",
+            "gc",
+            "corre",
+            "cositas"
+        ]
+    },
+    {
+        "name": "La Crisis Económica",
+        "palabras": [
+            "inflacion",
+            "devaluacion",
+            "pacto",
+            "solidaridad",
+            "gasolinazo",
+            "prestamo",
+            "fmi",
+            "austera",
+            "peso",
+            "salinismo"
+        ]
+    },
+    {
+        "name": "Política y Gobierno",
+        "palabras": [
+            "pri",
+            "delamadrid",
+            "salinas",
+            "gortari",
+            "cuauhtemoc",
+            "cardenas",
+            "presidencialismo",
+            "dedazo",
+            "dinosaurio",
+            "sindicato"
+        ]
+    },
+    {
+        "name": "Juguetes Populares",
+        "palabras": [
+            "avalanche",
+            "cuborubik",
+            "rainbowbrite",
+            "amos",
+            "universo",
+            "cabbagepatch",
+            "cornpops",
+            "viewmaster",
+            "casio",
+            "nintendo"
+        ]
+    },
+    {
+        "name": "Golosinas y Refrescos",
+        "palabras": [
+            "chaparritas",
+            "pascual",
+            "jarritos",
+            "tutsi",
+            "pop",
+            "motitas",
+            "carlosv",
+            "pecositas",
+            "paletapayaso",
+            "cajetacoronado"
+        ]
+    },
+    {
+        "name": "En la Calle",
+        "palabras": [
+            "vocho",
+            "combi",
+            "pesero",
+            "metro",
+            "vendedor",
+            "ambulante",
+            "puesto",
+            "periodico",
+            "telefono",
+            "publico"
+        ]
+    },
+    {
+        "name": "Artistas Plásticos",
+        "palabras": [
+            "tamayo",
+            "toledo",
+            "coronel",
+            "gerzso",
+            "soriano",
+            "felguerez",
+            "carrington",
+            "varo",
+            "rivera",
+            "kahlo"
+        ]
+    },
+    {
+        "name": "Telenovelas Famosas",
+        "palabras": [
+            "colorina",
+            "bodas",
+            "odio",
+            "senda",
+            "gloria",
+            "caminosecreto",
+            "teres",
+            "carrusel",
+            "simplemente",
+            "maria"
+        ]
+    },
+    {
+        "name": "Música (Grunge & Alternative)",
+        "palabras": [
+            "nirvana",
+            "pearljam",
+            "soundgarden",
+            "lollapalooza",
+            "smashing",
+            "pumpkins",
+            "flannel",
+            "seattle",
+            "mtv",
+            "unplugged"
+        ]
+    },
+    {
+        "name": "TV Sitcoms Icónicas",
+        "palabras": [
+            "seinfeld",
+            "friends",
+            "frasier",
+            "homeimprovement",
+            "freshprince",
+            "urkel",
+            "madaboutyou",
+            "cheers",
+            "fullhouse",
+            "mustseetv"
+        ]
+    },
+    {
+        "name": "El Boom de Internet",
+        "palabras": [
+            "aol",
+            "dialup",
+            "netscape",
+            "yahoo",
+            "geocities",
+            "email",
+            "chatroom",
+            "modem",
+            "dotcom",
+            "website"
+        ]
+    },
+    {
+        "name": "Moda de los 90",
+        "palabras": [
+            "docmartens",
+            "baggyjeans",
+            "starterjacket",
+            "choker",
+            "overalls",
+            "scrunchie",
+            "windbreaker",
+            "fannypack",
+            "bandana",
+            "frostedtips"
+        ]
+    },
+    {
+        "name": "Películas Taquilleras",
+        "palabras": [
+            "jurassicpark",
+            "titanic",
+            "pulpfiction",
+            "forrestgump",
+            "matrix",
+            "terminator2",
+            "blockbuster",
+            "vhs",
+            "clueless",
+            "independiente"
+        ]
+    },
+    {
+        "name": "Cultura Hip-Hop",
+        "palabras": [
+            "tupac",
+            "biggie",
+            "wutangclan",
+            "badboy",
+            "deathrow",
+            "drdre",
+            "snoopdogg",
+            "nas",
+            "ganstarap",
+            "boombox"
+        ]
+    },
+    {
+        "name": "Pop (Boy Bands & Divas)",
+        "palabras": [
+            "nsync",
+            "backstreetboys",
+            "britneyspears",
+            "spicegirls",
+            "mariahcarey",
+            "whitneyhouston",
+            "boyziimen",
+            "tlc",
+            "aceofbase",
+            "pop"
+        ]
+    },
+    {
+        "name": "Clima Político",
+        "palabras": [
+            "clinton",
+            "gore",
+            "perot",
+            "gulfwar",
+            "impeachment",
+            "nafta",
+            "lewinsky",
+            "economy",
+            "dontask",
+            "y2k"
+        ]
+    },
+    {
+        "name": "Juguetes y Caricaturas",
+        "palabras": [
+            "powerrangers",
+            "beaniebabies",
+            "furby",
+            "tamagotchi",
+            "pogs",
+            "nickelodeon",
+            "rugrats",
+            "animaniacs",
+            "pinkyycerebro",
+            "renystimpy"
+        ]
+    },
+    {
+        "name": "Jerga (Slang) de los 90",
+        "palabras": [
+            "asif",
+            "whatever",
+            "booyah",
+            "talktothehand",
+            "allthat",
+            "not",
+            "word",
+            "wassup",
+            "dabomb",
+            "psych"
+        ]
+    },
+    {
+        "name": "Momentos Deportivos",
+        "palabras": [
+            "michaeljordan",
+            "chicagobulls",
+            "dreamteam",
+            "tigerwoods",
+            "ojsimpson",
+            "miketyson",
+            "holyfield",
+            "tonyaharding",
+            "braves",
+            "yankees"
+        ]
+    },
+    {
+        "name": "Fiebres y Modas Pasajeras",
+        "palabras": [
+            "rollerblading",
+            "macarena",
+            "slapbracelets",
+            "jincos",
+            "discman",
+            "laserdisc",
+            "zima",
+            "beaniebabies",
+            "swingrevival",
+            "cigarros"
+        ]
+    },
+    {
+        "name": "La Guerra de las Consolas",
+        "palabras": [
+            "nintendo64",
+            "sega",
+            "genesis",
+            "supermario",
+            "sonic",
+            "donkeykong",
+            "playstation",
+            "tombraider",
+            "mortalkombat",
+            "doom"
+        ]
+    },
+    {
+        "name": "Renacimiento de la Animación",
+        "palabras": [
+            "lionking",
+            "aladdin",
+            "beautyandbeast",
+            "pocahontas",
+            "toystory",
+            "pixar",
+            "simpsons",
+            "beavis",
+            "butthead",
+            "kingofthehill"
+        ]
+    },
+    {
+        "name": "Cultura del Café",
+        "palabras": [
+            "starbucks",
+            "espresso",
+            "latte",
+            "cappuccino",
+            "mocha",
+            "frappuccino",
+            "coffeeshop",
+            "barista",
+            "grunge",
+            "seattle"
+        ]
+    },
+    {
+        "name": "Programas de Entrevistas (Talk Shows)",
+        "palabras": [
+            "oprah",
+            "jerryspringer",
+            "rickilake",
+            "montel",
+            "sallyjessy",
+            "leno",
+            "letterman",
+            "conanobrien",
+            "arseni",
+            "hall"
+        ]
+    }
+]
