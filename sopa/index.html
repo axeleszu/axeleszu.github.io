@@ -448,11 +448,11 @@
                 // 1. Comprobación de límites 
                 if (x < 0 || x >= size || y < 0 || y >= size) return false;
 
-                // 2. Comprobación de colisión en la ruta 
+                // 2. Comprobación de colisión 
                 const celda = tablero[y][x];
                 if (celda !== "" && celda !== palabra[i]) return false;
 
-                // 3. Comprobación de margen en las 8 celdas vecinas
+                // 3. Comprobación de margen 
                 for (let dx = -1; dx <= 1; dx++) {
                     for (let dy = -1; dy <= 1; dy++) {
                         if (dx === 0 && dy === 0) continue; // No comprobar la celda misma
@@ -538,7 +538,7 @@
             const palabraFormada = celdasSeleccionadas.map(c => c.textContent).join('');
             let palabraCorrecta = null;
 
-            const palabrasPendientes = palabras.filter(p => !palabrasEncontradas.includes(p));
+            const palabrasPendientes = palabras[0].filter(p => !palabrasEncontradas.includes(p));
 
             for (const palabra of palabrasPendientes) {
                 if (palabra.length !== palabraFormada.length) {
@@ -565,7 +565,7 @@
                 const li = palabrasULElement.querySelector(`li[data-palabra='${palabraCorrecta}']`);
                 if (li) {
                     li.classList.add('encontrado-lista');
-                    if (palabrasEncontradas.length === palabras.length) {
+                    if (palabrasEncontradas.length === palabras[0].length) {
                         dialog.showModal();
                         sopaLetras.wins++;
                         ganadasSpan.innerHTML = sopaLetras.wins;
