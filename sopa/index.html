@@ -49,6 +49,7 @@
             border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             user-select: none;
+            touch-action: none;
         }
 
         .fila {
@@ -225,9 +226,10 @@
         let origen = { x: 0, y: 0 };
         let celdasSeleccionadas = [];
 
-        tableroDiv.onmousedown = function (event) {
-            const celda = event.target;
-            if (!celda.classList.contains('celda')) return;
+        // --- FUNCIONES LÓGICAS (Comunes para Mouse y Touch) ---
+
+        function iniciarSeleccion(celda) {
+            if (!celda || !celda.classList.contains('celda')) return;
 
             isDragging = true;
             origen = {
@@ -238,11 +240,9 @@
             celda.classList.add('seleccionado');
         }
 
-        tableroDiv.onmousemove = function (event) {
+        function moverSeleccion(celdaActual) {
             if (!isDragging) return;
-
-            const celdaActual = event.target;
-            if (!celdaActual.classList.contains('celda')) return;
+            if (!celdaActual || !celdaActual.classList.contains('celda')) return;
 
             celdasSeleccionadas.forEach(c => c.classList.remove('seleccionado'));
             celdasSeleccionadas = [];
@@ -258,10 +258,12 @@
             let stepX = Math.sign(deltaX);
             let stepY = Math.sign(deltaY);
 
-
             if (deltaX !== 0 && deltaY !== 0 && Math.abs(deltaX) !== Math.abs(deltaY)) {
-
-                tableroDiv.querySelector(`.celda[data-fila='${origen.y}'][data-columna='${origen.x}']`).classList.add('seleccionado');
+                const celdaOrigen = tableroDiv.querySelector(`.celda[data-fila='${origen.y}'][data-columna='${origen.x}']`);
+                if (celdaOrigen) {
+                    celdaOrigen.classList.add('seleccionado');
+                    celdasSeleccionadas.push(celdaOrigen);
+                }
                 return;
             }
 
@@ -280,11 +282,29 @@
             }
         }
 
-        window.onmouseup = function (event) {
+        function terminarSeleccion() {
             if (!isDragging) return;
             isDragging = false;
             checkPalabra();
         }
+
+        tableroDiv.addEventListener('mousedown', (e) => iniciarSeleccion(e.target));
+        tableroDiv.addEventListener('mousemove', (e) => moverSeleccion(e.target));
+        window.addEventListener('mouseup', terminarSeleccion);
+
+        tableroDiv.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            iniciarSeleccion(e.target);
+        }, { passive: false });
+
+        tableroDiv.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+            const touch = e.touches[0];
+            const elementoBajoDedo = document.elementFromPoint(touch.clientX, touch.clientY);
+            moverSeleccion(elementoBajoDedo);
+        }, { passive: false });
+
+        window.addEventListener('touchend', terminarSeleccion);
 
         restartButton.onclick = function () {
             location.reload();
@@ -297,7 +317,6 @@
         }
 
 
-        // --- FUNCIONES ---
 
         async function getPalabras() {
             const url = `palabras.json`;
