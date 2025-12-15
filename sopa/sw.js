@@ -1,4 +1,5 @@
-const CACHE_NAME = 'sopa-letras-cache-v1';
+const version = 'v1.1';
+const CACHE_NAME = 'sopa-letras-cache-' + version;
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
