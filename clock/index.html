@@ -17,31 +17,60 @@
 
 <body>
 
-    <div class="container">
-        <div class="header">
-            <div class="top-arrow">▼</div>
-        </div>
-        <div class="timeline-container">
-            <div class="timeline" id="timeline">
-                <!--  JavaScript -->
+
+    <div class="app">
+        <!-- MASCOTA -->
+        <section class="pet-section">
+            <div class="pet-container">
+                <div class="cat-sprite anim1"></div>
+                <div class="pet-status">
+                    <span id="pet-message">Estoy listo 😊</span>
+                </div>
             </div>
-        </div>
-        <div class="next-activity-container" id="next-activity">
-            <h3>Siguiente Actividad</h3>
-            <div id="next-activity-details"></div>
-        </div>
-        <div class="current-activity-container" id="current-activity"></div>
-        <div class="event-countdown" id="event-countdown"></div>
-        <div class="clock" id="clock"></div>
-        <div class="cat-sprite anim1" id="cat-sprite"></div>
-        <div class="zoom-controls">
-            <button type="button" aria-label="+" id="zoom-in-btn" title="Zoom In"><i class="fa-solid fa-plus"></i></button>
-            <button type="button" aria-label="-" id="zoom-out-btn" title="Zoom Out"><i class="fa-solid fa-minus"></i></button>
-        </div>
-        <div class="settings-button" id="settings-button" title="Configuración"><i class="fa-solid fa-gear"></i></div>
+        </section>
+
+        <!-- CHECKLIST -->
+        <section class="activities-section">
+            <h2 class="section-title">Mis Actividades</h2>
+            <div class="timeline-wrapper">
+                <div class="timeline-container">
+                    <div class="timeline" id="timeline"></div>
+                </div>
+            </div>
+            <div class="activity-list-container">
+                <div class="activities-list" id="activities-list"></div>
+            </div>
+
+        </section>
+
+        <!-- TEXTOS -->
+        <section class="app-header">
+            <div class="clock" id="clock"></div>
+            <div class="current-activity-container" id="current-activity"></div>
+            <div class="next-activity-container">
+                <h3>Próxima Actividad</h3>
+                <div id="next-activity-details"></div>
+            </div>
+        </section>
+
+
+        <!-- CONTROLES -->
+        <nav class="zoom-controls">
+            <button type="button" id="zoom-in-btn">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <button type="button" id="zoom-out-btn">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <!-- Modo Padres -->
+            <div class="settings-button" id="settings-button">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </nav>
     </div>
 
     <script src="script.js"></script>
+
 
     <script>
         // Make sure service workers are supported

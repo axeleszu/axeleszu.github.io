@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const clockElement = document.getElementById('clock');
     const timelineElement = document.getElementById('timeline');
+    const activitiesListElement = document.getElementById('activities-list');
     const nextActivityDetailsElement = document.getElementById('next-activity-details');
 
     let PIXELS_PER_MINUTE = 5;
@@ -17,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let allActivities = [];
 
     const db = new Dexie("scheduleDatabase");
-    db.version(2).stores({
-        activities: '++id, nombre, HoraInicio, HoraFin, ico, *days',
+    db.version(3).stores({
+        activities: '++id, nombre, HoraInicio, HoraFin, ico, checked, *days',
         settings: '&key'
     });
     function updateUI(activities) {
@@ -29,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         todayActivities = activities.filter(act => act.days.includes("todos") || act.days.includes(todayStr));
 
         renderTimeline(todayActivities);
-        updateTimelineAndStickyContent();
+        updateTimelinePosition();
         updateNextActivity(activities);
     }
 
@@ -53,9 +54,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const minutes = String(now.getMinutes()).padStart(2, '0');
         const seconds = String(now.getSeconds()).padStart(2, '0');
         clockElement.textContent = `${hours}:${minutes}:${seconds}`;
+        syncMobileUI();
+    }
+    function syncMobileUI() {
+        const clockMobile = document.getElementById("clock-mobile");
+        const currentMobile = document.getElementById("current-activity-mobile");
+        const nextMobile = document.getElementById("next-activity-mobile");
+
+        const clockDesktop = document.getElementById("clock");
+        const currentDesktop = document.getElementById("current-activity");
+        const nextDesktop = document.getElementById("next-activity-details");
+
+        if (clockMobile && clockDesktop) {
+            clockMobile.innerHTML = clockDesktop.innerHTML;
+        }
+
+        if (currentMobile && currentDesktop) {
+            currentMobile.innerHTML = currentDesktop.innerHTML;
+        }
+
+        if (nextMobile && nextDesktop) {
+            nextMobile.innerHTML = nextDesktop.innerHTML;
+        }
     }
 
-    // Function to calculate layout for overlapping activities
     function layoutActivities(activities) {
         if (!activities || activities.length === 0) {
             return { activitiesWithLayout: [], totalLanes: 0 };
@@ -67,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
             endTime: parseTime(act.HoraFin)
         })).sort((a, b) => a.startTime - b.startTime);
 
-        const lanes = []; // Each inner array will represent a vertical lane of activities
+        const lanes = [];
 
         processedActivities.forEach(activity => {
             let placed = false;
@@ -94,71 +116,93 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
+
     function renderTimeline(todayActivities) {
         timelineElement.innerHTML = '';
-        timelineElement.style.width = `${MINUTES_IN_A_DAY * PIXELS_PER_MINUTE}px`;
 
         if (!todayActivities.length) return;
 
+        const mobile = isMobile();
+
+        renderVerticalTimeline(todayActivities);
+        if (!mobile) {
+            renderHorizontalTimeline(todayActivities);
+        }
+    }
+
+    function renderHorizontalTimeline(todayActivities) {
+        //Timeline
+        timelineElement.style.width = `${MINUTES_IN_A_DAY * PIXELS_PER_MINUTE}px`;
+        timelineElement.style.height = `100%`;
+        timelineElement.style.left = "0px";
+
         const { activitiesWithLayout, totalLanes } = layoutActivities(todayActivities);
-        const colorClasses = ['color-1', 'color-2', 'color-3', 'color-4', 'color-5', 'color-6'];
+        const laneHeight = 100 / totalLanes;
 
         activitiesWithLayout.forEach((activity, index) => {
+
             const startMinutes = getMinutesFromMidnight(activity.startTime);
             const durationMinutes = (activity.endTime - activity.startTime) / 60000;
 
             const block = document.createElement('div');
-            block.className = 'activity-block';
-            block.classList.add(colorClasses[index % colorClasses.length]);
+            block.className = 'activity-block color-' + ((index % 6) + 1);
 
-
+            block.style.position = "absolute";
             block.style.left = `${startMinutes * PIXELS_PER_MINUTE}px`;
             block.style.width = `${durationMinutes * PIXELS_PER_MINUTE}px`;
-            block.style.top = `${(activity.lane / totalLanes) * 100}%`;
-            block.style.height = `${100 / totalLanes}%`;
+            block.style.top = `${activity.lane * laneHeight}%`;
+            block.style.height = `${laneHeight}%`;
 
             block.innerHTML = `
-            <div class="activity-content">
-                <div class="activity-icon"><i class="${activity.ico}" alt="${activity.nombre}"></i></div>
+            <div class="activity-name">${activity.nombre}</div>
+            <div class="activity-time">${activity.HoraInicio} - ${activity.HoraFin}</div>
+        `;
+
+            timelineElement.appendChild(block);
+        });
+    }
+    function renderVerticalTimeline(todayActivities) {
+        //activities-list
+        activitiesListElement.innerHTML = '';
+        const sortedActivities = todayActivities
+            .map(act => ({
+                ...act,
+                startTime: parseTime(act.HoraInicio),
+                endTime: parseTime(act.HoraFin)
+            }))
+            .sort((a, b) => a.startTime - b.startTime);
+
+        sortedActivities.forEach((activity, index) => {
+
+            const state = getActivityState(activity);
+
+            const block = document.createElement('div');
+            block.className = `activity-block color-${(index % 6) + 1} state-${state}`;
+
+            block.innerHTML = `
+            <div class="activity-main">
                 <div class="activity-name">${activity.nombre}</div>
                 <div class="activity-time">${activity.HoraInicio} - ${activity.HoraFin}</div>
             </div>
-        `;
-            timelineElement.appendChild(block);
+            <div class="activity-check">
+                <input type="checkbox" ${activity.checked ? "checked" : ""} data-id="${activity.id}">
+            </div>
+          `;
+
+            activitiesListElement.appendChild(block);
         });
     }
 
 
-    function updateTimelineAndStickyContent() {
+    function updateTimelinePosition() {
+        if (isMobile()) return; // ⬅️ clave
         const now = new Date();
         const minutesSinceMidnight = getMinutesFromMidnight(now);
         const timelineOffset = minutesSinceMidnight * PIXELS_PER_MINUTE;
 
-        timelineElement.style.left = `calc(50% - ${timelineOffset}px)`;
+        const containerWidth = document.querySelector('.timeline-container').offsetWidth;
 
-        const container = document.querySelector('.timeline-container');
-        const containerRect = container.getBoundingClientRect();
-        const activityBlocks = document.querySelectorAll('.activity-block');
-
-        activityBlocks.forEach(block => {
-            const content = block.querySelector('.activity-content');
-            if (!content) return;
-
-            const blockRect = block.getBoundingClientRect();
-
-            const isPartiallyOffscreenLeft = blockRect.left < containerRect.left;
-            const isStillVisibleOnScreen = blockRect.right > containerRect.left;
-
-            if (isPartiallyOffscreenLeft && isStillVisibleOnScreen) {
-                // The block has started to move off-screen to the left
-                // Calculate how far off-screen it is and apply a transform to push the content back into view
-                const offset = containerRect.left - blockRect.left;
-                content.style.transform = `translateX(${offset}px)`;
-            } else {
-                // The block is either fully on-screen or fully off-screen, so remove the transform
-                content.style.transform = 'none';
-            }
-        });
+        timelineElement.style.left = `${containerWidth / 2 - timelineOffset}px`;
     }
 
     function updateNextActivity(activities) {
@@ -266,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
 
-        setInterval(updateTimelineAndStickyContent, 1000);
+        setInterval(updateTimelinePosition, 1000);
         setInterval(catAnimation, 30000);
         setInterval(() => {
             if (PIXELS_PER_MINUTE != 5) {
@@ -278,12 +322,37 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(updateClock, 1000);
 
 
-        const allActivities = await db.activities.toArray();
+        allActivities = await db.activities.toArray();
         const today = new Date().getDay();
         const weekDays = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
         const todayStr = weekDays[today];
-        setInterval(() => checkActivityEnd, 1000);
+
+        activitiesListElement.addEventListener('change', async (e) => {
+            if (e.target.type === 'checkbox') {
+                const id = Number(e.target.dataset.id);
+                await db.activities.update(id, { checked: e.target.checked });
+            }
+        });
+
+        setInterval(checkActivityEnd, 1000);
     }
+    function isMobile() {
+        return window.innerWidth < 768;
+    }
+    function getActivityState(activity) {
+        const now = new Date();
+        const start = parseTime(activity.HoraInicio);
+        const end = parseTime(activity.HoraFin);
+
+        if (activity.checked) return "completed";
+        if (end <= now) return "past";
+        if (start <= now && end > now) return "current";
+        return "upcoming";
+    }
+    document.addEventListener('resize', () => {
+        isMobile();
+        updateUI(allActivities);
+    });
 
     initialize();
 });

@@ -5,13 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrador de Actividades</title>
-    <link rel="stylesheet" href="ico/all.min.css">
     <link rel="stylesheet" href="backendStyle.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ico/fontawesome-iconpicker.min.css">
-    <link rel="stylesheet" href="ico/bootstrap.min.css">
-    <script src="ico/jquery-2.2.1.min.js"></script>
-    <script src="ico/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -43,18 +39,6 @@
                 <label for="activity-HoraFin">Hora de Fin:</label>
                 <input autocomplete="off" type="time" id="activity-HoraFin" name="HoraFin" required>
 
-                <label for="activity-ico-select">Ícono:</label>
-                <div class="ico-div">
-                    <div class="btn-group">
-                        <button data-selected="graduation-cap" type="button" class="icp icp-dd btn btn-default dropdown-toggle iconpicker-component" data-toggle="dropdown" aria-label="Ícono de Actividad">
-                            <i class="fas fa-search"></i>
-                            <span class="caret"></span>
-                        </button>
-                        <div class="dropdown-menu"></div>
-                    </div>
-                    <input type="hidden" id="activity-ico-select" name="ico">
-                </div>
-
                 <label>Días:</label>
                 <div class="days-checkboxes" id="activity-days-checkboxes">
                     <label><input type="checkbox" name="days[]" value="todos"> Todos</label>
@@ -66,6 +50,33 @@
                     <label><input type="checkbox" name="days[]" value="sábado"> Sábado</label>
                     <label><input type="checkbox" name="days[]" value="domingo"> Domingo</label>
                 </div>
+                <br>
+                <label for="activity-categoria">Categoría:</label>
+                <select id="activity-categoria" name="categoria" required>
+                    <option value="">Selecciona una categoría</option>
+                    <option value="alimentacion">Alimentación</option>
+                    <option value="sueño">Sueño</option>
+                    <option value="higiene">Higiene</option>
+                    <option value="aprendizaje">Aprendizaje</option>
+                    <option value="actividad_fisica">Actividad Física</option>
+                    <option value="ocio">Ocio</option>
+                    <option value="responsabilidades">Responsabilidades</option>
+                    <option value="social">Social</option>
+                </select>
+                <br>
+                <label for="activity-ico-select">Emoji de la Actividad:</label>
+                <div class="dropdown emoji-dropdown">
+                    <button class="btn btn-default" type="button" id="emojiMenuButton" popovertarget="emoji-grid-container">
+                        <span id="selected-emoji-display">⭐</span>
+                        <span class="caret"></span>
+                    </button>
+                    <div id="emoji-grid-container" popover>
+                        <div class="dropdown-menu" aria-labelledby="emojiMenuButton">
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" id="activity-ico-select" name="ico" value="⭐">
                 <br>
                 <button type="submit" class="btn">Guardar</button>
                 <button type="button" class="btn btn-delete" id="cancel-btn">Cancelar</button>
@@ -92,15 +103,10 @@
     </div>
 
 
-    <script src="ico/fontawesome-iconpicker.min.js"></script>
+    <script src="pesosCategorias.js"></script>
     <script src="dexie.js"></script>
     <script src="backendScript.js"></script>
-    <script>
-        $('.icp-dd').iconpicker({ placement: 'right' });
-        $('.icp-dd').on('iconpickerSelected', function (event) {
-            $('#activity-ico-select').val(event.iconpickerValue);
-        });
-    </script>
+
 </body>
 
 </html>
