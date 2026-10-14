@@ -2,8 +2,8 @@
     {
         "id": 1,
         "name": "Comedor de madera extensible con 12 sillas",
-        "price": "$48,000",
-        "range": "Precio de salida sugerido: $48,000 MXN. Objetivo razonable de cierre: $40,000–$44,000, sujeto a estado y revisión.",
+        "price": "$58,000",
+        "range": "Precio de salida sugerido: $58,000 MXN. Objetivo razonable de cierre: $50,000–$45,000, sujeto a estado y revisión.",
         "files": [
             "00000085-PHOTO-2026-08-16-15-55-00.jpg",
             "00000087-PHOTO-2026-08-16-15-55-00.jpg",
@@ -299,6 +299,7 @@
             "00000371-PHOTO-2026-10-11-11-46-34.jpg",
             "00000372-PHOTO-2026-10-11-11-46-34.jpg"
         ],
+        "vendido": true,
         "post": "Laptop HP con procesador AMD A10 y 12 GB de RAM\n\nEquipo recién formateado, con Windows 10 y Office instalado.\n\nPrecio: $1,700 MXN.\n\nSe recomienda probar el equipo personalmente y confirmar batería, cargador, puertos y funcionamiento antes de la compra. Entrega en persona."
     }
 ]
