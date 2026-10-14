@@ -83,20 +83,6 @@
         "post": "Vitrina antigua de madera\n\nMueble de exhibición de estilo tradicional, con espacio para colocar vajilla, objetos decorativos o colecciones. Una opción para dar protagonismo a una pared o rincón de la casa.\n\nMedidas por confirmar. Se puede revisar personalmente antes de la compra.\n\nPrecio: $14,000 MXN.\n\nEl comprador coordina el traslado. Envíame mensaje para agendar una visita."
     },
     {
-        "id": 8,
-        "name": "Lavabo portátil de madera",
-        "price": "$7,500",
-        "range": "Salida sugerida: $7,500 MXN. Objetivo de cierre: $5,500–$6,500; verificar funcionamiento de llaves y desagüe.",
-        "files": [
-            "00000096-PHOTO-2026-08-16-16-06-38.jpg",
-            "00000097-PHOTO-2026-08-16-16-06-38.jpg",
-            "00000098-PHOTO-2026-08-16-16-06-38.jpg",
-            "00000099-PHOTO-2026-08-16-16-06-38.jpg",
-            "00000100-PHOTO-2026-08-16-16-06-38.jpg"
-        ],
-        "post": "Lavabo portátil con mueble de madera\n\nMueble auxiliar con lavabo integrado, de estilo clásico. Puede interesar para un baño, recámara o proyecto de restauración, según las instalaciones disponibles.\n\nSe recomienda revisar en persona el estado de la madera, las conexiones y el funcionamiento antes de comprar.\n\nPrecio: $7,500 MXN.\n\nRecolección y traslado por cuenta del comprador. Solicita más información por mensaje."
-    },
-    {
         "id": 9,
         "name": "Mesa de comedor redonda de madera con cristal",
         "price": "$3,200",
@@ -152,7 +138,6 @@
         "files": [
             "00000306-PHOTO-2026-09-19-16-05-04.jpg"
         ],
-        "vendido": true,
         "post": "Cajonera de madera\n\nCajonera amplia con varios cajones, práctica para recámara, vestidor o espacio de almacenamiento.\n\nMedidas: 103 × 52 × 129 cm (ancho × fondo × alto).\n\nPrecio: $4,500 MXN.\n\nSe recomienda revisar los cajones y acabados en persona. El comprador coordina el traslado. Más información por mensaje."
     },
     {
@@ -164,6 +149,7 @@
             "00000308-PHOTO-2026-09-19-16-22-00.jpg",
             "00000309-PHOTO-2026-09-19-16-22-01.jpg"
         ],
+        "vendido": true,
         "post": "Cajonera de madera\n\nCajonera de estilo clásico con varios cajones para organizar ropa, blancos o artículos personales.\n\nMedidas registradas: 49 × 102 × 100 cm; confirmar el orden de las medidas al coordinar la visita.\n\nPrecio: $3,000 MXN.\n\nRecolección y traslado por cuenta del comprador. Escríbeme para más detalles."
     },
     {
@@ -249,8 +235,8 @@
     {
         "id": 22,
         "name": "Vaporera Taurus Lyra nueva",
-        "price": "$450",
-        "range": "Salida sugerida: $450 MXN; confirmar que esté completa y sin uso.",
+        "price": "$750",
+        "range": "Salida sugerida: $650 MXN; confirmar que esté completa y sin uso.",
         "files": [
             "00000280-PHOTO-2026-09-19-13-44-21.jpg"
         ],
@@ -279,18 +265,6 @@
         ],
         "vendido": true,
         "post": "Sala de 3 piezas\n\nJuego de sala compuesto por un sillón grande y dos sillones individuales.\n\nMedidas registradas: sillón grande 261 × 77 × 78 cm; sillones individuales 89 × 77 × 78 cm.\n\nPrecio por las tres piezas: $2,500 MXN.\n\nTiene desgaste por uso; se recomienda revisar las fotografías y verla en persona. Recolección y traslado por cuenta del comprador."
-    },
-    {
-        "id": 25,
-        "name": "Sofá cama",
-        "price": "$1,500",
-        "range": "Precio indicado en el chat: $1,500 MXN. Confirmar disponibilidad y estado.",
-        "files": [
-            "00000318-PHOTO-2026-09-19-16-42-27.jpg",
-            "00000319-PHOTO-2026-09-19-16-42-28.jpg",
-            "00000357-PHOTO-2026-09-24-11-33-26.jpg"
-        ],
-        "post": "Sofá cama con compartimiento en descansabrazos\n\nSofá cama práctico para sala, estudio o habitación de visitas. Incluye compartimiento en el descansabrazos para guardar objetos pequeños.\n\nPrecio: $1,500 MXN.\n\nSe recomienda revisar mecanismo y estado del tapizado antes de comprar. Recolección por cuenta del comprador."
     },
     {
         "id": 26,

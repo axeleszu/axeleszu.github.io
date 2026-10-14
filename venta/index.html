@@ -239,6 +239,108 @@
                 height: 220px
             }
         }
+
+        /* Carrusel de fotografías por artículo */
+        .gallery {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background: #f1f0ed;
+            overflow: hidden;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            cursor: zoom-in;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .gallery-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            width: 48px;
+            height: 56px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(30, 30, 30, 0.75);
+            color: white;
+            font-size: 30px;
+            line-height: 1;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery-arrow:hover {
+            background: rgba(30, 30, 30, 0.95);
+        }
+
+        .gallery-arrow:disabled {
+            opacity: 0.25;
+            cursor: default;
+        }
+
+        .gallery-prev {
+            left: 8px;
+        }
+
+        .gallery-next {
+            right: 8px;
+        }
+
+        .gallery-counter {
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            padding: 7px 13px;
+            border-radius: 20px;
+            color: white;
+            background: rgba(30, 30, 30, 0.8);
+            font-size: 14px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .gallery-hint {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 2;
+            padding: 6px 9px;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            font-size: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .gallery {
+                height: 260px;
+            }
+
+            .gallery-arrow {
+                width: 44px;
+                height: 54px;
+                font-size: 28px;
+            }
+
+            .gallery-counter {
+                font-size: 15px;
+            }
+        }
     </style>
 </head>
 
@@ -261,33 +363,198 @@
     <footer>Catálogo local · Las fotografías se cargan desde la carpeta fotos · No se incluyen datos de contacto ni ubicación privada.</footer>
     <script>
         let items = [];
-        const grid = document.getElementById('grid'), search = document.getElementById('search'), sort = document.getElementById('sort'), empty = document.getElementById('empty');
-        function priceNum(s) { return Number(s.replace(/[^0-9]/g, '')) || 0 }
-        function render() {
-            let q = search.value.trim().toLocaleLowerCase('es');
 
-            let arr = items.filter(x => (x.name + ' ' + x.post + ' ' + x.files.join(' ')).toLocaleLowerCase('es').includes(q));
-            if (sort.value === 'az') arr.sort((a, b) => a.name.localeCompare(b.name, 'es'));
-            if (sort.value === 'priceup') arr.sort((a, b) => priceNum(a.price) - priceNum(b.price));
-            if (sort.value === 'pricedown') arr.sort((a, b) => priceNum(b.price) - priceNum(a.price));
-            grid.innerHTML = arr.map(x => `<article class="card ${x.vendido ? 'vendido' : ''}">         
-         
- <div class="gallery">${x.files.map(f => `<img src="${encodeURIComponent(f)}" alt="${x.name}" loading="lazy" title="Deslice para ver más fotografías" onclick="window.open(this.src,'_blank')">`).join('')}</div>
- <div class="content"><div class="kicker">Artículo ${String(x.id).padStart(2, '0')}</div><h2>${x.name}</h2><p class="price">${x.price} MXN</p><p class="range">${x.range}</p><p class="post">${x.post}</p><p class="files"><strong>Archivos:</strong> ${x.files.join(', ')}</p>
- <div class="actions"><button onclick="copyPost(${x.id})">Copiar publicación</button><button class="secondary" onclick="copyFiles(${x.id})">Copiar nombres de fotos</button></div></div></article>`).join('');
+        const grid = document.getElementById('grid');
+        const search = document.getElementById('search');
+        const sort = document.getElementById('sort');
+        const empty = document.getElementById('empty');
+
+        function priceNum(s) {
+            return Number(String(s).replace(/[^0-9]/g, '')) || 0;
+        }
+
+        // Devuelve la ruta de una fotografía.
+        function photoUrl(file) {
+            return encodeURIComponent(file).replace(/%2F/gi, '/');
+        }
+
+        // Genera el carrusel de cada artículo.
+        function galleryHTML(x) {
+            const files = x.files || [];
+            const total = files.length;
+            const index = Math.min(x.photoIndex || 0, Math.max(0, total - 1));
+            const file = files[index];
+
+            if (!total) {
+                return '<div class="gallery"><p>Sin fotografías disponibles</p></div>';
+            }
+
+            return `
+                <div class="gallery">
+                    <img
+                        src="${photoUrl(file)}"
+                        alt="${x.name} — fotografía ${index + 1}"
+                        title="Toque la fotografía para ampliarla"
+                        onclick="openPhoto(${x.id})"
+                    >
+    
+                    ${total > 1 ? `
+                        <button
+                            class="gallery-arrow gallery-prev"
+                            onclick="changePhoto(${x.id}, -1)"
+                            aria-label="Fotografía anterior"
+                            title="Fotografía anterior"
+                            ${index === 0 ? 'disabled' : ''}
+                        >&#8249;</button>
+    
+                        <button
+                            class="gallery-arrow gallery-next"
+                            onclick="changePhoto(${x.id}, 1)"
+                            aria-label="Fotografía siguiente"
+                            title="Fotografía siguiente"
+                            ${index === total - 1 ? 'disabled' : ''}
+                        >&#8250;</button>
+    
+                        <div class="gallery-counter">
+                            Foto ${index + 1} de ${total}
+                        </div>
+    
+                        <div class="gallery-hint">Pulsa las flechas para ver más fotos</div>
+                    ` : ''}
+                </div>
+            `;
+        }
+
+        // Avanza o retrocede una fotografía.
+        function changePhoto(id, direction) {
+            const item = items.find(x => x.id === id);
+            if (!item || !item.files || !item.files.length) return;
+
+            const current = item.photoIndex || 0;
+            const next = current + direction;
+
+            if (next < 0 || next >= item.files.length) return;
+
+            item.photoIndex = next;
+            render();
+        }
+
+        // Abre la fotografía actual en tamaño completo.
+        function openPhoto(id) {
+            const item = items.find(x => x.id === id);
+            if (!item || !item.files || !item.files.length) return;
+
+            window.open(
+                photoUrl(item.files[item.photoIndex || 0]),
+                '_blank'
+            );
+        }
+
+        function render() {
+            const q = search.value.trim().toLocaleLowerCase('es');
+
+            let arr = items.filter(x =>
+                (x.name + ' ' + x.post + ' ' + (x.files || []).join(' '))
+                    .toLocaleLowerCase('es')
+                    .includes(q)
+            );
+
+            if (sort.value === 'az') {
+                arr.sort((a, b) => a.name.localeCompare(b.name, 'es'));
+            }
+
+            if (sort.value === 'priceup') {
+                arr.sort((a, b) => priceNum(a.price) - priceNum(b.price));
+            }
+
+            if (sort.value === 'pricedown') {
+                arr.sort((a, b) => priceNum(b.price) - priceNum(a.price));
+            }
+
+            grid.innerHTML = arr.map(x => `
+                <article class="card ${x.vendido ? 'vendido' : ''}">
+                    ${galleryHTML(x)}
+    
+                    <div class="content">
+                        <div class="kicker">
+                            Artículo ${String(x.id).padStart(2, '0')}
+                        </div>
+    
+                        <h2>${x.name}</h2>
+                        <p class="price">${x.price} MXN</p>
+                        <p class="range">${x.range}</p>
+                        <p class="post">${x.post}</p>
+    
+                        <p class="files">
+                            <strong>Archivos:</strong>
+                            ${(x.files || []).join(', ')}
+                        </p>
+    
+                        <div class="actions">
+                            <button onclick="copyPost(${x.id})">
+                                Copiar publicación
+                            </button>
+    
+                            <button class="secondary"
+                                onclick="copyFiles(${x.id})">
+                                Copiar nombres de fotos
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            `).join('');
+
             empty.style.display = arr.length ? 'none' : 'block';
         }
-        function copyPost(id) { let x = items.find(a => a.id === id); navigator.clipboard.writeText(x.post).then(() => alert('Texto de publicación copiado.')).catch(() => prompt('Copie el texto:', x.post)) }
-        function copyFiles(id) { let x = items.find(a => a.id === id); let t = x.files.join('\n'); navigator.clipboard.writeText(t).then(() => alert('Nombres de archivos copiados.')).catch(() => prompt('Copie los nombres:', t)) }
-        search.addEventListener('input', render); sort.addEventListener('change', render); render();
+
+        function copyText(text, message) {
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text)
+                    .then(() => alert(message))
+                    .catch(() => prompt('Copie el texto:', text));
+            } else {
+                prompt('Copie el texto:', text);
+            }
+        }
+
+        function copyPost(id) {
+            const x = items.find(a => a.id === id);
+            if (x) copyText(x.post, 'Texto de publicación copiado.');
+        }
+
+        function copyFiles(id) {
+            const x = items.find(a => a.id === id);
+            if (x) {
+                copyText(
+                    (x.files || []).join('\n'),
+                    'Nombres de archivos copiados.'
+                );
+            }
+        }
+
+        search.addEventListener('input', render);
+        sort.addEventListener('change', render);
+
         fetch('articulos.json')
             .then(response => {
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
                 return response.json();
             })
-            .then(data => { items = data; render() })
-            .catch(err => { console.error(err); alert('Error al cargar los artículos.'); });
+            .then(data => {
+                items = data.map(x => ({ ...x, photoIndex: 0 }));
+                render();
+            })
+            .catch(err => {
+                console.error(err);
+                alert(
+                    'No se pudieron cargar los artículos. ' +
+                    'Verifique que articulos.json esté junto al HTML.'
+                );
+            });
     </script>
+
 </body>
 
 </html>
