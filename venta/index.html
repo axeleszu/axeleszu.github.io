@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catálogo de artículos en venta</title>
+    <style>
+        :root {
+            --ink: #202820;
+            --muted: #6e582c;
+            --line: #e3e7e1;
+            --paper: #f5f6f2;
+            --accent: #5b421e;
+            --white: #fff
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font: 16px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif
+        }
+
+        header {
+            background: var(--accent);
+            color: white;
+            padding: 32px max(20px, calc((100vw - 1200px)/2)) 26px
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: clamp(25px, 4vw, 38px);
+            line-height: 1.12
+        }
+
+        header p {
+            margin: 0;
+            max-width: 750px;
+            color: #e0e9e1
+        }
+
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 22px 18px 50px
+        }
+
+        .toolbar {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 0 0 20px
+        }
+
+        input,
+        select {
+            font: inherit;
+            border: 1px solid #ccd4cb;
+            background: white;
+            border-radius: 9px;
+            padding: 11px 13px;
+            color: var(--ink)
+        }
+
+        input {
+            flex: 1;
+            min-width: 220px
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+            gap: 18px
+        }
+
+        .card {
+            background: white;
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px #1a2d1a0a;
+            display: flex;
+            flex-direction: column
+        }
+
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            gap: 5px;
+            background: #e9ece7;
+            scroll-snap-type: x mandatory
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 245px;
+            object-fit: contain;
+            background: #eceee9;
+            flex: 0 0 100%;
+            scroll-snap-align: start;
+            cursor: zoom-in
+        }
+
+        .content {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            flex: 1
+        }
+
+        .kicker {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: .09em;
+            color: var(--muted);
+            font-weight: 750
+        }
+
+        .card h2 {
+            font-size: 20px;
+            line-height: 1.25;
+            margin: 4px 0 8px
+        }
+
+        .price {
+            font-size: 25px;
+            font-weight: 800;
+            color: var(--accent);
+            margin: 0 0 5px
+        }
+
+        .range {
+            font-size: 12px;
+            color: var(--muted);
+            margin: 0 0 12px
+        }
+
+        .post {
+            white-space: pre-line;
+            font-size: 14px;
+            border-top: 1px solid var(--line);
+            padding-top: 12px;
+            margin: 0 0 14px;
+            flex: 1
+        }
+
+        .files {
+            font-size: 11px;
+            color: #747e74;
+            overflow-wrap: anywhere;
+            margin: 0 0 12px
+        }
+
+        .actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap
+        }
+
+        button {
+            border: 0;
+            border-radius: 8px;
+            padding: 10px 12px;
+            background: var(--accent);
+            color: white;
+            font-weight: 700;
+            cursor: pointer
+        }
+
+        button.secondary {
+            background: #e8eee8;
+            color: var(--ink)
+        }
+
+        button:hover {
+            filter: brightness(.95)
+        }
+
+        .note {
+            font-size: 13px;
+            color: var(--muted);
+            margin: 0 0 18px
+        }
+
+        .empty {
+            padding: 35px;
+            text-align: center;
+            color: var(--muted);
+            display: none
+        }
+
+        footer {
+            border-top: 1px solid var(--line);
+            padding: 22px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 12px
+        }
+
+        .vendido {
+            background-color: #b3b3b3;
+            color: #ddd;
+        }
+
+        .vendido p {
+            color: #ddd;
+        }
+
+        .vendido .kicker {
+            opacity: 0.7;
+            position: relative;
+            display: inline-block;
+        }
+
+        .vendido .kicker:before {
+            display: block;
+            width: 100%;
+            height: 1.5rem;
+            position: absolute;
+            background: red;
+            content: 'Vendido';
+            color: #FFF;
+            font-size: 1rem;
+            top: -9rem;
+            text-align: center;
+        }
+
+        @media(max-width:500px) {
+            header {
+                padding: 25px 18px
+            }
+
+            .gallery img {
+                height: 220px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Artículos en venta</h1>
+        <p>Catálogo para organizar publicaciones individuales en Facebook Marketplace. Cada ficha incluye precio de salida, rango orientativo de negociación, fotografías y texto listo para copiar.</p>
+    </header>
+    <main>
+        <p class="note"><strong>Antes de publicar:</strong> confirme que el artículo siga disponible, pruebe los aparatos eléctricos y revise medidas/estado. Los precios son sugerencias de salida, no avalúos; en muebles antiguos el estado, la procedencia y la demanda local pueden modificar mucho el valor. El traslado de muebles grandes se acuerda y paga por separado.</p>
+        <div class="toolbar"><input id="search" type="search" placeholder="Buscar artículo, medida o marca…"><select id="sort">
+                <option value="priority">Orden recomendado</option>
+                <option value="az">Nombre A–Z</option>
+                <option value="priceup">Precio menor a mayor</option>
+                <option value="pricedown">Precio mayor a menor</option>
+            </select></div>
+        <div id="grid" class="grid"></div>
+        <div id="empty" class="empty">No hay artículos que coincidan con la búsqueda.</div>
+    </main>
+    <footer>Catálogo local · Las fotografías se cargan desde la carpeta fotos · No se incluyen datos de contacto ni ubicación privada.</footer>
+    <script>
+        let items = [];
+        const grid = document.getElementById('grid'), search = document.getElementById('search'), sort = document.getElementById('sort'), empty = document.getElementById('empty');
+        function priceNum(s) { return Number(s.replace(/[^0-9]/g, '')) || 0 }
+        function render() {
+            let q = search.value.trim().toLocaleLowerCase('es');
+
+            let arr = items.filter(x => (x.name + ' ' + x.post + ' ' + x.files.join(' ')).toLocaleLowerCase('es').includes(q));
+            if (sort.value === 'az') arr.sort((a, b) => a.name.localeCompare(b.name, 'es'));
+            if (sort.value === 'priceup') arr.sort((a, b) => priceNum(a.price) - priceNum(b.price));
+            if (sort.value === 'pricedown') arr.sort((a, b) => priceNum(b.price) - priceNum(a.price));
+            grid.innerHTML = arr.map(x => `<article class="card ${x.vendido ? 'vendido' : ''}">         
+         
+ <div class="gallery">${x.files.map(f => `<img src="${encodeURIComponent(f)}" alt="${x.name}" loading="lazy" title="Deslice para ver más fotografías" onclick="window.open(this.src,'_blank')">`).join('')}</div>
+ <div class="content"><div class="kicker">Artículo ${String(x.id).padStart(2, '0')}</div><h2>${x.name}</h2><p class="price">${x.price} MXN</p><p class="range">${x.range}</p><p class="post">${x.post}</p><p class="files"><strong>Archivos:</strong> ${x.files.join(', ')}</p>
+ <div class="actions"><button onclick="copyPost(${x.id})">Copiar publicación</button><button class="secondary" onclick="copyFiles(${x.id})">Copiar nombres de fotos</button></div></div></article>`).join('');
+            empty.style.display = arr.length ? 'none' : 'block';
+        }
+        function copyPost(id) { let x = items.find(a => a.id === id); navigator.clipboard.writeText(x.post).then(() => alert('Texto de publicación copiado.')).catch(() => prompt('Copie el texto:', x.post)) }
+        function copyFiles(id) { let x = items.find(a => a.id === id); let t = x.files.join('\n'); navigator.clipboard.writeText(t).then(() => alert('Nombres de archivos copiados.')).catch(() => prompt('Copie los nombres:', t)) }
+        search.addEventListener('input', render); sort.addEventListener('change', render); render();
+        fetch('articulos.json')
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return response.json();
+            })
+            .then(data => { items = data; render() })
+            .catch(err => { console.error(err); alert('Error al cargar los artículos.'); });
+    </script>
+</body>
+
+</html>
