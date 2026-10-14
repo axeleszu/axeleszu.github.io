@@ -341,6 +341,13 @@
                 font-size: 15px;
             }
         }
+
+        .view p.note,
+        .view .range,
+        .view .files,
+        .view .actions {
+            display: none;
+        }
     </style>
 </head>
 
@@ -349,7 +356,7 @@
         <h1>Artículos en venta</h1>
         <p>Catálogo para organizar publicaciones individuales en Facebook Marketplace. Cada ficha incluye precio de salida, rango orientativo de negociación, fotografías y texto listo para copiar.</p>
     </header>
-    <main>
+    <main class="view">
         <p class="note"><strong>Antes de publicar:</strong> confirme que el artículo siga disponible, pruebe los aparatos eléctricos y revise medidas/estado. Los precios son sugerencias de salida, no avalúos; en muebles antiguos el estado, la procedencia y la demanda local pueden modificar mucho el valor. El traslado de muebles grandes se acuerda y paga por separado.</p>
         <div class="toolbar"><input id="search" type="search" placeholder="Buscar artículo, medida o marca…"><select id="sort">
                 <option value="priority">Orden recomendado</option>
@@ -368,6 +375,11 @@
         const search = document.getElementById('search');
         const sort = document.getElementById('sort');
         const empty = document.getElementById('empty');
+
+        let params = new URLSearchParams(document.location.search);
+        if (params.get('id') == 'fam') {
+            document.querySelector('main').classList.remove('view');
+        }
 
         function priceNum(s) {
             return Number(String(s).replace(/[^0-9]/g, '')) || 0;
